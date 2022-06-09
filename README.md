@@ -1,4 +1,4 @@
-# Weighted Elo ratings versus machine learning models for tennis match result prediction
+# Comparing the performance of Weighted Elo ratings and machine learning models for tennis match result prediction
 Evaluating the performance of weighted Elo ratings and machine learning models for predicting match results in professional tennis. 
 
 The atp_2005_2020.RData and wta_2007_2020.RData datasets are the ATP and WTA datasets used by Angelini, Candila & De Angelis (2022).
