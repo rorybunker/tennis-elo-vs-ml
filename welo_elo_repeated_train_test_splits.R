@@ -13,52 +13,65 @@
 
 library(welo)
 
-#load data
+# load data
 load("/Users/rorybunker/Google Drive/Research/Tennis Prediction ML/data/Vincenzo Data/WElo supplementary material/atp_2005_2020.RData") 
-#clean data
+# clean data
 Data_Clean <- clean(data.frame(db))
-#convert date column string to date
+# convert date column string to date
 Data_Clean$Date <- as.Date(Data_Clean$Date, "%d/%m/%Y")
-
+# create result vectors to be appended to
 correctPredictionsElo <- c()
 incorrectPredictionsElo <- c()
 correctPredictionsWElo <- c()
 incorrectPredictionsWElo <- c()
-latest_date <- as.Date("2012-01-01")
-first_date <- min(Data_Clean$Date) #"2005-07-05"
 
-while (latest_date <= as.Date("2012-12-31")) {
-  test <- Data_Clean[Data_Clean$Date == latest_date,]
+test_date <- as.Date("2012-12-29")
+# fixed at the first date in the dataset "2005-07-05":
+first_date <- min(Data_Clean$Date) 
+# desired end of out-of-sample period
+end_date = as.Date("2012-12-31")
+
+while (test_date <= end_date) {
+  test <- Data_Clean[Data_Clean$Date == test_date,]
   
-  if (nrow(test) > 0) {
+  # if there are no matches for this test_date, continue to next date
+  if (nrow(test) == 0) {
+    test_date = test_date + 1
+    next
+  }
+  
+  else if (nrow(test) > 0) {
+    print(test_date)
     train <- Data_Clean[Data_Clean$Date >= first_date &
-                          Data_Clean$Date < latest_date,]
+                          Data_Clean$Date < test_date,]
     res <- welofit(train)
     res_ld <- welofit(res, new_data = test)
+    
     results_final <- res_ld[["dataset"]]
     
-    results_final_test <-
-      results_final[results_final$Date == latest_date,]
+    # 1-day test set
+    results_final_test <- results_final[results_final$Date == test_date,]
     
+    # predicted winner based on the players' WElo ratings
     results_final_test$predictedWinnerWElo <-
       ifelse((results_final_test$WElo_pi_hat > (1-results_final_test$WElo_pi_hat)),
              results_final_test$P_i,
              results_final_test$P_j
       )
-    
+    # predicted winner based on the players' Elo ratings
     results_final_test$predictedWinnerElo <-
       ifelse((results_final_test$Elo_pi_hat > (1-results_final_test$Elo_pi_hat)),
              results_final_test$P_i,
              results_final_test$P_j
       )
-    
+    # binary variable that takes the value 1 if the WElo prediction was correct; 0 otherwise
     results_final_test$correctPredictionWElo <-
       ifelse((
         results_final_test$predictedWinnerWElo == results_final_test$Winner
       ),
       1,
       0)
-    
+    # binary variable that takes the value 1 if the Elo prediction was correct; 0 otherwise
     results_final_test$correctPredictionElo <-
       ifelse((
         results_final_test$predictedWinnerElo == results_final_test$Winner
@@ -66,17 +79,18 @@ while (latest_date <= as.Date("2012-12-31")) {
       1,
       0)
 
-    #append latest accuracy figure
+    # append latest accuracy figures to the results vectors
     correctPredictionsElo <- c(correctPredictionsElo, sum(results_final_test$correctPredictionElo))
     incorrectPredictionsElo <- c(incorrectPredictionsElo, length(results_final_test$correctPredictionElo)-sum(results_final_test$correctPredictionElo))
     
     correctPredictionsWElo <- c(correctPredictionsWElo, sum(results_final_test$correctPredictionWElo))
     incorrectPredictionsWElo <- c(incorrectPredictionsWElo, length(results_final_test$correctPredictionWElo)-sum(results_final_test$correctPredictionWElo))
+    
+    test_date = test_date + 1
   }
-  latest_date = latest_date + 1
 }
-
+# calculate and print final accuracy results
 EloAccuracy <- sum(correctPredictionsElo)/(sum(incorrectPredictionsElo)+sum(correctPredictionsElo))
-EloAccuracy
+print(EloAccuracy)
 WEloAccuracy <- sum(correctPredictionsWElo)/(sum(incorrectPredictionsWElo)+sum(correctPredictionsWElo))
-WEloAccuracy
+print(WEloAccuracy)
