@@ -25,7 +25,7 @@ incorrectPredictionsElo <- c()
 correctPredictionsWElo <- c()
 incorrectPredictionsWElo <- c()
 
-test_date <- as.Date("2012-12-29")
+test_date <- as.Date("2012-01-01")
 # fixed at the first date in the dataset "2005-07-05":
 first_date <- min(Data_Clean$Date) 
 # desired end of out-of-sample period
