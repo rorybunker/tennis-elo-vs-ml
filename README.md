@@ -1,6 +1,6 @@
 # Weighted Elo ratings versus machine learning for tennis match result prediction
 
-The atp_2005_2020.RData and wta_2007_2020.RData datasets are the ATP and WTA datasets used by Angelini, Candila & De Angelis (2022).
+The atp_2005_2020.RData and wta_2007_2020.RData datasets are the ATP and WTA datasets used by Angelini, Candila & De Angelis (2022), which were originally sourced from tennis-data.co.uk.
 Data_Clean.csv is just the atp_2005_2020.RData dataset passed through the clean() function in Angelini et al.'s welo R package (https://cran.r-project.org/web/packages/welo/index.html).
 
 ## References
