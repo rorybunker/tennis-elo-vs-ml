@@ -1,4 +1,4 @@
-# The Elo and WElo ratings are set to 1500 for each player at the beginning of the sample. 
+# Procedure: The Elo and WElo ratings are set to 1500 for each player at the beginning of the sample. 
 # The initial period from 2005 to 2011 is used as burn-in to predict (one-step-ahead) 
 # the winning probabilities for the matches played in the first competing day of 2012 ATP tour. 
 # For each of the following days, the information set is updated with the results 
