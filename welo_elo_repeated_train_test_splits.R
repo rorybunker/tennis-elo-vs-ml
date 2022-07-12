@@ -32,6 +32,9 @@ first_date <- min(Data_Clean$Date)
 end_date = as.Date("2012-12-31")
 
 while (test_date <= end_date) {
+  date_diff <- difftime(test_date, end_date)
+  print(date_diff)
+  
   test <- Data_Clean[Data_Clean$Date == test_date,]
   
   # if there are no matches for this test_date, continue to next date
@@ -78,7 +81,7 @@ while (test_date <= end_date) {
       ),
       1,
       0)
-
+    
     # append latest accuracy figures to the results vectors
     correctPredictionsElo <- c(correctPredictionsElo, sum(results_final_test$correctPredictionElo))
     incorrectPredictionsElo <- c(incorrectPredictionsElo, length(results_final_test$correctPredictionElo)-sum(results_final_test$correctPredictionElo))
