@@ -1,20 +1,24 @@
 library(welo)
 
 #load data
-load("atp_2005_2020.RData") 
+load("/Users/rorybunker/Google Drive/Research/Tennis Prediction ML/data/Vincenzo Data/WElo supplementary material/atp_2005_2020.RData") 
 #clean data
 Data_Clean <- clean(data.frame(db))
 #convert date column string to date
 Data_Clean$Date <- as.Date(Data_Clean$Date, "%d/%m/%Y")
 #get first and last dates in the dataset
-first_date <- min(Data_Clean$Date) #"2005-07-05"
-last_date <- max(Data_Clean$Date)
-#create training and test sets
-train <- Data_Clean[Data_Clean$Date >= first_date &
-                      Data_Clean$Date < "2019-12-31",]
+train_start_date <- "2015-01-01" #min(Data_Clean$Date) #"2005-07-05"
+train_end_date <- "2018-12-31"
+test_start_date <- as.Date(train_end_date) + 1
+test_end_date <- "2019-12-31" # max(Data_Clean$Date)
 
-test <- Data_Clean[Data_Clean$Date >= "2020-01-01" &
-                     Data_Clean$Date < last_date,]
+#create training and test sets
+train <- Data_Clean[Data_Clean$Date >= train_start_date &
+                      Data_Clean$Date < train_end_date,]
+
+test <- Data_Clean[Data_Clean$Date >= test_start_date &
+                     Data_Clean$Date < test_end_date,]
+
 #percentage of dataset that is training
 train_perc <- length(train$ID)/(length(test$ID)+length(train$ID))
 
@@ -25,8 +29,8 @@ res_ld <- welofit(res, new_data = test)
 
 results_final <- res_ld[["dataset"]]
 
-results_final_test <- results_final[results_final$Date >= "2020-01-01" & 
-                                      results_final$Date < last_date,]
+results_final_test <- results_final[results_final$Date >= test_start_date & 
+                                      results_final$Date < test_end_date,]
 
 #determine whether prediction was correct or incorrect, and calculate accuracies of Elo and WElo
 results_final_test$predictedWinnerElo <-
@@ -61,7 +65,7 @@ incorrectPredictionsElo <- length(results_final_test$correctPredictionElo)-sum(r
 correctPredictionsWElo <- sum(results_final_test$correctPredictionWElo)
 incorrectPredictionsWElo <- length(results_final_test$correctPredictionWElo)-sum(results_final_test$correctPredictionWElo)
 
-train_perc
+print(train_perc)
 EloAccuracy <- sum(correctPredictionsElo)/(sum(incorrectPredictionsElo)+sum(correctPredictionsElo))
 EloAccuracy
 WEloAccuracy <- sum(correctPredictionsWElo)/(sum(incorrectPredictionsWElo)+sum(correctPredictionsWElo))
