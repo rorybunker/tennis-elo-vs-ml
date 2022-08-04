@@ -1,5 +1,6 @@
 library(welo)
 
+db = read.csv(file = '/Users/rorybunker/Google Drive/Colab Notebooks/welo_data.csv')
 Data_Clean <- clean(data.frame(db))
 # convert date column string to date
 Data_Clean$Date <- as.Date(Data_Clean$Date, "%d/%m/%Y")
