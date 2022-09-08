@@ -3,17 +3,17 @@ list.of.packages <- c("welo")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
 
-#load data
+# load data
 load("atp_2005_2020.RData") 
 
-#clean data
+# clean data
 Data_Clean <- clean(data.frame(db))
 
-#convert date column string to date
+# convert date column string to date
 Data_Clean$Date <- as.Date(Data_Clean$Date, "%d/%m/%Y")
 
 # ---------- SET DATES ---------- 
-train_start_date <- "2006-01-01" #min(Data_Clean$Date)
+train_start_date <- "2007-01-01" #min(Data_Clean$Date)
 train_end_date <- "2019-12-31"
 test_start_date <- as.Date(train_end_date) + 1
 test_end_date <- "2020-12-31" #max(Data_Clean$Date) # max(Data_Clean$Date)
@@ -26,12 +26,12 @@ train <- Data_Clean[Data_Clean$Date >= train_start_date &
 test <- Data_Clean[Data_Clean$Date >= test_start_date &
                      Data_Clean$Date < test_end_date,]
 
-#percentage of dataset that is training
+# percentage of dataset that is training
 train_perc <- length(train$ID)/(length(test$ID)+length(train$ID))
 
-#fit WElo to training dataset
+# fit WElo to training dataset
 res <- welofit(train)
-#apply trained WElo model to test dataset
+# apply trained WElo model to test dataset
 res_ld <- welofit(res, new_data = test)
 
 results_final <- res_ld[["dataset"]]
