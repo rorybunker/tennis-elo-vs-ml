@@ -1,0 +1,2310 @@
+@relation 'Data_Clean_WEKA-weka.filters.unsupervised.instance.SubsetByExpression-E(ATT2 >= 42373) and (ATT2 <= 42694)-weka.filters.unsupervised.attribute.Remove-Rfirst-7,15-21'
+
+@attribute AvgOddsDiff numeric
+@attribute P1_Seed {'not seeded',2,8,5,6,7,1,3,4,9,13,11,12,14,10,15,16,29,32,26,21,22,27,18,30,31,17,25,19,23,28,20,24,33}
+@attribute P1_Entry {WC,regular,Q,LL,PR,SE,Alt}
+@attribute SameHand {TRUE,FALSE}
+@attribute HeightDiff numeric
+@attribute SameCountry {FALSE,TRUE}
+@attribute AgeDiff numeric
+@attribute PtsDiffNorm numeric
+@attribute P2_Result {W,L}
+
+@data
+15.73,'not seeded',Q,TRUE,8,FALSE,2.450376,-1,W
+-0.3,'not seeded',Q,FALSE,?,FALSE,-5.494867,-0.041945,L
+-0.54,'not seeded',regular,TRUE,5,FALSE,-6.38193,-0.064736,L
+-1.38,8,regular,TRUE,?,FALSE,-10.592745,0.001314,L
+-1.48,'not seeded',regular,TRUE,?,FALSE,3.542779,0.020133,W
+-0.97,'not seeded',regular,TRUE,?,FALSE,6.414784,0.012923,L
+-0.8,'not seeded',regular,FALSE,?,FALSE,-2.702259,-0.000886,L
+-3.52,5,regular,TRUE,?,TRUE,0.358658,0.044878,W
+0.89,'not seeded',WC,TRUE,5,FALSE,3.701574,-0.025509,W
+1.12,'not seeded',regular,TRUE,?,FALSE,-0.364134,-0.018666,W
+0.82,'not seeded',regular,TRUE,2,FALSE,-0.900753,-0.016528,W
+0.27,'not seeded',regular,FALSE,?,TRUE,-6.245038,-0.020682,L
+-0.38,'not seeded',regular,TRUE,?,FALSE,-4.889801,-0.017078,W
+-0.94,'not seeded',Q,TRUE,?,FALSE,3.444216,-0.007057,L
+2.27,'not seeded',regular,FALSE,25,FALSE,2.937714,-0.064125,W
+3.22,'not seeded',regular,TRUE,-3,FALSE,10.748802,-0.075734,W
+0.41,'not seeded',Q,TRUE,?,FALSE,12.681725,-0.015917,W
+-0.12,'not seeded',regular,TRUE,-5,FALSE,-11.589322,0.009257,W
+1.97,'not seeded',WC,TRUE,?,FALSE,1.61807,-0.084899,W
+-0.5,'not seeded',regular,TRUE,-5,FALSE,-3.868583,-0.031864,W
+-0.18,'not seeded',regular,TRUE,?,FALSE,9.253936,0.006507,W
+1.03,'not seeded',regular,TRUE,?,FALSE,-9.650924,-0.067302,W
+0.99,'not seeded',Q,TRUE,-10,FALSE,5.91102,-0.050927,W
+1.84,'not seeded',WC,FALSE,?,FALSE,-13.034908,-0.061131,W
+0.98,'not seeded',regular,TRUE,-12,FALSE,0.930869,-0.025082,L
+1.61,'not seeded',WC,FALSE,-3,FALSE,-0.180698,-0.03718,W
+11.47,'not seeded',regular,FALSE,?,TRUE,-5.106092,-0.29148,W
+0,'not seeded',regular,TRUE,-5,FALSE,-0.377823,-0.021232,W
+1.22,'not seeded',regular,TRUE,-8,FALSE,-2.3436,-0.021721,W
+-6.37,3,regular,TRUE,3,FALSE,0.303901,0.217854,L
+0.48,'not seeded',regular,TRUE,-3,FALSE,-4.106776,-0.014023,L
+-0.38,'not seeded',regular,TRUE,5,FALSE,1.300479,-0.015611,W
+-0.67,'not seeded',Q,FALSE,?,FALSE,-1.590691,-0.027587,W
+0.82,'not seeded',regular,TRUE,-15,FALSE,-6.329911,-0.060703,L
+-7.82,4,regular,TRUE,-10,FALSE,5.434634,0.209299,W
+-0.15,'not seeded',regular,FALSE,-3,FALSE,6.01232,-0.028626,L
+-13.71,1,regular,FALSE,0,FALSE,-3.5154,0.941588,L
+-1.98,'not seeded',Q,FALSE,?,FALSE,-12.941821,-0.023676,L
+1.86,'not seeded',regular,TRUE,?,FALSE,-7.638604,-0.1138,W
+2.09,'not seeded',PR,TRUE,-8,FALSE,13.900068,-0.103718,W
+1.44,'not seeded',regular,TRUE,?,FALSE,1.045859,-0.070602,W
+-2.12,4,regular,TRUE,?,FALSE,1.166324,0.036324,L
+-1.65,5,regular,TRUE,?,FALSE,5.7577,0.065102,L
+-1.66,7,regular,TRUE,3,TRUE,-5.084189,0.023004,L
+2.27,'not seeded',regular,TRUE,-8,FALSE,1.305955,-0.03999,W
+5.51,'not seeded',WC,TRUE,?,FALSE,-12.563997,-0.419729,W
+-2.21,8,regular,FALSE,?,FALSE,-6.414784,0.006568,L
+8.62,'not seeded',regular,FALSE,5,FALSE,-0.84052,-0.291113,W
+-9.13,3,regular,TRUE,24,FALSE,6.672142,0.225858,L
+-0.22,'not seeded',regular,TRUE,-10,FALSE,0.673511,-0.018116,W
+3.83,'not seeded',regular,TRUE,5,FALSE,2.009582,-0.228974,W
+-14.38,1,regular,TRUE,0,FALSE,-0.019165,0.926313,L
+2.42,'not seeded',Q,TRUE,-13,FALSE,5.982204,-0.1105,W
+3.52,'not seeded',Q,FALSE,?,FALSE,-6.047912,-0.06217,L
+-0.95,3,regular,TRUE,0,FALSE,-3.789185,0.034308,L
+0.08,'not seeded',LL,TRUE,?,FALSE,9.034908,-0.009929,W
+-1.84,'not seeded',regular,TRUE,-5,FALSE,-5.259411,-0.024532,L
+-7.83,1,regular,TRUE,5,FALSE,4.783025,0.476919,L
+-1.66,'not seeded',regular,TRUE,?,FALSE,-4.120465,0.006874,L
+12.95,'not seeded',regular,FALSE,0,FALSE,-4.722793,-0.295818,W
+-5.72,3,regular,TRUE,?,FALSE,9.308693,0.230807,L
+-3.79,6,regular,TRUE,?,FALSE,3.214237,0.057037,W
+-1.53,7,regular,TRUE,3,FALSE,0.569473,0.022943,W
+6.79,3,regular,TRUE,8,FALSE,1.675565,-0.747839,W
+3.54,'not seeded',regular,TRUE,?,FALSE,-3.15948,-0.1083,W
+-2,2,regular,TRUE,-15,FALSE,2.811773,0.139645,W
+3.25,'not seeded',Q,TRUE,?,FALSE,-0.049281,-0.094431,W
+-1.59,3,regular,TRUE,?,FALSE,4.930869,0.032414,W
+3.58,'not seeded',regular,TRUE,3,FALSE,-9.768652,-0.43867,W
+3.62,5,regular,TRUE,5,FALSE,1.815195,-0.348853,W
+-1.56,4,regular,TRUE,?,FALSE,8.5859,0.016161,W
+-3.63,'not seeded',regular,TRUE,?,FALSE,5.308693,0.027831,L
+5.94,'not seeded',regular,FALSE,0,FALSE,-1.264887,-0.299362,W
+-3.89,1,regular,FALSE,3,FALSE,-0.966461,0.677023,L
+-1.07,4,regular,TRUE,3,FALSE,1.817933,0.013473,L
+-5.67,1,regular,TRUE,?,FALSE,12.071184,0.390462,L
+3.26,3,regular,TRUE,13,FALSE,-4.112252,-0.336449,W
+0.99,'not seeded',regular,TRUE,?,FALSE,7.326489,-0.016894,W
+-2.63,1,regular,TRUE,-11,FALSE,9.385352,0.355635,W
+4.82,8,regular,TRUE,?,FALSE,-11.633128,-0.378731,W
+1.32,'not seeded',regular,TRUE,-10,FALSE,1.199179,-0.014328,W
+0.27,'not seeded',Q,FALSE,5,FALSE,-0.673511,-0.02997,L
+5.09,'not seeded',regular,TRUE,-12,FALSE,12.145106,-0.057587,W
+0.31,'not seeded',regular,TRUE,-2,FALSE,-2.543463,-0.04665,W
+-1.05,'not seeded',regular,FALSE,?,FALSE,9.451061,0.035896,L
+-0.37,'not seeded',WC,TRUE,3,FALSE,-7.12115,-0.04054,W
+-1.64,4,regular,TRUE,13,FALSE,0.884326,0.088626,L
+0.59,'not seeded',LL,TRUE,?,FALSE,2.140999,-0.00113,W
+-0.12,6,regular,TRUE,?,FALSE,1.850787,0.003024,L
+-1.47,8,regular,FALSE,?,FALSE,5.237509,0.009073,L
+-0.39,6,regular,TRUE,5,FALSE,0.867899,0.01335,L
+2.66,'not seeded',Q,TRUE,0,TRUE,2.332649,-0.052821,W
+1.5,'not seeded',regular,FALSE,8,FALSE,0.856947,-0.018605,W
+0.66,'not seeded',regular,FALSE,?,FALSE,-13.519507,-0.019155,W
+1.38,'not seeded',regular,TRUE,0,FALSE,1.976728,-0.034308,L
+2.22,'not seeded',regular,FALSE,?,FALSE,-2.962355,-0.012617,L
+-0.29,'not seeded',regular,TRUE,-8,FALSE,2.138261,0.021599,W
+0.35,'not seeded',Q,FALSE,7,TRUE,6.436687,-0.033575,L
+0.84,'not seeded',regular,TRUE,-10,FALSE,1.50308,-0.105368,W
+-1.2,3,regular,TRUE,8,TRUE,2.447639,0.08771,L
+6.15,'not seeded',WC,TRUE,?,TRUE,-1.494867,-0.097302,W
+0.6,'not seeded',Q,TRUE,15,FALSE,-1.32512,-0.073779,W
+0.44,'not seeded',regular,TRUE,-13,FALSE,3.780972,-0.046528,W
+-2.39,8,regular,FALSE,?,FALSE,1.273101,0.018238,L
+0.36,4,regular,TRUE,18,FALSE,6.354552,0.044939,W
+0.66,'not seeded',regular,TRUE,8,FALSE,2.255989,-0.040601,W
+3.4,'not seeded',regular,TRUE,-8,FALSE,5.368925,-0.032047,W
+-1.79,6,regular,TRUE,5,FALSE,4.939083,0.032597,L
+1.8,'not seeded',regular,FALSE,2,FALSE,-5.368925,-0.019705,W
+-0.26,5,regular,TRUE,0,FALSE,-3.789185,0.038279,W
+0.84,'not seeded',Q,TRUE,0,FALSE,2.083504,-0.050988,L
+2.08,6,regular,TRUE,-10,FALSE,-2.099932,-0.085205,W
+0.61,8,regular,TRUE,?,FALSE,-2.96783,-0.078789,L
+-3.62,1,regular,TRUE,-21,FALSE,3.310062,0.181988,L
+0.88,'not seeded',regular,TRUE,-5,FALSE,0.720055,-0.054899,W
+1.65,'not seeded',Q,TRUE,-3,FALSE,4.054757,-0.064247,W
+1.34,8,regular,TRUE,?,FALSE,-2.992471,-0.087343,L
+-1.22,1,regular,TRUE,-10,FALSE,10.480493,0.141478,W
+-1.28,4,regular,TRUE,8,FALSE,-2.518823,-0.005774,L
+-1.5,4,regular,FALSE,-5,FALSE,-8.019165,-0.003941,L
+0.3,6,regular,FALSE,-5,FALSE,-3.764545,-0.007607,W
+-1.55,4,regular,TRUE,-5,FALSE,-5.259411,-0.027281,W
+23.98,'not seeded',regular,TRUE,?,FALSE,-8.99384,-0.992485,W
+4.74,'not seeded',regular,TRUE,-5,FALSE,-0.167009,-0.128647,W
+-0.33,'not seeded',regular,FALSE,?,FALSE,1.245722,0.004796,L
+-7.15,12,regular,TRUE,5,FALSE,-0.024641,0.093086,L
+1.5,'not seeded',regular,TRUE,?,FALSE,-4.265572,-0.036935,L
+1.17,'not seeded',regular,TRUE,10,FALSE,-5.486653,-0.08215,W
+-1.65,'not seeded',regular,TRUE,23,FALSE,-6.954141,-0.041457,L
+-4.73,15,regular,TRUE,-30,FALSE,-4.91718,0.047689,L
+1.04,'not seeded',regular,TRUE,?,FALSE,5.147159,0.011151,W
+3.88,'not seeded',regular,FALSE,?,FALSE,1.319644,-0.050011,L
+-4.39,'not seeded',regular,TRUE,?,FALSE,11.813826,0.007913,W
+0.8,'not seeded',regular,TRUE,?,FALSE,6.30527,-0.049766,W
+-6.47,24,regular,FALSE,?,FALSE,1.240246,0.025082,L
+-0.36,'not seeded',regular,TRUE,?,FALSE,-2.759754,-0.018544,W
+-1.48,26,regular,TRUE,3,FALSE,-1.390828,0.033391,L
+-7.91,27,regular,TRUE,5,FALSE,-9.415469,0.021416,L
+0.63,'not seeded',regular,TRUE,-2,FALSE,-1.251198,-0.038585,W
+18.8,'not seeded',regular,TRUE,?,FALSE,-10.543463,-0.485534,W
+5.63,'not seeded',regular,TRUE,?,FALSE,3.791923,-0.048911,W
+-7.86,17,regular,TRUE,?,FALSE,6.78987,0.078361,W
+3.25,'not seeded',regular,TRUE,-5,FALSE,-1.61807,-0.048483,W
+-1.09,'not seeded',regular,FALSE,?,FALSE,9.735797,0.017689,L
+-19.74,6,regular,TRUE,13,FALSE,6.795346,0.224575,L
+-2.42,'not seeded',regular,FALSE,?,FALSE,-8.826831,0.00113,W
+2.92,'not seeded',regular,TRUE,0,FALSE,6.20397,-0.203128,W
+2.34,'not seeded',regular,TRUE,?,FALSE,2.63655,-0.014572,L
+0.88,'not seeded',regular,TRUE,?,FALSE,0.438056,-0.011701,W
+2.41,'not seeded',regular,TRUE,10,FALSE,2.395619,-0.013412,W
+-2.91,10,regular,TRUE,3,FALSE,5.549624,0.087099,L
+8.86,'not seeded',regular,TRUE,?,FALSE,-3.15948,-0.117527,W
+3.09,'not seeded',regular,TRUE,-5,FALSE,6.121834,-0.074145,W
+1.98,'not seeded',regular,TRUE,-5,FALSE,-9.472964,-0.004246,W
+2.8,'not seeded',regular,FALSE,-13,FALSE,-8.670773,-0.10329,W
+-13.92,2,regular,TRUE,?,FALSE,9.932923,0.490239,L
+1.21,'not seeded',regular,TRUE,?,TRUE,-5.092402,-0.087221,W
+0.97,'not seeded',regular,TRUE,?,FALSE,-13.1718,-0.003024,W
+-5.88,23,regular,TRUE,?,FALSE,2.047912,0.044573,L
+4.96,'not seeded',regular,FALSE,?,FALSE,4.032854,-0.063025,W
+1.06,'not seeded',regular,TRUE,3,TRUE,-10.90486,0.001558,W
+-1.9,30,regular,TRUE,-2,FALSE,1.546886,0.019522,L
+0.56,'not seeded',regular,TRUE,-7,FALSE,0.435318,-0.039563,W
+0.43,'not seeded',regular,TRUE,?,FALSE,1.259411,-0.052149,W
+-1.54,'not seeded',regular,FALSE,?,FALSE,6.30527,0.025448,L
+0.33,20,regular,FALSE,-15,FALSE,-4.041068,0.008279,W
+2.24,'not seeded',regular,TRUE,5,FALSE,-1.722108,-0.04329,W
+-6.8,5,regular,TRUE,-3,TRUE,-2.548939,0.247793,W
+1.81,'not seeded',regular,TRUE,?,FALSE,-7.512663,-0.030459,W
+6.21,'not seeded',regular,TRUE,?,FALSE,-10.691307,-0.025876,W
+1.04,'not seeded',regular,FALSE,?,FALSE,0.695414,-0.024898,L
+1,'not seeded',regular,FALSE,5,FALSE,1.653662,-0.026487,L
+1.46,'not seeded',regular,TRUE,-2,FALSE,-1.204654,-0.031742,W
+0.85,'not seeded',regular,FALSE,?,FALSE,6.176591,-0.026243,W
+-9.97,8,regular,TRUE,-10,FALSE,7.285421,0.222192,L
+1.28,'not seeded',regular,TRUE,-2,FALSE,-1.623546,-0.023127,W
+-31.54,1,regular,TRUE,?,FALSE,9.431896,0.992362,L
+-4.88,12,regular,FALSE,10,FALSE,-0.698152,0.082944,L
+5.05,'not seeded',regular,TRUE,2,FALSE,-5.36345,-0.10995,W
+10.05,'not seeded',regular,TRUE,9,FALSE,-1.451061,-0.088504,W
+-2.01,'not seeded',regular,TRUE,?,FALSE,4.930869,-0.006568,L
+1.67,'not seeded',regular,TRUE,?,FALSE,8.035592,-0.074879,W
+-5.01,24,regular,TRUE,?,FALSE,2.209446,0.042007,L
+1.65,'not seeded',regular,TRUE,8,FALSE,-4.117728,-0.080133,W
+-11.1,27,regular,TRUE,?,FALSE,-1.28679,0.055082,L
+1.75,'not seeded',regular,TRUE,-10,FALSE,-8.487337,-0.051172,W
+8.07,'not seeded',regular,TRUE,-5,FALSE,-7.249829,-0.44478,W
+4.9,'not seeded',regular,TRUE,?,FALSE,9.316906,-0.028687,W
+-1.78,'not seeded',regular,FALSE,?,TRUE,1.442847,0.014939,L
+12.45,'not seeded',regular,TRUE,?,FALSE,-5.815195,-0.268995,W
+12.49,'not seeded',regular,FALSE,?,FALSE,-0.462697,-0.240644,W
+5.09,'not seeded',regular,TRUE,-16,FALSE,-0.960986,-0.12883,W
+-7.78,13,regular,TRUE,16,FALSE,-8.657084,0.060825,L
+3.62,'not seeded',regular,TRUE,-10,FALSE,7.036277,-0.075123,W
+-5.06,18,regular,TRUE,?,FALSE,8.654346,0.044145,L
+15.53,'not seeded',regular,TRUE,?,FALSE,-0.429843,-0.517673,W
+0.78,'not seeded',regular,TRUE,8,FALSE,-3.835729,0.00669,W
+3.09,'not seeded',regular,TRUE,-3,TRUE,4.610541,-0.060642,W
+3.22,'not seeded',regular,TRUE,-18,FALSE,-1.883641,-0.073718,W
+0.9,'not seeded',regular,FALSE,0,FALSE,1.984942,-0.025021,W
+1.48,'not seeded',regular,TRUE,?,FALSE,1.338809,-0.045367,W
+7.51,'not seeded',regular,TRUE,2,FALSE,6.332649,-0.419607,W
+1.18,'not seeded',regular,TRUE,11,FALSE,7.170431,-0.05942,L
+-0.48,30,regular,TRUE,3,FALSE,4.027379,0.017566,W
+-4.78,8,regular,TRUE,-5,FALSE,-1.100616,0.226713,L
+2.67,'not seeded',regular,FALSE,-13,FALSE,-1.385352,-0.033086,L
+2.42,'not seeded',regular,FALSE,-10,FALSE,-6.099932,-0.046956,L
+-22.16,1,regular,TRUE,-2,FALSE,-3.247091,0.930284,L
+6.47,'not seeded',regular,TRUE,?,TRUE,-5.916496,-0.164146,W
+4.36,'not seeded',regular,FALSE,7,FALSE,-5.771389,-0.098036,W
+0.86,15,regular,TRUE,?,FALSE,2.740589,-0.005163,L
+1.92,24,regular,TRUE,?,FALSE,0.457221,-0.063514,L
+6.74,27,regular,TRUE,3,FALSE,-9.768652,-0.428894,W
+-0.55,6,regular,TRUE,?,FALSE,9.607118,0.184859,L
+7.5,26,regular,TRUE,10,FALSE,6.570842,-0.188159,W
+-1.17,10,regular,FALSE,18,FALSE,-3.597536,0.032414,L
+-3.34,13,regular,TRUE,3,FALSE,-4.876112,0.031803,L
+4.74,'not seeded',regular,TRUE,-10,TRUE,3.353867,-0.084532,W
+-17.27,2,regular,TRUE,?,FALSE,1.875428,0.457001,L
+-7.55,23,regular,TRUE,8,TRUE,-6.291581,0.059726,L
+7.67,'not seeded',regular,TRUE,13,FALSE,-0.323066,-0.385696,W
+-1.2,'not seeded',regular,TRUE,10,FALSE,-5.886379,-0.013106,L
+-3.32,8,regular,TRUE,-13,FALSE,7.728953,0.160725,L
+-17.35,1,regular,TRUE,5,FALSE,-2.398357,0.878044,L
+-10.08,3,regular,TRUE,22,FALSE,9.330595,0.369994,L
+2.64,24,regular,TRUE,?,FALSE,-2.57358,-0.195185,W
+-0.39,7,regular,TRUE,-10,FALSE,-4.70089,0.07549,L
+0.74,13,regular,TRUE,13,FALSE,-5.749487,-0.297528,L
+-6.6,2,regular,TRUE,-3,FALSE,5.437372,0.424678,L
+2.89,'not seeded',regular,TRUE,-8,FALSE,-4.476386,-0.065164,W
+-1.05,8,regular,TRUE,-31,FALSE,3.066393,0.084044,L
+-4.7,1,regular,TRUE,10,FALSE,2.606434,0.750344,L
+3.98,6,regular,TRUE,11,FALSE,-4.109514,-0.237039,W
+1.87,23,regular,TRUE,-3,FALSE,4.320329,-0.064736,W
+3.74,8,regular,TRUE,-15,FALSE,5.117043,-0.310054,W
+-2.09,1,regular,TRUE,3,FALSE,-5.785079,0.510219,L
+-1.83,2,regular,TRUE,-6,FALSE,3.619439,0.391073,L
+-3.73,1,regular,TRUE,-2,FALSE,-0.019165,0.462561,L
+-1.24,'not seeded',Q,TRUE,?,FALSE,0.980151,-0.02221,L
+-1.2,'not seeded',regular,FALSE,-8,FALSE,-0.80219,-0.001986,L
+-1.18,'not seeded',regular,FALSE,?,FALSE,-2.767967,-0.02496,L
+0.57,'not seeded',WC,TRUE,?,FALSE,3.099247,-0.015183,W
+1.27,'not seeded',regular,TRUE,-6,FALSE,-1.700205,-0.023493,W
+-1.27,8,regular,TRUE,-2,FALSE,2.379192,0.001069,L
+-1.52,'not seeded',regular,TRUE,?,TRUE,-1.648186,0.011884,L
+1.42,'not seeded',regular,TRUE,?,FALSE,11.876797,-0.022332,W
+1.19,'not seeded',regular,TRUE,?,FALSE,-6.390144,-0.027648,L
+-0.42,'not seeded',WC,TRUE,5,FALSE,4.714579,-0.020316,W
+3.15,'not seeded',regular,FALSE,?,FALSE,1.207392,-0.057526,L
+-0.58,'not seeded',regular,TRUE,?,FALSE,8.257358,0.000947,W
+1.69,'not seeded',regular,FALSE,?,FALSE,16.372348,-0.052149,L
+-0.5,'not seeded',Q,TRUE,18,FALSE,-0.73922,-0.021293,L
+1.37,'not seeded',regular,FALSE,?,FALSE,-4.73922,-0.009012,W
+-1.31,'not seeded',regular,TRUE,?,FALSE,-5.587953,0.017322,W
+-2.16,5,regular,TRUE,-15,FALSE,2.225873,0.007974,L
+2.86,'not seeded',regular,FALSE,-8,FALSE,-0.70089,-0.046345,W
+1.12,'not seeded',regular,FALSE,-8,FALSE,-2.450376,-0.022577,W
+0.82,5,regular,FALSE,?,FALSE,9.787817,-0.012678,L
+1.39,'not seeded',regular,FALSE,?,FALSE,1.138946,-0.025448,L
+3.09,'not seeded',regular,FALSE,5,FALSE,1.10883,-0.006874,L
+-1.04,'not seeded',regular,TRUE,?,FALSE,8.156057,0.004308,L
+-1.2,'not seeded',regular,TRUE,?,FALSE,14.2423,-0.002536,L
+-1.38,'not seeded',regular,TRUE,5,FALSE,-0.81588,-0.012862,L
+-1.13,1,regular,TRUE,-5,FALSE,2.201232,0.111478,L
+-0.4,'not seeded',regular,TRUE,-10,FALSE,6.907598,-0.00999,L
+-1.84,'not seeded',Q,TRUE,?,FALSE,1.859001,-0.014084,L
+-3.82,5,regular,TRUE,5,TRUE,-2.759754,0.065469,W
+1.1,'not seeded',regular,TRUE,?,FALSE,-0.418891,-0.092903,W
+1.61,'not seeded',Q,TRUE,?,FALSE,-8.104038,-0.068341,W
+-2.32,3,regular,FALSE,13,FALSE,-7.091034,0.021905,L
+1.04,7,regular,FALSE,-6,FALSE,-3.964408,-0.013839,L
+0.53,'not seeded',regular,FALSE,2,FALSE,-1.859001,-0.028259,W
+-1.41,8,regular,TRUE,?,FALSE,7.613963,-0.00388,L
+1.41,'not seeded',regular,FALSE,2,FALSE,-1.913758,-0.035408,W
+-1.8,8,regular,TRUE,?,TRUE,-1.612594,-0.015,L
+-3.23,2,regular,TRUE,?,FALSE,8.558522,0.095897,W
+1.02,'not seeded',regular,FALSE,?,FALSE,2.277892,-0.01665,L
+3.28,'not seeded',Q,TRUE,13,FALSE,0.052019,-0.125348,L
+1.65,'not seeded',Q,FALSE,?,FALSE,-8.33128,-0.04665,L
+-1.57,2,regular,FALSE,-5,FALSE,6.683094,0.057404,L
+1.61,'not seeded',Q,TRUE,3,FALSE,-1.429158,-0.079094,W
+1.31,'not seeded',regular,TRUE,3,FALSE,-4.577687,-0.052882,W
+4.25,'not seeded',regular,TRUE,-6,FALSE,-8.594114,-0.044389,W
+2.24,'not seeded',regular,FALSE,-18,FALSE,-7.118412,-0.039013,W
+0.92,'not seeded',Q,FALSE,10,FALSE,-2.299795,-0.053493,W
+3,'not seeded',regular,FALSE,5,FALSE,3.832991,-0.025693,W
+-1.28,5,regular,TRUE,-7,FALSE,9.13347,0.006202,L
+0.22,'not seeded',regular,TRUE,-5,FALSE,-5.544148,-0.00168,L
+1.31,'not seeded',regular,TRUE,-11,TRUE,7.318275,-0.082577,L
+1.35,8,regular,TRUE,-2,FALSE,1.002053,-0.135673,W
+0.69,'not seeded',regular,FALSE,?,FALSE,-3.099247,-0.012739,W
+-2.43,1,regular,FALSE,?,FALSE,0.208077,0.040051,L
+-0.4,5,regular,TRUE,-15,FALSE,2.321697,-0.03663,W
+-0.7,3,regular,FALSE,?,FALSE,3.531828,0.008035,L
+1.65,7,regular,FALSE,0,FALSE,-5.385352,-0.03388,L
+-0.83,5,regular,TRUE,?,FALSE,11.616701,0.009562,L
+0.22,6,regular,TRUE,-10,FALSE,10.850103,-0.07384,L
+1.01,'not seeded',regular,FALSE,?,TRUE,16.80219,-0.026793,W
+-0.22,'not seeded',regular,TRUE,2,FALSE,7.419576,-0.022393,L
+2.56,'not seeded',Q,TRUE,11,FALSE,1.524983,-0.157425,W
+-1.1,1,regular,FALSE,?,FALSE,-4.933607,0.032414,L
+2,7,regular,FALSE,-3,FALSE,-3.4141,-0.050683,W
+-0.85,3,regular,FALSE,5,FALSE,-6.039699,0.004857,L
+1,5,regular,FALSE,-15,FALSE,7.457906,-0.017444,L
+0.19,'not seeded',regular,TRUE,?,FALSE,15.268994,-0.019338,L
+-2.62,1,regular,TRUE,0,TRUE,-4.429843,0.114655,L
+1.01,1,regular,TRUE,?,FALSE,-2.173854,0.001558,L
+-4.77,2,regular,TRUE,10,FALSE,-2.058864,0.089726,L
+-0.03,'not seeded',Q,FALSE,?,FALSE,-1.034908,-0.023188,W
+-1.43,'not seeded',regular,TRUE,?,FALSE,-8.15332,0.010418,L
+-1.29,'not seeded',regular,FALSE,?,TRUE,7.96167,-0.014817,W
+-0.16,'not seeded',regular,TRUE,-2,FALSE,-3.334702,-0.010295,W
+-0.37,5,regular,TRUE,-13,TRUE,-8.416153,-0.007607,L
+-2.07,'not seeded',regular,TRUE,8,TRUE,-4.733744,-0.00168,L
+0.5,'not seeded',regular,TRUE,?,FALSE,-2.009582,-0.017139,W
+0.73,6,regular,TRUE,?,FALSE,-0.112252,-0.014084,W
+-0.29,'not seeded',Q,TRUE,-13,FALSE,4.344969,-0.081722,L
+-1.15,7,regular,TRUE,?,FALSE,3.772758,0.0183,W
+-0.62,'not seeded',regular,TRUE,?,FALSE,-2.55989,-0.013595,L
+0.26,'not seeded',regular,TRUE,?,TRUE,5.705681,-0.006141,L
+-0.23,'not seeded',Q,FALSE,?,FALSE,-8.818617,-0.035224,L
+-3.49,'not seeded',WC,TRUE,?,TRUE,0.202601,0.001619,L
+-1.12,'not seeded',Q,FALSE,?,TRUE,2.045175,-0.004674,W
+1.2,'not seeded',Q,TRUE,-3,FALSE,-1.995893,-0.085143,W
+1.36,'not seeded',regular,TRUE,?,FALSE,2.146475,-0.075795,W
+-1.17,8,regular,FALSE,-8,FALSE,2.042437,-0.003208,L
+-1.14,'not seeded',regular,FALSE,?,TRUE,3.00616,0.004002,L
+-0.43,'not seeded',regular,FALSE,3,FALSE,0.788501,-0.02166,L
+0.23,'not seeded',regular,FALSE,10,FALSE,-7.195072,-0.021049,L
+1.05,'not seeded',regular,FALSE,12,FALSE,-3.367556,-0.054654,L
+0.11,'not seeded',regular,TRUE,-3,FALSE,-4.106776,-0.020499,W
+0.95,'not seeded',Q,TRUE,?,FALSE,-8.506502,-0.028198,W
+1.16,'not seeded',regular,TRUE,20,FALSE,5.472964,-0.090154,L
+1.29,'not seeded',regular,FALSE,?,FALSE,-1.004791,-0.025204,W
+1.44,'not seeded',regular,TRUE,?,FALSE,-12.958248,-0.041029,L
+1.38,'not seeded',LL,TRUE,?,FALSE,-2.097194,-0.031925,W
+-0.54,'not seeded',regular,TRUE,5,FALSE,-2.225873,-0.01054,L
+-1.55,'not seeded',regular,TRUE,?,FALSE,15.917864,0.002169,L
+-1.33,2,regular,FALSE,5,FALSE,-5.390828,0.073657,L
+-1.18,'not seeded',regular,FALSE,?,FALSE,8.052019,-0.005346,W
+2.67,'not seeded',WC,TRUE,7,FALSE,-2.272416,-0.106773,W
+-1.77,6,regular,TRUE,?,FALSE,0.958248,0.031436,L
+2.48,'not seeded',regular,TRUE,?,FALSE,-10.20397,-0.06162,W
+3.88,'not seeded',Q,TRUE,?,FALSE,2.776181,-0.09663,W
+0.93,'not seeded',Q,TRUE,-8,FALSE,-5.03217,-0.06272,W
+-1.77,'not seeded',regular,TRUE,3,FALSE,3.23614,0.019766,L
+0.87,'not seeded',Q,TRUE,5,FALSE,-1.215606,-0.048972,W
+2.97,'not seeded',Q,TRUE,?,FALSE,-4.481862,-0.047689,W
+-0.43,'not seeded',regular,TRUE,?,FALSE,6.825462,-0.000764,W
+-0.38,'not seeded',regular,FALSE,-7,FALSE,5.122519,-0.026915,L
+0.7,8,regular,TRUE,-3,FALSE,-4.388775,-0.00333,L
+-1.05,4,regular,TRUE,26,FALSE,5.177276,0.099135,W
+-1.19,'not seeded',regular,TRUE,3,FALSE,1.913758,-0.023921,L
+1.08,'not seeded',regular,TRUE,-5,FALSE,7.994524,-0.030275,L
+-2.83,6,regular,FALSE,?,FALSE,5.237509,0.050133,L
+1.73,'not seeded',regular,TRUE,?,FALSE,-10.269678,-0.068219,W
+-2.08,8,regular,TRUE,-8,FALSE,1.902806,0.006263,L
+-0.7,'not seeded',regular,FALSE,-7,FALSE,4.065708,-0.028748,W
+0.6,'not seeded',regular,FALSE,7,FALSE,3.279945,-0.032597,W
+0.63,'not seeded',regular,TRUE,?,FALSE,10.669405,-0.003941,L
+-0.71,'not seeded',regular,TRUE,-2,TRUE,-5.059548,0.010295,W
+-7.91,2,regular,TRUE,?,FALSE,9.952088,0.223597,L
+10.28,'not seeded',regular,TRUE,5,FALSE,-2.354552,-0.246021,W
+-1.79,3,regular,TRUE,?,FALSE,12.312115,0.075001,W
+0.98,'not seeded',regular,TRUE,0,FALSE,-2.075291,-0.128891,W
+0.56,'not seeded',regular,FALSE,-8,FALSE,-0.911704,-0.033025,L
+0.87,'not seeded',regular,TRUE,?,FALSE,16.366872,-0.00999,W
+1.1,'not seeded',WC,TRUE,?,TRUE,-7.843942,-0.067241,L
+-2.32,5,regular,TRUE,?,FALSE,10.633812,0.048422,L
+1.99,'not seeded',regular,TRUE,?,FALSE,3.178645,-0.080133,W
+-1.04,2,regular,TRUE,20,FALSE,-4.952772,0.065408,W
+-1.61,6,regular,FALSE,?,FALSE,1.240246,0.042495,W
+9.06,'not seeded',regular,FALSE,-2,FALSE,4.465435,-0.264168,W
+7.51,'not seeded',regular,FALSE,0,FALSE,2.179329,-0.266062,W
+1.75,'not seeded',Q,TRUE,-3,FALSE,4.054757,-0.063697,L
+1.32,'not seeded',Q,FALSE,?,FALSE,-7.972621,-0.035958,W
+2.18,'not seeded',regular,TRUE,-5,FALSE,-0.344969,-0.149727,L
+0.35,'not seeded',regular,TRUE,?,FALSE,7.353867,-0.006568,W
+1,'not seeded',regular,TRUE,-15,FALSE,2.877481,-0.056487,W
+-3.27,1,regular,FALSE,?,FALSE,7.252567,0.176,W
+3.19,8,regular,TRUE,5,FALSE,-3.750856,-0.213821,W
+7.47,'not seeded',regular,TRUE,5,FALSE,2.009582,-0.238139,W
+1.74,'not seeded',regular,TRUE,8,TRUE,-3.386721,-0.236489,L
+0.82,'not seeded',regular,TRUE,?,FALSE,8.035592,-0.077628,W
+2.34,'not seeded',regular,FALSE,-3,FALSE,-2.858316,-0.067791,L
+4.89,'not seeded',WC,TRUE,?,FALSE,-7.830253,-0.250237,W
+-3.52,1,regular,TRUE,-20,FALSE,-2.228611,0.194024,L
+2.55,'not seeded',regular,TRUE,?,FALSE,-5.448323,-0.092231,W
+0.94,'not seeded',regular,TRUE,-13,FALSE,3.581109,-0.070296,W
+-5.16,4,regular,TRUE,13,FALSE,-6.113621,0.027037,L
+2.58,'not seeded',regular,FALSE,2,FALSE,4.440794,-0.038707,W
+1.45,'not seeded',regular,TRUE,?,FALSE,1.982204,-0.040235,L
+-1.67,4,regular,FALSE,?,FALSE,5.05681,0.096814,W
+1.16,'not seeded',Q,TRUE,?,FALSE,-8.405202,-0.021293,W
+-0.47,'not seeded',Q,TRUE,?,FALSE,5.470226,-0.010968,L
+-1.28,'not seeded',SE,TRUE,?,TRUE,-9.828884,-0.011517,W
+-1.74,3,regular,FALSE,?,FALSE,10.765229,0.044389,W
+4.9,'not seeded',WC,FALSE,?,FALSE,-7.214237,-0.020866,W
+2.03,'not seeded',regular,TRUE,?,FALSE,7.611225,-0.087649,W
+2.16,'not seeded',regular,TRUE,3,FALSE,-2.151951,-0.057893,W
+-1.32,'not seeded',regular,TRUE,?,FALSE,8.342231,0.012006,W
+-4.43,5,regular,TRUE,0,FALSE,0.785763,0.026793,L
+-1.29,6,regular,TRUE,5,FALSE,-0.528405,0.01219,L
+-0.33,8,regular,FALSE,8,FALSE,0.856947,-0.016467,W
+-1.56,'not seeded',regular,TRUE,?,FALSE,-4.843258,-0.01555,L
+3.08,'not seeded',regular,TRUE,5,FALSE,-0.402464,-0.088993,L
+2.59,'not seeded',Q,FALSE,?,FALSE,-4.156057,-0.036324,W
+0.35,'not seeded',regular,FALSE,5,FALSE,1.971253,-0.058015,L
+7.99,'not seeded',regular,FALSE,?,TRUE,-5.106092,-0.268567,W
+1.71,'not seeded',regular,TRUE,?,TRUE,-10.792608,-0.030825,W
+-2.7,'not seeded',regular,FALSE,?,TRUE,-3.559206,-0.009807,L
+-0.42,'not seeded',regular,TRUE,?,FALSE,3.003422,-0.004002,L
+-14.22,2,regular,TRUE,?,FALSE,13.524983,0.242966,L
+1.79,'not seeded',regular,TRUE,-5,FALSE,-0.952772,-0.028259,W
+0.14,'not seeded',regular,TRUE,?,FALSE,3.15948,-0.010295,L
+0.85,'not seeded',Q,FALSE,13,FALSE,1.256674,-0.035896,W
+-2.3,'not seeded',regular,FALSE,-5,FALSE,4.295688,0.034063,W
+0.46,'not seeded',Q,TRUE,-10,FALSE,-2.992471,-0.031192,W
+0.37,'not seeded',regular,TRUE,5,FALSE,1.407255,-0.020071,W
+-1.18,'not seeded',regular,TRUE,3,FALSE,1.913758,-0.014145,W
+3.26,'not seeded',regular,TRUE,0,FALSE,8.594114,-0.08386,L
+-1.4,'not seeded',regular,TRUE,?,FALSE,-4.221766,0.000642,L
+1.38,'not seeded',regular,TRUE,-10,FALSE,8.52293,-0.058443,L
+-3.67,4,regular,TRUE,8,FALSE,-1.481177,0.089115,L
+0.8,'not seeded',LL,TRUE,?,TRUE,13.883641,-0.019094,W
+2.26,'not seeded',regular,TRUE,?,FALSE,1.048597,-0.096753,W
+-1.98,'not seeded',regular,FALSE,17,TRUE,4.024641,0.027098,W
+-5.47,4,regular,TRUE,16,FALSE,1.013005,0.02612,L
+8.76,'not seeded',WC,FALSE,?,FALSE,-9.119781,-0.188709,L
+3.26,'not seeded',regular,TRUE,10,FALSE,-0.77755,-0.334922,W
+1.82,'not seeded',Q,FALSE,-3,FALSE,0.11499,-0.038524,W
+-0.57,'not seeded',regular,TRUE,-8,FALSE,-3.474333,-0.015367,W
+-2.32,3,regular,TRUE,-5,FALSE,2.201232,0.109034,L
+0.65,'not seeded',WC,FALSE,-8,TRUE,1.563313,-0.036569,L
+2.22,'not seeded',Q,FALSE,-23,TRUE,3.268994,-0.098769,W
+-3.24,5,regular,TRUE,?,FALSE,9.023956,0.046467,L
+2.32,'not seeded',regular,TRUE,?,FALSE,-1.062286,-0.045978,W
+2.31,'not seeded',regular,TRUE,?,FALSE,9.927447,-0.021171,W
+-5.1,'not seeded',regular,FALSE,?,FALSE,8.410678,0.029603,L
+-0.96,'not seeded',regular,FALSE,7,FALSE,-8.804928,-0.013595,L
+4.01,'not seeded',regular,FALSE,-2,TRUE,0.783025,-0.263984,W
+1.98,'not seeded',WC,TRUE,?,FALSE,-5.675565,-0.047872,W
+-5.19,2,regular,FALSE,-13,TRUE,5.793292,0.193841,L
+2.08,'not seeded',regular,FALSE,?,TRUE,-2.691307,-0.030581,W
+-3.57,2,regular,TRUE,?,FALSE,11.589322,0.177344,L
+-2.78,4,regular,TRUE,13,FALSE,2.401095,0.085082,L
+2.66,8,regular,TRUE,13,FALSE,-4.112252,-0.276693,L
+-2.66,4,regular,FALSE,5,FALSE,-2.877481,0.012862,L
+-0.78,3,regular,TRUE,?,FALSE,8.856947,0.091376,W
+-1.12,'not seeded',regular,FALSE,-10,FALSE,4.758385,-0.016772,L
+-2.27,'not seeded',regular,TRUE,23,TRUE,0.229979,0.001986,L
+1.41,'not seeded',Q,FALSE,?,FALSE,4.774812,-0.03107,W
+-1.64,2,regular,TRUE,33,FALSE,5.221081,0.106651,L
+-0.44,'not seeded',regular,TRUE,-15,FALSE,2.754278,-0.020682,W
+-1.6,4,regular,TRUE,2,FALSE,0.607803,0.036935,L
+-0.92,2,regular,TRUE,?,FALSE,11.422313,0.129563,W
+-0.51,2,regular,TRUE,?,FALSE,9.607118,0.166529,W
+4.05,'not seeded',regular,FALSE,?,FALSE,3.29911,-0.090337,L
+-3.37,4,regular,TRUE,-5,FALSE,-7.15948,0.026487,W
+0.77,4,regular,TRUE,?,FALSE,6.576318,0.075184,W
+3.74,'not seeded',regular,FALSE,-5,FALSE,0.418891,-0.260257,L
+-1.52,'not seeded',regular,FALSE,?,FALSE,4.372348,-0.006446,L
+-1.52,'not seeded',regular,TRUE,5,TRUE,-3.55373,-0.006813,L
+-14.96,1,regular,TRUE,8,FALSE,-5.05681,0.945865,L
+3.24,'not seeded',WC,TRUE,2,FALSE,-1.571526,-0.028626,L
+0.37,'not seeded',LL,TRUE,?,FALSE,-0.150582,-0.02496,L
+0.65,'not seeded',regular,FALSE,0,TRUE,-1.702943,-0.038768,W
+-0.5,'not seeded',regular,TRUE,?,FALSE,3.671458,0.004674,L
+0.54,'not seeded',regular,TRUE,-10,FALSE,0.651608,-0.066874,L
+0.67,'not seeded',regular,TRUE,?,FALSE,-12.240931,-0.036019,L
+0.61,'not seeded',Q,FALSE,?,FALSE,-1.470226,-0.036385,W
+-2.12,'not seeded',regular,TRUE,10,FALSE,6.206708,0.001436,W
+-1.25,'not seeded',regular,TRUE,?,FALSE,9.689254,0.009562,L
+-2.34,3,regular,TRUE,15,FALSE,3.605749,0.110561,W
+2.09,'not seeded',Q,TRUE,?,FALSE,-2.031485,-0.055265,L
+-1.86,6,regular,FALSE,?,FALSE,8.804928,0.012984,W
+-3.39,4,regular,TRUE,?,FALSE,-2.516085,0.05777,L
+-2.25,'not seeded',regular,TRUE,-5,FALSE,2.327173,0.022088,W
+-4.6,7,regular,FALSE,?,FALSE,8.774812,0.025876,W
+6.41,'not seeded',WC,TRUE,12,FALSE,-3.652293,-0.063758,W
+1.76,7,regular,FALSE,?,FALSE,5.793292,-0.005774,W
+-0.48,'not seeded',regular,FALSE,?,FALSE,-3.348392,-0.002963,L
+3.05,'not seeded',regular,TRUE,10,FALSE,-0.77755,-0.339199,W
+2.65,'not seeded',WC,TRUE,-13,FALSE,-6.945927,-0.037974,W
+10.49,'not seeded',Q,TRUE,15,FALSE,1.275838,-0.242599,W
+-0.24,'not seeded',regular,TRUE,?,TRUE,-3.635866,-0.00724,L
+0.28,'not seeded',regular,FALSE,?,TRUE,-3.482546,-0.027098,L
+-5.18,3,regular,TRUE,?,FALSE,3.531828,0.156998,L
+-0.22,'not seeded',regular,TRUE,?,FALSE,-5.0705,0.00058,L
+1.11,'not seeded',regular,TRUE,?,FALSE,-4.843258,-0.021293,W
+-0.58,'not seeded',regular,TRUE,5,FALSE,1.300479,-0.010357,W
+0.29,'not seeded',Q,FALSE,?,FALSE,-8.125941,-0.025448,L
+-21.47,1,regular,TRUE,3,FALSE,-3.334702,0.979409,L
+3.26,'not seeded',regular,TRUE,?,FALSE,1.289528,-0.104268,W
+-3.6,4,regular,TRUE,?,FALSE,8.095825,0.056548,L
+1.27,'not seeded',regular,FALSE,-10,FALSE,4.312115,-0.070235,W
+2.33,'not seeded',regular,TRUE,0,FALSE,8.594114,-0.071946,W
+-1.35,6,regular,FALSE,-8,FALSE,3.841205,0.021293,L
+-3.09,7,regular,TRUE,8,FALSE,1.256674,0.021477,L
+1.26,'not seeded',regular,TRUE,?,FALSE,-13.081451,-0.030153,W
+1.75,'not seeded',regular,TRUE,5,FALSE,-6.600958,-0.180216,L
+3.07,'not seeded',regular,TRUE,?,FALSE,7.334702,-0.053005,W
+8.64,'not seeded',Q,TRUE,10,FALSE,-2.480493,-0.358201,W
+-1.26,'not seeded',regular,TRUE,23,FALSE,-2.507871,0.00779,L
+-0.65,'not seeded',regular,TRUE,-10,FALSE,5.015743,-0.026854,L
+-10.28,3,regular,TRUE,?,FALSE,3.687885,0.201662,L
+-3.47,1,regular,TRUE,-8,FALSE,7.200548,0.175633,L
+0.02,'not seeded',Q,TRUE,-2,FALSE,-4.66256,-0.027404,W
+2.1,'not seeded',regular,TRUE,?,FALSE,17.237509,-0.008157,W
+-2.66,2,regular,FALSE,?,FALSE,5.229295,0.026915,W
+0.98,'not seeded',Q,TRUE,-10,FALSE,-2.992471,-0.032169,L
+2.05,'not seeded',regular,TRUE,-8,FALSE,5.119781,-0.079705,W
+-2.77,7,regular,FALSE,5,FALSE,-1.812457,0.026182,L
+3.36,'not seeded',Q,FALSE,?,FALSE,-4.156058,-0.060642,W
+-0.28,3,regular,TRUE,?,FALSE,9.607118,0.151254,W
+1.42,8,regular,TRUE,-5,FALSE,1.448323,-0.296917,W
+-3.73,2,regular,TRUE,-20,FALSE,-2.228611,0.179971,W
+-0.91,4,regular,FALSE,?,TRUE,1.864476,-0.001741,L
+2.25,'not seeded',regular,TRUE,?,FALSE,2.825462,-0.085816,L
+-1.08,'not seeded',regular,FALSE,?,FALSE,0.845996,0.006385,L
+-1.21,'not seeded',regular,TRUE,?,TRUE,-5.927447,-0.007485,L
+0.21,'not seeded',regular,TRUE,-16,FALSE,-1.144422,-0.07775,L
+-0.87,7,regular,TRUE,?,FALSE,2.302533,-0.056182,W
+-3.4,3,regular,FALSE,?,FALSE,8.410678,0.051905,L
+-1.68,'not seeded',regular,TRUE,-10,FALSE,-1.590691,0.012434,L
+0.59,'not seeded',Q,TRUE,?,TRUE,-10.058864,-0.044328,W
+1.76,'not seeded',regular,FALSE,?,FALSE,0.845996,-0.025815,L
+1.59,'not seeded',LL,TRUE,?,TRUE,-1.697467,-0.031986,W
+0.8,'not seeded',Q,TRUE,-2,FALSE,-0.402464,-0.032536,W
+0.42,'not seeded',regular,TRUE,?,FALSE,5.908282,-0.078178,W
+-0.71,'not seeded',regular,TRUE,-13,FALSE,3.953457,-0.043351,W
+-2.6,3,regular,TRUE,0,FALSE,4.492813,0.020927,L
+3.07,'not seeded',regular,TRUE,0,FALSE,-0.221766,-0.326246,W
+-1.57,'not seeded',regular,TRUE,?,TRUE,-1.612594,-0.017566,L
+-0.87,4,regular,TRUE,?,FALSE,-0.867899,0.004308,L
+1.39,'not seeded',regular,TRUE,?,FALSE,-5.524983,-0.05166,W
+-3.32,'not seeded',WC,TRUE,?,TRUE,0.229979,0.00553,W
+-0.47,'not seeded',regular,FALSE,?,FALSE,-4.646133,-0.038463,W
+-1.16,'not seeded',regular,TRUE,?,FALSE,10.146475,0.022088,L
+1.67,'not seeded',regular,TRUE,?,FALSE,-0.429843,-0.033514,W
+-1.49,'not seeded',regular,TRUE,?,FALSE,-2.724162,0.00168,L
+-0.62,'not seeded',regular,TRUE,?,FALSE,-1.174538,-0.004796,L
+0.38,'not seeded',regular,FALSE,2,FALSE,-2.855578,-0.004674,L
+-1.04,'not seeded',regular,TRUE,?,FALSE,5.36345,-0.005591,L
+-2.33,'not seeded',regular,TRUE,?,TRUE,4.276523,-0.018727,W
+-0.58,'not seeded',Q,TRUE,3,FALSE,-1.853525,-0.041029,L
+-2.95,'not seeded',WC,TRUE,23,FALSE,-0.733744,-0.041396,L
+1.56,'not seeded',WC,TRUE,?,FALSE,-6.297057,-0.054471,W
+3.32,'not seeded',regular,FALSE,-20,FALSE,2.765229,-0.03052,W
+-0.43,'not seeded',regular,FALSE,?,FALSE,-8.336756,-0.025265,W
+-2.02,'not seeded',regular,TRUE,?,FALSE,-1.059548,0.017811,L
+0.74,'not seeded',regular,TRUE,?,FALSE,12.295688,-0.025509,W
+0.5,'not seeded',regular,FALSE,-13,FALSE,-2.932238,-0.022699,L
+-0.78,'not seeded',regular,TRUE,?,TRUE,11.928816,0.015122,L
+-1.85,'not seeded',regular,FALSE,?,FALSE,-5.905544,-0.024715,L
+-0.47,'not seeded',regular,TRUE,-18,FALSE,-6.105407,-0.016955,W
+-3.34,8,regular,TRUE,-5,TRUE,-4.405202,0.089726,L
+0.96,'not seeded',regular,FALSE,?,FALSE,4.804928,-0.034369,L
+-0.35,'not seeded',Q,FALSE,8,FALSE,3.742642,-0.020866,L
+6.6,'not seeded',regular,TRUE,?,FALSE,1.073238,-0.113861,W
+1.26,'not seeded',Q,TRUE,?,FALSE,-8.156057,-0.048605,L
+2.34,'not seeded',regular,TRUE,?,FALSE,-4.859685,-0.083127,W
+2.33,'not seeded',WC,FALSE,?,FALSE,-9.207392,-0.030397,W
+-2.29,'not seeded',Q,TRUE,?,FALSE,1.634497,-0.002475,W
+14.1,'not seeded',regular,TRUE,0,FALSE,1.089665,-0.511319,W
+1.85,'not seeded',regular,TRUE,0,FALSE,8.594114,-0.079889,W
+-1.85,26,regular,TRUE,-10,FALSE,-1.590691,0.013656,L
+-0.13,'not seeded',regular,TRUE,-2,FALSE,5.240246,0.008524,L
+-0.94,22,regular,FALSE,?,FALSE,4.372348,0.013289,W
+-0.12,'not seeded',regular,FALSE,7,FALSE,5.418207,0.001741,L
+0.37,'not seeded',regular,TRUE,-5,FALSE,-1.256674,-0.054349,L
+1.14,29,regular,FALSE,?,FALSE,8.876112,0.000275,W
+-3.8,24,regular,FALSE,?,FALSE,-7.27447,0.014817,W
+0.55,'not seeded',regular,FALSE,?,FALSE,-1.516769,-0.034552,L
+-0.52,'not seeded',regular,TRUE,8,FALSE,5.943874,-0.018727,W
+-0.52,6,regular,TRUE,-2,FALSE,3.017112,0.21541,L
+-1.48,10,regular,TRUE,15,FALSE,3.605749,0.11881,L
+6.84,'not seeded',Q,TRUE,?,FALSE,0.829569,-0.147588,W
+-2.77,15,regular,TRUE,?,FALSE,7.12115,0.082272,L
+1.57,'not seeded',regular,TRUE,10,FALSE,-5.486653,-0.07054,W
+0.16,'not seeded',regular,FALSE,0,TRUE,-1.702943,-0.047017,W
+-2.86,27,regular,TRUE,-2,FALSE,8.837782,0.018727,L
+2.37,'not seeded',regular,TRUE,-5,FALSE,-0.952772,-0.054838,W
+4.52,'not seeded',regular,TRUE,2,FALSE,-2.447639,-0.359362,W
+0.2,28,regular,TRUE,3,FALSE,4.027379,0.00779,W
+-1.18,23,regular,TRUE,?,FALSE,5.930185,0.019827,W
+5.17,'not seeded',regular,TRUE,5,FALSE,2.009582,-0.223169,W
+0.11,'not seeded',regular,FALSE,-13,TRUE,0.856947,-0.064491,L
+6.48,'not seeded',Q,FALSE,-15,TRUE,-0.788501,-0.176305,W
+-18.44,1,regular,TRUE,?,FALSE,6.160164,0.969572,L
+0.7,26,regular,TRUE,-5,FALSE,-2.390144,-0.101396,W
+-2.85,9,regular,TRUE,16,FALSE,-1.177276,0.079461,L
+-1.88,10,regular,TRUE,10,FALSE,-1.374401,0.080378,L
+-1.9,15,regular,FALSE,?,FALSE,-0.558522,0.038952,L
+2.2,'not seeded',Q,FALSE,8,FALSE,12.232717,-0.081355,W
+-0.42,30,regular,TRUE,5,FALSE,-0.528405,0.012495,L
+2.09,'not seeded',regular,TRUE,8,FALSE,3.069131,-0.251398,W
+13.96,'not seeded',regular,FALSE,0,FALSE,-3.392197,-0.495188,L
+-3.45,9,regular,FALSE,23,FALSE,3.175907,0.092292,L
+0.56,21,regular,TRUE,?,FALSE,0.941821,-0.069318,W
+-2,13,regular,FALSE,5,FALSE,1.377139,0.0472,L
+-0.8,14,regular,FALSE,?,TRUE,-6.565366,0.001864,W
+3.15,'not seeded',regular,TRUE,2,FALSE,-5.905544,-0.351114,W
+-2.21,4,regular,TRUE,-3,TRUE,-2.548939,0.231296,L
+-0.64,16,regular,TRUE,?,FALSE,12.312115,0.046406,W
+3.8,30,regular,TRUE,10,FALSE,0.013689,-0.187242,W
+-2.9,6,regular,TRUE,?,FALSE,11.15948,0.165246,L
+-5.85,1,regular,TRUE,10,FALSE,-3.597536,0.912565,L
+0.51,10,regular,TRUE,13,FALSE,-2.28063,-0.026548,L
+0.95,6,regular,TRUE,0,FALSE,5.275838,0.074268,W
+3.07,'not seeded',regular,FALSE,-3,FALSE,-4.093087,-0.083677,W
+2.28,15,regular,TRUE,-20,FALSE,-5.69473,-0.285308,L
+-1.86,4,regular,FALSE,?,FALSE,10.880219,0.226958,L
+0.97,31,regular,TRUE,10,FALSE,-2.472279,-0.125225,W
+-7.87,1,regular,FALSE,0,FALSE,-5.667351,0.894235,L
+-0.62,10,regular,TRUE,35,FALSE,2.190281,0.021416,W
+0.08,9,regular,TRUE,28,FALSE,4.676249,-0.102007,W
+-5.15,1,regular,TRUE,0,FALSE,-2.094456,0.813583,L
+1.89,13,regular,TRUE,-3,FALSE,4.320329,-0.044878,W
+0.24,4,regular,FALSE,7,FALSE,3.572895,0.033941,L
+-4.34,1,regular,FALSE,3,FALSE,-0.966461,0.699936,L
+2.97,15,regular,TRUE,-33,FALSE,0.054757,-0.0461,W
+-4.06,1,regular,TRUE,-8,FALSE,3.600274,0.846577,L
+1.18,'not seeded',LL,FALSE,?,FALSE,-1.034908,-0.021905,W
+-0.66,'not seeded',regular,TRUE,?,FALSE,2.149213,0.003758,L
+1.84,'not seeded',Q,FALSE,?,FALSE,-1.059548,-0.048055,W
+5.4,'not seeded',WC,TRUE,?,FALSE,-0.72553,-0.063331,W
+0.73,'not seeded',regular,TRUE,?,FALSE,7.887748,0.010479,L
+0.44,'not seeded',regular,TRUE,-8,FALSE,-6.140999,-0.024471,W
+0.05,'not seeded',regular,TRUE,5,FALSE,0.520192,-0.002413,W
+-0.53,'not seeded',regular,TRUE,?,FALSE,3.353867,0.004308,L
+-0.05,'not seeded',regular,TRUE,7,FALSE,-6.182067,-0.018544,W
+1.25,'not seeded',Q,TRUE,?,FALSE,-7.268994,-0.034125,W
+0.48,'not seeded',regular,TRUE,?,FALSE,7.211499,-0.013473,W
+1.73,'not seeded',regular,TRUE,?,FALSE,12.054757,-0.015794,W
+-0.27,'not seeded',regular,FALSE,?,FALSE,-1.497604,-0.030031,L
+-0.48,'not seeded',regular,TRUE,?,FALSE,8.755647,0.001314,W
+1.8,'not seeded',WC,TRUE,?,FALSE,-9.760438,-0.043473,W
+1,'not seeded',Q,TRUE,-10,FALSE,-6.321697,-0.048055,L
+0.74,'not seeded',Q,TRUE,?,TRUE,-9.379877,-0.028748,W
+-2.43,'not seeded',PR,FALSE,?,TRUE,1.645448,-0.073168,L
+-0.77,'not seeded',regular,FALSE,7,FALSE,5.418207,0.002658,L
+-1.84,'not seeded',regular,FALSE,?,FALSE,5.514031,0.014695,L
+-2.8,'not seeded',regular,TRUE,?,FALSE,3.679671,0.002047,L
+-1.34,'not seeded',regular,TRUE,?,FALSE,-3.753593,-0.018666,W
+-1,'not seeded',regular,FALSE,-2,FALSE,-0.807666,-0.015733,L
+-0.25,'not seeded',regular,TRUE,?,FALSE,-2.075291,-0.008035,W
+-1.8,'not seeded',regular,TRUE,?,FALSE,-10.187543,-0.003147,W
+0.66,'not seeded',regular,TRUE,3,FALSE,-5.87269,-0.023921,L
+2.46,'not seeded',regular,TRUE,-16,FALSE,-5.015743,-0.042556,L
+-4.34,11,regular,TRUE,18,FALSE,1.752225,0.10494,L
+-5.65,'not seeded',PR,FALSE,10,TRUE,-3.408624,-0.042129,W
+-2.51,21,regular,TRUE,?,FALSE,14.017796,0.048483,W
+4.3,'not seeded',regular,TRUE,?,FALSE,5.875428,-0.127914,W
+-1.03,15,regular,TRUE,-27,FALSE,-4.654346,0.079522,L
+1.72,'not seeded',regular,TRUE,2,FALSE,0.747433,-0.094064,W
+1.74,'not seeded',regular,TRUE,?,FALSE,-3.802875,-0.062658,W
+0.27,20,regular,TRUE,13,FALSE,-6.869268,0.03553,L
+0.38,31,regular,TRUE,?,FALSE,7.321013,0.001802,L
+0.3,'not seeded',regular,TRUE,?,FALSE,-1.232033,-0.02722,W
+0.46,28,regular,FALSE,0,FALSE,-3.244353,0.014084,W
+-1.36,8,regular,TRUE,?,FALSE,15.572895,0.156692,L
+-0.77,32,regular,TRUE,?,FALSE,10.724162,0.015489,W
+-18.73,1,regular,TRUE,?,FALSE,7.633128,0.955763,L
+-3.43,10,regular,FALSE,-3,FALSE,1.582478,0.09883,L
+5.77,'not seeded',regular,TRUE,-16,FALSE,-1.639973,-0.131519,W
+-4.93,13,regular,TRUE,31,TRUE,2.677618,0.114594,W
+4.86,'not seeded',Q,TRUE,-13,FALSE,-1.711157,-0.117282,W
+-0.42,23,regular,TRUE,-3,FALSE,3.449692,0.028381,L
+1.23,'not seeded',regular,TRUE,?,FALSE,9.859001,-0.039929,W
+2.25,'not seeded',regular,FALSE,2,FALSE,0.610541,-0.045184,W
+-1.36,27,regular,TRUE,-10,FALSE,-4.711841,0.004002,L
+3.03,'not seeded',regular,TRUE,2,FALSE,-5.905544,-0.353741,L
+0.58,'not seeded',regular,FALSE,-15,FALSE,-0.728268,-0.044573,L
+-18.49,1,regular,TRUE,?,FALSE,1.856263,0.923808,L
+-2.58,10,regular,TRUE,-11,TRUE,2.888433,0.058015,L
+-3.05,'not seeded',regular,TRUE,0,FALSE,1.448323,-0.003941,W
+4.82,'not seeded',Q,FALSE,?,FALSE,-2.064339,-0.141295,W
+-1.75,15,regular,TRUE,-30,FALSE,-4.821355,0.026609,L
+-0.42,11,regular,TRUE,15,FALSE,-3.753593,0.039135,W
+11.37,'not seeded',regular,TRUE,-2,FALSE,0.684463,-0.48529,W
+-2.92,7,regular,TRUE,8,FALSE,4.268309,0.143311,L
+5.59,'not seeded',regular,TRUE,0,FALSE,-2.61191,-0.167873,W
+1.91,23,regular,TRUE,-13,FALSE,0.665298,-0.056793,W
+1.41,17,regular,TRUE,?,FALSE,-2.992471,-0.089787,L
+-4.35,24,regular,TRUE,?,FALSE,-7.323751,0.042495,L
+3.49,26,regular,TRUE,-2,FALSE,-4.002738,-0.443558,L
+-0.87,'not seeded',regular,FALSE,2,FALSE,-2.65024,-0.008524,L
+2.63,27,regular,TRUE,2,FALSE,1.141684,-0.184187,W
+-4.83,8,regular,TRUE,?,FALSE,11.895962,0.15938,W
+-5.66,1,regular,TRUE,?,FALSE,6.286105,0.840467,L
+-1.67,12,regular,TRUE,11,FALSE,1.744011,0.051966,L
+6.55,'not seeded',regular,TRUE,-24,FALSE,-1.396304,-0.142761,W
+-6.31,15,regular,FALSE,-25,FALSE,-5.612594,0.090154,L
+2.45,'not seeded',regular,TRUE,?,TRUE,-9.158111,-0.089359,W
+2.23,'not seeded',regular,TRUE,?,FALSE,4.175222,-0.048239,W
+-0.5,7,regular,TRUE,11,FALSE,0.750171,0.045245,L
+1.58,'not seeded',regular,TRUE,-11,FALSE,-4.399726,-0.018544,L
+-0.24,15,regular,TRUE,-20,FALSE,-5.943874,0.012556,L
+0.73,26,regular,TRUE,-5,FALSE,-4.703628,-0.062292,W
+2.71,17,regular,TRUE,?,FALSE,1.708419,-0.147221,W
+6.25,7,regular,TRUE,8,FALSE,1.675565,-0.79458,W
+1.67,16,regular,TRUE,15,FALSE,3.326489,-0.135307,W
+-7.48,1,regular,TRUE,25,FALSE,3.545517,0.853909,L
+0.77,24,regular,TRUE,?,FALSE,-4.33128,-0.092842,L
+-0.17,24,regular,TRUE,?,FALSE,-5.32512,-0.179605,W
+-4.15,1,regular,TRUE,10,FALSE,2.606434,0.74515,L
+0.71,'not seeded',regular,FALSE,-10,FALSE,-4.988364,0.010295,L
+-0.25,'not seeded',regular,TRUE,?,FALSE,-15.794661,-0.017933,L
+-1.02,'not seeded',regular,FALSE,?,FALSE,-5.182752,0.01054,L
+-0.1,5,regular,TRUE,3,FALSE,0.208077,0.003635,W
+1.7,'not seeded',regular,TRUE,0,FALSE,-4.892539,0.01054,L
+0.2,'not seeded',Q,TRUE,?,FALSE,-4.629706,-0.023738,W
+1.91,'not seeded',regular,FALSE,?,FALSE,-6.288843,-0.010295,W
+-0.81,8,regular,TRUE,?,FALSE,15.419576,0.020866,W
+0.97,7,regular,TRUE,?,FALSE,7.164956,0.00724,L
+0.09,'not seeded',regular,FALSE,?,FALSE,3.608487,-0.016955,W
+3.06,'not seeded',regular,TRUE,?,FALSE,-4.224504,-0.041457,W
+0.98,'not seeded',regular,FALSE,-3,FALSE,6.01232,-0.024654,L
+-0.11,'not seeded',regular,TRUE,?,FALSE,7.304586,-0.013839,L
+-1.61,6,regular,FALSE,5,TRUE,-0.421629,0.017933,W
+-0.76,'not seeded',regular,FALSE,-15,TRUE,-0.958248,-0.013534,L
+-0.72,'not seeded',regular,TRUE,10,TRUE,-4.695414,-0.011212,W
+-0.54,'not seeded',regular,TRUE,-11,FALSE,5.10883,-0.090459,L
+2.15,'not seeded',regular,TRUE,-20,FALSE,6.308008,-0.053982,W
+-2.4,7,regular,TRUE,?,FALSE,-1.174538,-0.008768,L
+0.98,'not seeded',Q,TRUE,-10,FALSE,-1.516769,-0.039929,W
+0.97,'not seeded',Q,FALSE,-5,FALSE,0.780287,-0.036935,W
+0.63,'not seeded',regular,FALSE,?,FALSE,-0.914442,-0.052455,L
+1.02,'not seeded',WC,FALSE,-8,TRUE,1.563313,-0.028137,L
+-2.98,1,regular,TRUE,26,TRUE,7.310062,0.071579,L
+3.15,'not seeded',regular,FALSE,-3,FALSE,-6.119097,-0.078972,W
+-0.97,'not seeded',regular,TRUE,-5,TRUE,-2.214921,-0.037607,W
+2.82,'not seeded',regular,FALSE,3,FALSE,2.042437,-0.039379,W
+-2.14,7,regular,TRUE,?,FALSE,-4.843258,-0.006874,L
+-0.51,'not seeded',regular,TRUE,?,FALSE,0.99384,0.011579,L
+-1.91,'not seeded',regular,FALSE,?,FALSE,-9.253936,-0.009501,W
+-2.48,3,regular,FALSE,13,FALSE,6.275154,0.048544,L
+0.73,7,regular,FALSE,-5,FALSE,-1.587953,0.003208,L
+0.25,7,regular,FALSE,?,FALSE,-0.766598,-0.019277,W
+-0.36,3,regular,TRUE,?,FALSE,-14.839151,-0.008462,L
+-0.9,1,regular,FALSE,?,FALSE,10.099932,0.000031,W
+-0.21,3,regular,FALSE,3,FALSE,2.521561,0.053493,W
+3.11,'not seeded',regular,TRUE,?,FALSE,-11.063655,-0.108973,W
+0.17,1,regular,TRUE,21,TRUE,7.4141,0.026609,W
+1.08,7,regular,TRUE,-2,FALSE,7.271732,-0.046895,W
+-2.63,4,regular,FALSE,15,FALSE,-9.856263,0.010234,L
+-0.3,3,regular,FALSE,?,FALSE,-3.348392,-0.012495,L
+1.36,'not seeded',regular,TRUE,0,FALSE,8.490075,-0.086121,L
+-2.12,15,regular,TRUE,-10,FALSE,1.122519,0.00278,L
+1.6,'not seeded',regular,TRUE,3,FALSE,4.027379,-0.001497,L
+0.88,3,regular,FALSE,?,FALSE,-6.110883,-0.017383,W
+1.81,'not seeded',regular,TRUE,-2,FALSE,0.824093,-0.144533,W
+9.99,'not seeded',WC,TRUE,?,FALSE,-1.760438,-0.149054,W
+5.49,'not seeded',Q,TRUE,?,FALSE,3.359343,-0.132374,W
+-4.08,13,regular,FALSE,0,FALSE,-3.315537,0.058687,L
+-1.61,14,regular,FALSE,?,TRUE,-0.240931,0.051172,L
+0.97,'not seeded',regular,TRUE,?,FALSE,-0.563997,-0.063147,W
+-3.13,'not seeded',regular,TRUE,3,FALSE,0.785763,0.037974,L
+-2.08,'not seeded',regular,TRUE,?,FALSE,-11.151266,0.008646,L
+2.14,'not seeded',WC,TRUE,?,FALSE,-0.501027,-0.047689,W
+1.05,'not seeded',regular,TRUE,?,TRUE,12.090349,-0.001864,W
+1.48,'not seeded',Q,FALSE,?,FALSE,-0.835044,-0.039868,L
+-2.54,11,regular,FALSE,-25,FALSE,-9.212868,0.042801,L
+-1.4,14,regular,TRUE,?,FALSE,-1.169062,0.031803,L
+0.22,'not seeded',regular,TRUE,5,FALSE,-6.38193,-0.045489,W
+7.08,'not seeded',Q,TRUE,?,FALSE,-3.841205,-0.458223,W
+-2.84,'not seeded',regular,TRUE,-5,FALSE,-0.402464,0.048666,L
+1.82,'not seeded',regular,TRUE,?,FALSE,-13.081451,-0.036019,W
+-4.6,3,regular,TRUE,-3,FALSE,1.820671,0.385269,L
+1.96,'not seeded',regular,TRUE,?,FALSE,10.083504,-0.011334,W
+-1.36,'not seeded',regular,TRUE,-5,TRUE,-5.437372,0.005346,W
+1.38,'not seeded',regular,FALSE,?,FALSE,8.131417,-0.01445,W
+-0.45,'not seeded',regular,TRUE,2,FALSE,-6.888433,0.014695,W
+1.93,'not seeded',regular,TRUE,?,FALSE,-6.234086,-0.153087,W
+-0.56,'not seeded',Q,FALSE,?,FALSE,-4.580424,-0.022332,L
+-1.13,'not seeded',Q,TRUE,-18,FALSE,-5.122519,-0.029053,L
+1.43,'not seeded',regular,TRUE,-16,FALSE,4.985626,-0.091926,W
+-1.76,11,regular,FALSE,-25,FALSE,-7.060917,0.100846,L
+5.78,'not seeded',Q,TRUE,?,FALSE,0.599589,-0.126814,W
+4.98,'not seeded',regular,TRUE,-10,FALSE,4.711841,-0.098769,W
+1.47,'not seeded',regular,TRUE,-5,FALSE,1.448323,-0.324718,W
+8.47,'not seeded',regular,FALSE,-4,FALSE,-3.123888,-0.27095,W
+-16.04,1,regular,FALSE,?,FALSE,6.135524,0.942505,W
+1.48,'not seeded',LL,TRUE,?,FALSE,11.022587,-0.02441,L
+-4.01,9,regular,TRUE,?,TRUE,7.685147,0.115022,W
+-4.66,6,regular,TRUE,24,FALSE,6.672142,0.170195,W
+2.88,'not seeded',Q,TRUE,-24,FALSE,-1.396304,-0.14936,W
+-2.7,13,regular,FALSE,?,FALSE,6.855578,0.067547,L
+-2.86,2,regular,TRUE,-6,FALSE,1.982204,0.363211,L
+3.39,14,regular,TRUE,?,FALSE,-6.683094,-0.363822,W
+1.48,15,regular,TRUE,0,FALSE,0.249144,-0.289891,W
+-2.01,5,regular,FALSE,?,FALSE,7.252567,0.138117,L
+-3.03,11,regular,TRUE,-27,FALSE,-4.654346,0.094125,W
+2,'not seeded',WC,TRUE,?,TRUE,-8.854209,-0.166285,W
+3.24,'not seeded',LL,TRUE,-3,FALSE,0.388775,-0.106895,W
+-1.72,2,regular,TRUE,-6,FALSE,3.619439,0.293313,L
+-0.37,5,regular,FALSE,2,FALSE,-1.182752,-0.103229,L
+-2.02,3,regular,TRUE,-3,FALSE,3.690623,0.262151,W
+-0.34,13,regular,TRUE,5,TRUE,-1.374401,-0.072373,L
+1.71,2,regular,FALSE,5,FALSE,-0.947296,0.157975,W
+2.52,13,regular,FALSE,8,FALSE,-0.246407,-0.183882,W
+0.73,'not seeded',regular,TRUE,?,TRUE,-12.320329,-0.019094,W
+-1.51,'not seeded',regular,TRUE,?,FALSE,6.841889,0.007301,W
+-0.39,'not seeded',regular,TRUE,3,FALSE,-8.999316,-0.001008,W
+-2.18,6,regular,FALSE,?,FALSE,-5.305955,0.025143,L
+1.67,'not seeded',Q,TRUE,?,TRUE,6.986995,-0.038646,W
+-1.9,'not seeded',regular,TRUE,-5,FALSE,-0.246407,-0.024043,W
+-0.75,'not seeded',regular,TRUE,?,FALSE,-2.195756,0.009501,L
+-1.3,'not seeded',regular,FALSE,?,FALSE,0.194387,-0.026426,W
+-1.61,'not seeded',regular,TRUE,?,FALSE,-12.328542,-0.014939,W
+0.44,'not seeded',regular,TRUE,-10,FALSE,7.397673,-0.012984,L
+1.75,'not seeded',WC,TRUE,21,FALSE,1.590691,-0.039929,W
+0.11,'not seeded',regular,TRUE,?,FALSE,-9.459274,-0.027404,L
+0.53,'not seeded',regular,TRUE,?,FALSE,7.556468,-0.012067,L
+-2.05,'not seeded',regular,FALSE,2,FALSE,2.893908,-0.031192,L
+-6.5,5,regular,TRUE,?,FALSE,8.1013,0.080316,W
+1.63,'not seeded',Q,TRUE,?,FALSE,-7.830253,-0.043656,L
+0.86,'not seeded',Q,TRUE,?,FALSE,-3.441478,-0.043167,L
+0.87,'not seeded',regular,TRUE,-8,FALSE,3.958932,-0.061864,W
+-2.19,11,regular,TRUE,-5,FALSE,1.500342,0.014511,L
+-1.53,13,regular,TRUE,15,FALSE,-6.529774,0.014695,L
+-3.13,'not seeded',regular,TRUE,?,FALSE,-4.843258,-0.004674,L
+-0.5,7,regular,TRUE,?,FALSE,10.669405,-0.000519,L
+5.87,'not seeded',WC,FALSE,?,TRUE,-9.297741,-0.062658,W
+0.56,'not seeded',Q,FALSE,?,FALSE,-0.72553,-0.044084,W
+-0.73,'not seeded',regular,TRUE,10,FALSE,-2.428474,-0.014756,L
+0.41,'not seeded',regular,TRUE,?,FALSE,3.652293,-0.01555,W
+2.93,'not seeded',regular,TRUE,10,FALSE,-1.730322,-0.009746,W
+-2.03,5,regular,TRUE,?,FALSE,7.288159,0.0139,W
+0.62,'not seeded',WC,TRUE,?,FALSE,8.339493,-0.055204,L
+1.04,'not seeded',LL,TRUE,3,FALSE,-5.002053,-0.020621,W
+1.04,'not seeded',regular,FALSE,-5,FALSE,-3.285421,-0.070602,W
+1.9,'not seeded',Q,TRUE,?,FALSE,-5.993155,-0.098402,W
+-1.44,9,regular,FALSE,-8,FALSE,2.042437,0.023554,L
+1.09,'not seeded',regular,TRUE,?,FALSE,-7.737166,-0.041884,W
+-0.94,12,regular,TRUE,-5,FALSE,-4.911704,0.01555,L
+1.4,'not seeded',regular,TRUE,?,FALSE,1.229295,-0.024287,W
+8.67,'not seeded',regular,FALSE,5,TRUE,0.142368,-0.303883,W
+1.21,15,regular,FALSE,?,FALSE,9.305955,-0.000275,W
+7.26,'not seeded',regular,TRUE,15,FALSE,1.275838,-0.257263,W
+-0.6,'not seeded',regular,TRUE,?,FALSE,8.150582,0.006202,L
+-0.85,9,regular,TRUE,-16,FALSE,3.348392,-0.023249,W
+-1.65,10,regular,FALSE,-10,FALSE,-2.069815,-0.032353,L
+-2.01,11,regular,TRUE,?,FALSE,7.534565,0.034186,L
+-0.8,12,regular,TRUE,-15,FALSE,-1.281314,-0.037546,L
+0.94,'not seeded',regular,TRUE,?,FALSE,-11.597536,-0.04775,W
+-3.82,3,regular,FALSE,5,FALSE,-3.074606,0.003452,L
+0.85,'not seeded',regular,FALSE,?,FALSE,4.774812,-0.046956,W
+-2.41,16,regular,TRUE,0,FALSE,-12.238193,0.019583,L
+13.82,'not seeded',WC,FALSE,-10,TRUE,5.516769,-0.324901,W
+0.66,'not seeded',regular,TRUE,?,FALSE,-11.118412,-0.030153,W
+3.92,13,regular,TRUE,10,FALSE,2.877481,-0.21657,W
+0.21,'not seeded',regular,TRUE,-3,FALSE,5.544148,-0.069318,L
+2.1,2,regular,TRUE,?,FALSE,14.986995,0.016344,W
+3.51,'not seeded',regular,TRUE,?,FALSE,13.24846,-0.028137,L
+3.12,'not seeded',Q,FALSE,?,FALSE,-5.990418,-0.035652,W
+1.9,'not seeded',regular,TRUE,?,FALSE,-0.364134,-0.023004,L
+2.95,'not seeded',regular,TRUE,-11,FALSE,5.297741,-0.07219,W
+-1.13,10,regular,TRUE,-7,FALSE,7.353867,0.006752,L
+-0.36,4,regular,FALSE,?,FALSE,6.951403,-0.00779,L
+3.41,'not seeded',regular,FALSE,?,FALSE,-1.98768,-0.047017,W
+4.82,12,regular,FALSE,-7,FALSE,-0.971937,-0.282864,W
+4.2,11,regular,TRUE,2,FALSE,1.141684,-0.214126,W
+0.43,7,regular,TRUE,?,FALSE,12.19165,-0.006874,W
+1.75,'not seeded',regular,FALSE,2,FALSE,-3.389459,-0.010968,W
+4.99,10,regular,FALSE,-7,FALSE,2.631075,-0.277365,W
+-3.41,2,regular,TRUE,-18,FALSE,-0.643395,0.158831,L
+-1.24,3,regular,FALSE,?,FALSE,3.386721,0.004124,W
+0.79,4,regular,FALSE,0,TRUE,0.449008,0.010418,W
+-1.74,1,regular,FALSE,7,FALSE,3.572895,0.050744,L
+0.61,'not seeded',regular,TRUE,?,FALSE,-9.023956,-0.015611,W
+-0.86,'not seeded',regular,TRUE,?,FALSE,-5.782341,-0.007424,L
+-1.71,'not seeded',regular,TRUE,7,FALSE,-7.088296,-0.001008,W
+3.88,'not seeded',Q,FALSE,?,FALSE,8.884326,-0.058626,W
+-2.87,7,regular,TRUE,8,FALSE,1.034908,0.035285,L
+0.74,'not seeded',regular,TRUE,-8,FALSE,-1.122519,-0.019277,W
+-1.75,'not seeded',regular,TRUE,?,FALSE,1.708419,0.00834,L
+-0.3,'not seeded',regular,TRUE,-7,FALSE,3.657769,-0.01445,L
+-1.53,'not seeded',Q,TRUE,?,FALSE,-12.544832,-0.039501,W
+0.29,'not seeded',regular,FALSE,?,TRUE,2.466804,-0.018849,W
+0.64,'not seeded',regular,FALSE,-2,FALSE,-0.265572,-0.008707,L
+0.19,'not seeded',Q,TRUE,-2,TRUE,-3.49076,-0.019399,W
+3.99,'not seeded',regular,FALSE,5,FALSE,2.924025,-0.042556,W
+1.49,'not seeded',regular,FALSE,?,FALSE,4.804928,-0.02997,W
+-0.6,'not seeded',Q,TRUE,?,FALSE,13.289528,-0.035591,W
+-0.22,'not seeded',regular,TRUE,?,FALSE,-9.420945,-0.004002,L
+1.1,7,regular,TRUE,?,FALSE,-0.161533,0.009868,W
+-0.45,'not seeded',regular,TRUE,?,FALSE,-5.119781,-0.007179,W
+4.66,'not seeded',regular,TRUE,?,FALSE,5.768652,-0.129258,W
+1.02,'not seeded',regular,TRUE,?,FALSE,-5.670089,-0.086304,W
+-6.04,2,regular,TRUE,10,FALSE,-6.302533,0.045123,L
+-4.57,5,regular,FALSE,?,FALSE,8.060233,0.048178,L
+2.26,'not seeded',regular,TRUE,-2,FALSE,3.791923,0.008218,W
+-5.61,4,regular,FALSE,15,FALSE,-5.50308,0.009746,L
+-1.91,5,regular,TRUE,3,FALSE,-3.047228,0.00944,L
+2.27,'not seeded',regular,TRUE,?,FALSE,13.24846,-0.025387,W
+2.19,'not seeded',regular,FALSE,?,FALSE,0.298426,-0.033514,W
+-0.4,'not seeded',LL,TRUE,-10,FALSE,4.136893,-0.036385,W
+-0.91,6,regular,FALSE,5,FALSE,-2.989733,0.010784,W
+6.35,'not seeded',regular,TRUE,10,FALSE,10.346338,-0.13439,W
+-0.18,'not seeded',LL,TRUE,?,FALSE,-5.215606,-0.018055,L
+-4.64,4,regular,TRUE,-12,TRUE,-0.030116,0.05832,L
+-2.54,5,regular,TRUE,-5,FALSE,0.591376,0.020927,L
+1.3,3,regular,TRUE,28,FALSE,11.334702,0.012984,L
+-2.42,'not seeded',WC,TRUE,?,FALSE,1.585216,-0.041151,L
+1.33,'not seeded',regular,TRUE,?,FALSE,11.739904,-0.026426,W
+-3.35,8,regular,TRUE,?,FALSE,1.546886,0.002047,L
+-1.01,'not seeded',regular,TRUE,?,FALSE,3.605749,-0.043778,L
+-2.34,'not seeded',regular,TRUE,-13,FALSE,-4.698152,-0.020438,L
+-0.6,'not seeded',regular,TRUE,?,FALSE,0.180698,-0.077934,L
+4.25,'not seeded',regular,TRUE,?,FALSE,8.668036,-0.121009,W
+1.73,6,regular,TRUE,?,FALSE,-1.552361,-0.062597,W
+0.14,5,regular,TRUE,-8,FALSE,5.927447,-0.065408,W
+1,'not seeded',WC,TRUE,20,FALSE,-4.939083,-0.094981,W
+-1.08,2,regular,FALSE,?,FALSE,2.151951,0.014695,L
+-4.52,5,regular,TRUE,?,FALSE,5.451061,0.033758,L
+-0.83,1,regular,TRUE,?,FALSE,6.368241,0.086182,W
+1.13,8,regular,TRUE,?,FALSE,-6.537988,-0.076712,L
+-0.8,'not seeded',regular,TRUE,-5,FALSE,1.730322,-0.031192,L
+-0.19,'not seeded',regular,TRUE,?,FALSE,0.240931,-0.012801,W
+-1.29,3,regular,TRUE,?,FALSE,3.627652,0.074879,L
+1.72,5,regular,TRUE,0,FALSE,-3.603012,-0.02777,W
+-1.98,2,regular,TRUE,-20,FALSE,-12.210815,-0.013106,L
+1.53,'not seeded',regular,TRUE,?,FALSE,9.68104,-0.079461,L
+-1.6,4,regular,FALSE,?,TRUE,1.864476,0.014756,W
+-1.95,'not seeded',regular,TRUE,-8,FALSE,1.127995,-0.010357,L
+0.6,'not seeded',WC,FALSE,-3,FALSE,-0.36961,-0.03663,W
+-0.63,'not seeded',regular,TRUE,?,TRUE,5.889117,-0.02777,L
+-2.18,2,regular,TRUE,?,FALSE,1.253936,0.024226,W
+3.47,'not seeded',regular,FALSE,-8,FALSE,2.992471,-0.114533,W
+3.9,'not seeded',Q,TRUE,?,FALSE,-6.762491,-0.146366,W
+1.09,'not seeded',regular,TRUE,8,FALSE,-11.570157,0.02001,W
+2.37,'not seeded',regular,TRUE,0,FALSE,-0.47091,-0.06828,W
+-0.3,'not seeded',regular,FALSE,0,FALSE,5.648186,0.018972,L
+1.65,'not seeded',regular,TRUE,?,FALSE,7.186858,-0.031681,W
+-0.42,'not seeded',Q,TRUE,?,FALSE,-3.444216,-0.043045,W
+-0.65,'not seeded',regular,TRUE,-8,FALSE,-5.03217,-0.051294,L
+-1.78,12,regular,TRUE,?,FALSE,3.214237,0.089848,W
+0.21,'not seeded',regular,TRUE,0,FALSE,1.292266,-0.007301,W
+-2.59,9,regular,TRUE,-13,TRUE,1.1718,0.111539,L
+2.09,'not seeded',regular,TRUE,-16,FALSE,2.135524,-0.102924,W
+0.02,10,regular,FALSE,-3,FALSE,-2.590007,0.089237,L
+3.25,'not seeded',regular,TRUE,10,FALSE,0.290212,-0.054654,W
+-3.36,15,regular,TRUE,?,FALSE,-0.380561,0.072496,L
+-7.71,2,regular,TRUE,5,FALSE,-8.462697,0.444658,L
+-2.52,'not seeded',regular,FALSE,?,FALSE,-4.944559,0.031253,L
+-0.03,'not seeded',regular,TRUE,11,FALSE,3.381246,0.004063,W
+-0.22,'not seeded',regular,TRUE,2,FALSE,-2.212183,-0.023799,L
+1.26,'not seeded',PR,TRUE,?,FALSE,4.944559,-0.156998,L
+-2.4,'not seeded',regular,TRUE,-15,FALSE,5.412731,-0.037546,L
+-0.85,'not seeded',WC,TRUE,?,FALSE,11.233402,-0.02111,W
+0.46,'not seeded',WC,TRUE,?,FALSE,-0.156057,-0.039746,L
+10.64,'not seeded',regular,FALSE,0,FALSE,-4.722793,-0.316164,W
+0.16,'not seeded',regular,FALSE,0,FALSE,0.928131,0.004124,W
+-0.64,'not seeded',regular,TRUE,28,FALSE,13.467488,0.015061,W
+9.47,'not seeded',regular,TRUE,?,FALSE,-9.483915,-0.904867,W
+-0.99,15,regular,FALSE,?,TRUE,-6.565366,0.009501,L
+0.3,'not seeded',WC,TRUE,?,FALSE,-6.537988,-0.073046,W
+1.06,'not seeded',regular,TRUE,?,FALSE,-10.080767,-0.307305,L
+-0.85,'not seeded',PR,TRUE,13,FALSE,4.002738,-0.092537,W
+1.3,'not seeded',regular,TRUE,-13,FALSE,0.665298,-0.081233,L
+-0.38,'not seeded',LL,TRUE,?,FALSE,2.965092,-0.034063,W
+-1.14,'not seeded',Q,TRUE,?,FALSE,-6.38193,-0.030825,W
+3.35,'not seeded',regular,TRUE,0,FALSE,2.600958,-0.200379,W
+1.79,'not seeded',regular,FALSE,0,FALSE,-2.75154,-0.170867,W
+-5.15,8,regular,TRUE,8,FALSE,0.971937,0.130419,L
+-7.14,9,regular,TRUE,-5,FALSE,10.376454,0.118626,L
+10.92,15,regular,TRUE,?,FALSE,-0.898015,-0.843766,W
+-0.89,11,regular,TRUE,8,FALSE,-5.69473,-0.057098,L
+-2.99,2,regular,TRUE,7,FALSE,-2.379192,0.351358,L
+0.75,'not seeded',regular,TRUE,?,FALSE,9.316906,-0.035102,W
+-1.46,'not seeded',regular,TRUE,?,FALSE,-3.488022,-0.001864,W
+-11.43,5,regular,FALSE,-13,FALSE,1.344285,0.278037,L
+0.65,10,regular,TRUE,7,FALSE,3.531828,-0.117893,W
+-0.17,8,regular,TRUE,21,FALSE,-3.460643,-0.010051,L
+-5.81,1,regular,TRUE,-8,FALSE,3.600274,0.765924,L
+1.75,8,regular,TRUE,6,FALSE,1.6564,-0.31036,W
+-13.62,5,regular,FALSE,?,FALSE,2.822724,0.272477,L
+1.32,'not seeded',regular,TRUE,?,FALSE,-5.32512,-0.174717,W
+-4.88,1,regular,TRUE,10,FALSE,2.606434,0.671219,L
+1.05,2,regular,FALSE,5,FALSE,-0.947296,0.10604,L
+-2.72,1,regular,TRUE,-2,FALSE,-0.019165,0.449119,L
+1.31,'not seeded',regular,TRUE,3,FALSE,-5.738535,0.023554,W
+-2.03,12,regular,TRUE,-25,FALSE,-3.564682,0.084044,L
+1.31,16,regular,FALSE,15,FALSE,-4.657084,-0.001191,L
+0.86,'not seeded',regular,TRUE,-5,FALSE,0.720055,-0.065286,W
+1.11,'not seeded',regular,FALSE,10,FALSE,0.279261,0.000458,W
+8.04,'not seeded',WC,TRUE,?,FALSE,-1.760438,-0.154676,W
+1.76,'not seeded',regular,TRUE,?,FALSE,4.821355,-0.078483,W
+10.77,'not seeded',WC,TRUE,?,FALSE,2.362765,-0.113861,W
+0.63,'not seeded',regular,FALSE,?,FALSE,2.35729,-0.050744,W
+5.14,'not seeded',WC,TRUE,?,FALSE,-6.113621,-0.087282,W
+3.65,'not seeded',regular,FALSE,-5,FALSE,-1.327858,-0.101091,L
+1.56,'not seeded',regular,TRUE,3,FALSE,-6.335387,-0.019216,W
+-0.3,'not seeded',regular,TRUE,?,FALSE,5.930185,-0.003941,W
+-1.62,'not seeded',regular,TRUE,-10,FALSE,-3.969884,0.006141,W
+-0.99,'not seeded',Q,TRUE,-18,FALSE,-9.50308,-0.056426,L
+-1.86,'not seeded',regular,TRUE,?,FALSE,-8.887064,0.006202,W
+-0.86,'not seeded',Q,TRUE,-4,FALSE,-9.169062,-0.005041,W
+1.41,16,regular,TRUE,18,FALSE,-2.135524,0.063269,W
+-1.18,12,regular,TRUE,-22,FALSE,1.798768,0.050438,L
+-2.51,15,regular,TRUE,?,FALSE,-6.329911,0.05166,L
+4.16,'not seeded',Q,TRUE,?,FALSE,-6.124572,-0.060764,W
+-0.13,'not seeded',regular,TRUE,16,FALSE,5.267625,0.013534,L
+2.7,'not seeded',regular,TRUE,13,FALSE,-4.112252,-0.303577,W
+-5.01,'not seeded',regular,TRUE,-10,FALSE,-3.945243,0.017078,W
+0.27,'not seeded',Q,TRUE,?,FALSE,5.483915,-0.031681,W
+-5.23,6,regular,TRUE,-15,FALSE,-3.882272,0.14881,L
+-2.69,8,regular,FALSE,8,FALSE,2.332649,0.110745,L
+-6.52,9,regular,TRUE,-8,FALSE,-0.572211,0.145083,L
+-20.99,1,regular,TRUE,3,FALSE,-7.011636,0.960346,L
+-4.24,11,regular,TRUE,-5,FALSE,-2.321697,0.085571,L
+3.36,'not seeded',regular,TRUE,?,FALSE,4.429843,-0.080316,W
+-2.29,3,regular,TRUE,?,FALSE,15.698836,0.383436,L
+-0.22,'not seeded',regular,TRUE,?,FALSE,-4.33128,-0.074512,L
+8.63,'not seeded',Q,TRUE,-7,FALSE,-0.616016,-0.43751,W
+-2.18,15,regular,TRUE,?,FALSE,-1.169062,0.031803,W
+-2.07,'not seeded',regular,FALSE,-2,FALSE,-5.938398,-0.007668,L
+4.33,'not seeded',regular,FALSE,-7,FALSE,2.631075,-0.272783,W
+-2.22,9,regular,TRUE,-13,TRUE,1.1718,0.10604,L
+10.17,'not seeded',regular,FALSE,0,FALSE,-0.607803,-0.961996,W
+2.62,'not seeded',PR,TRUE,2,FALSE,0.996578,-0.37421,L
+-0.93,8,regular,TRUE,33,FALSE,5.221081,0.005835,W
+-1.13,3,regular,TRUE,?,FALSE,12.071184,0.300034,W
+5.71,'not seeded',regular,TRUE,-2,FALSE,0.251882,-0.40201,W
+2.2,'not seeded',regular,FALSE,?,FALSE,-8.898015,-0.253842,W
+-2.94,9,regular,TRUE,?,FALSE,11.895962,0.10604,W
+1.12,11,regular,TRUE,7,FALSE,3.531828,-0.115144,W
+-1.94,1,regular,FALSE,3,FALSE,-0.966461,0.647695,L
+2.77,12,regular,TRUE,-27,FALSE,-3.564682,-0.319525,W
+-1.35,6,regular,TRUE,?,FALSE,3.679671,0.102374,L
+-4.18,1,regular,TRUE,10,FALSE,2.606434,0.732319,L
+-7.15,2,regular,TRUE,?,FALSE,6.778919,0.387407,L
+-1.34,1,regular,TRUE,-2,FALSE,-0.019165,0.534659,W
+-4.42,'not seeded',regular,TRUE,10,FALSE,-5.886379,-0.000336,L
+2.16,'not seeded',regular,FALSE,0,FALSE,2.652977,-0.027281,W
+-1.29,'not seeded',regular,FALSE,7,FALSE,1.232033,-0.022577,W
+1.83,'not seeded',WC,TRUE,?,FALSE,-7.575633,-0.076956,W
+-0.64,7,regular,TRUE,5,FALSE,-7.498973,0.012067,L
+-5.16,'not seeded',regular,TRUE,?,FALSE,4.884326,0.035652,L
+3.51,'not seeded',Q,FALSE,?,FALSE,-5.738535,-0.05661,W
+-0.42,'not seeded',regular,TRUE,-10,FALSE,4.342231,-0.033269,L
+1.4,'not seeded',Q,FALSE,?,FALSE,3.816564,-0.056182,W
+0.79,'not seeded',Q,FALSE,?,FALSE,-8.752909,-0.022027,L
+-1.04,'not seeded',regular,TRUE,?,FALSE,-10.138261,-0.0172,L
+1.3,'not seeded',regular,TRUE,-15,FALSE,-1.806982,-0.007057,W
+-2.43,6,regular,FALSE,-5,FALSE,2.16564,0.014389,W
+0.71,3,regular,TRUE,?,FALSE,6.247775,0.045917,L
+1.05,'not seeded',regular,TRUE,?,FALSE,8.657084,-0.05832,W
+-1.5,'not seeded',regular,FALSE,5,FALSE,-0.010951,0.00498,L
+3.05,'not seeded',regular,FALSE,5,FALSE,-2.806297,-0.336449,W
+-2.47,'not seeded',regular,TRUE,?,TRUE,-1.612594,-0.003819,L
+-0.71,'not seeded',regular,FALSE,?,FALSE,6.154689,-0.012495,L
+-1.62,'not seeded',regular,TRUE,?,FALSE,-0.81588,-0.006141,L
+1.84,'not seeded',regular,FALSE,-13,TRUE,0.856947,-0.06938,L
+-0.47,'not seeded',regular,TRUE,-2,FALSE,-2.924025,0.016711,L
+0.97,'not seeded',regular,TRUE,?,FALSE,-14.349076,-0.029848,W
+-1.39,'not seeded',Q,TRUE,-8,FALSE,-6.140999,-0.017933,W
+-0.39,3,regular,TRUE,8,FALSE,-0.079398,0.104757,L
+1.91,'not seeded',regular,TRUE,?,FALSE,6.30527,-0.111172,W
+3.06,'not seeded',regular,TRUE,?,FALSE,-12.835044,-0.090154,W
+-0.09,'not seeded',regular,TRUE,-2,FALSE,2.765229,-0.026243,W
+1.23,7,regular,TRUE,3,FALSE,1.163587,-0.008218,W
+-0.39,'not seeded',regular,TRUE,-5,FALSE,2.108145,-0.03443,W
+1.04,'not seeded',regular,TRUE,?,FALSE,11.022587,-0.022149,W
+-3.81,'not seeded',regular,TRUE,-5,FALSE,0.788501,-0.008646,L
+-1.22,4,regular,TRUE,10,FALSE,0.243669,0.059787,W
+0.25,3,regular,FALSE,8,FALSE,2.017796,0.075184,L
+-1.85,2,regular,TRUE,-13,TRUE,1.1718,0.092292,L
+4.28,7,regular,TRUE,?,FALSE,9.533196,-0.101091,W
+-0.34,3,regular,TRUE,?,FALSE,2.86653,0.011334,W
+2.56,'not seeded',regular,TRUE,?,FALSE,-6.288843,-0.329301,W
+-0.58,2,regular,TRUE,?,FALSE,12.312115,0.045245,W
+1.8,'not seeded',regular,TRUE,?,FALSE,1.880904,-0.02221,L
+-1.77,'not seeded',regular,TRUE,-11,FALSE,-5.582478,0.00113,W
+0.65,3,regular,TRUE,23,FALSE,-6.491444,-0.012801,L
+5.94,'not seeded',regular,FALSE,?,FALSE,5.180014,-0.117588,W
+5.73,'not seeded',regular,TRUE,13,FALSE,-0.323066,-0.343843,W
+0.76,5,regular,TRUE,?,FALSE,8.057495,0.007974,W
+-2.8,1,regular,TRUE,?,FALSE,3.627652,0.074879,L
+2.18,3,regular,TRUE,15,FALSE,-3.504449,-0.224208,W
+0.49,'not seeded',regular,TRUE,12,FALSE,-2.55989,-0.00333,L
+12.91,'not seeded',regular,TRUE,?,FALSE,2.570842,-0.100907,W
+3.95,'not seeded',regular,TRUE,?,FALSE,-0.511978,-0.091192,W
+6.38,'not seeded',regular,TRUE,-7,FALSE,9.686516,-0.045062,W
+-0.29,'not seeded',regular,FALSE,5,FALSE,4.167009,-0.017139,L
+1.56,'not seeded',regular,TRUE,?,TRUE,-5.782341,-0.051477,L
+-1.09,'not seeded',regular,TRUE,21,FALSE,0.320329,-0.032719,L
+4.11,'not seeded',regular,FALSE,3,FALSE,-1.533196,-0.132863,W
+-0.7,'not seeded',regular,TRUE,?,FALSE,1.544148,-0.011823,W
+-8.51,10,regular,TRUE,?,FALSE,1.341547,0.133046,W
+-0.89,'not seeded',regular,TRUE,-5,FALSE,-5.259411,-0.040296,W
+3.82,'not seeded',regular,TRUE,5,FALSE,5.470226,-0.066874,W
+0.29,27,regular,TRUE,33,FALSE,1.744011,0.025265,L
+-0.43,30,regular,TRUE,0,FALSE,0.251882,0.014389,L
+8.06,'not seeded',regular,TRUE,13,FALSE,-0.323066,-0.352824,W
+-0.47,'not seeded',regular,FALSE,?,TRUE,2.250513,-0.009562,L
+2.05,33,regular,FALSE,0,FALSE,-6.108145,0.003697,W
+-3.79,'not seeded',regular,TRUE,0,FALSE,-2.724162,-0.003819,L
+-0.34,'not seeded',regular,FALSE,0,FALSE,0.50924,-0.024471,W
+15.26,'not seeded',regular,TRUE,5,FALSE,4.224504,-0.257997,W
+-0.68,'not seeded',regular,TRUE,0,FALSE,-2.524298,-0.016711,L
+0.93,'not seeded',regular,TRUE,0,FALSE,-2.132786,-0.007363,W
+0.68,'not seeded',regular,TRUE,?,FALSE,2.874743,-0.025204,W
+-0.72,'not seeded',regular,TRUE,?,FALSE,-1.117043,-0.038707,W
+-28.69,1,regular,TRUE,8,FALSE,-3.770021,0.933217,L
+9.52,'not seeded',regular,TRUE,10,FALSE,-8.1013,-0.140623,W
+-0.16,'not seeded',regular,TRUE,0,FALSE,-1.136208,-0.040785,L
+17.35,'not seeded',regular,TRUE,20,FALSE,-3.195072,-0.160175,W
+9.47,'not seeded',regular,TRUE,?,FALSE,3.759069,-0.119115,W
+0.22,'not seeded',regular,TRUE,?,FALSE,0.438056,-0.004552,W
+-12.24,14,regular,TRUE,?,FALSE,-5.338809,0.101763,L
+-1.61,'not seeded',regular,TRUE,-12,FALSE,3.244353,-0.01335,L
+-3.56,15,regular,TRUE,23,FALSE,4.134155,0.054654,L
+-15.3,2,regular,TRUE,5,FALSE,-8.462697,0.470565,L
+2.75,'not seeded',regular,FALSE,?,FALSE,-7.679671,-0.079828,W
+-5.83,25,regular,TRUE,0,FALSE,0.383299,0.050927,L
+0.69,'not seeded',regular,TRUE,?,FALSE,-3.140315,-0.049033,W
+-1.61,'not seeded',regular,FALSE,-10,FALSE,-2.108145,-0.0139,L
+0.76,'not seeded',regular,FALSE,?,FALSE,-0.766598,-0.027159,L
+0.67,'not seeded',regular,TRUE,-15,FALSE,-8.413415,-0.022332,W
+-2.22,'not seeded',regular,TRUE,?,FALSE,0.952772,-0.005957,L
+1.27,'not seeded',regular,TRUE,5,FALSE,-1.848049,-0.052577,L
+22.43,'not seeded',regular,FALSE,?,FALSE,-1.377139,-0.327773,W
+2.91,'not seeded',regular,TRUE,5,FALSE,-5.295003,-0.038707,W
+-1.21,32,regular,TRUE,-12,FALSE,-1.114305,0.005285,W
+4.26,'not seeded',regular,FALSE,?,FALSE,9.311431,-0.020621,W
+0.74,'not seeded',regular,TRUE,3,FALSE,-5.87269,-0.033391,W
+-1.09,'not seeded',regular,FALSE,?,FALSE,0.985626,0.002352,L
+4.52,'not seeded',regular,TRUE,?,FALSE,-5.021218,-0.186448,W
+-0.59,'not seeded',regular,TRUE,-5,FALSE,-0.29295,0.015122,L
+-7.21,7,regular,TRUE,3,FALSE,4.76386,0.099013,L
+-0.06,'not seeded',regular,TRUE,0,FALSE,-4.52293,-0.040846,L
+-0.94,'not seeded',regular,TRUE,-12,FALSE,7.099247,-0.021721,L
+-1.44,18,regular,TRUE,18,FALSE,-6.001369,0.057282,W
+2.42,'not seeded',regular,TRUE,3,FALSE,-2.442163,-0.007546,W
+-0.53,'not seeded',regular,TRUE,?,FALSE,-2.75154,-0.004124,L
+8.46,'not seeded',regular,TRUE,?,FALSE,-7.085558,-0.148627,W
+4.18,'not seeded',regular,TRUE,?,FALSE,4.427105,-0.067363,L
+0.77,'not seeded',regular,TRUE,?,FALSE,-9.702943,-0.094003,W
+1.59,'not seeded',regular,FALSE,?,FALSE,-5.385352,-0.080683,W
+-12.25,17,regular,TRUE,?,FALSE,-7.690623,0.066997,L
+3.05,'not seeded',regular,TRUE,11,FALSE,7.794661,-0.076956,W
+-1.16,27,regular,TRUE,?,FALSE,15.140315,0.024287,L
+-5.22,30,regular,TRUE,?,FALSE,7.652293,0.033514,L
+13.7,'not seeded',regular,TRUE,?,FALSE,-7.835729,-0.365106,W
+2.21,'not seeded',regular,TRUE,?,FALSE,6.091718,-0.039074,W
+3.22,'not seeded',regular,FALSE,-5,FALSE,-1.13347,-0.025754,W
+-2.62,'not seeded',regular,FALSE,?,FALSE,2.039699,0.015611,L
+7.86,'not seeded',regular,TRUE,7,FALSE,-1.149897,-0.224941,W
+1.35,'not seeded',regular,TRUE,-8,FALSE,3.958932,-0.073901,L
+7.44,'not seeded',regular,FALSE,-13,FALSE,2.494182,-0.136529,W
+21.99,'not seeded',regular,TRUE,-10,FALSE,3.189596,-0.98332,W
+-1.93,11,regular,TRUE,-10,FALSE,1.990418,0.112761,L
+4.74,'not seeded',regular,TRUE,20,FALSE,7.841205,-0.145572,W
+3.59,'not seeded',regular,TRUE,?,FALSE,10.250513,-0.112394,W
+-3.63,14,regular,TRUE,?,FALSE,-6.253251,0.059237,L
+1.52,'not seeded',regular,FALSE,-15,FALSE,1.13347,-0.07054,W
+-4.36,25,regular,TRUE,?,FALSE,10.817248,0.050622,L
+1.88,'not seeded',regular,TRUE,?,FALSE,16.925394,-0.043167,W
+-3.01,'not seeded',regular,TRUE,?,FALSE,-4.065708,-0.058931,L
+-1.38,'not seeded',regular,FALSE,?,FALSE,7.88501,-0.01164,L
+21.37,'not seeded',regular,TRUE,?,FALSE,-3.737166,-0.327468,W
+2.61,'not seeded',regular,TRUE,?,FALSE,1.982204,-0.030825,L
+4.83,'not seeded',regular,TRUE,-5,FALSE,-0.167009,-0.15657,W
+-8.63,7,regular,TRUE,11,FALSE,-1.659138,0.111478,L
+0.43,'not seeded',regular,TRUE,?,FALSE,0.580424,-0.051844,L
+0.32,9,regular,TRUE,?,FALSE,8.856947,0.036385,L
+1.03,'not seeded',regular,TRUE,-18,FALSE,-0.073922,-0.093697,W
+7.99,27,regular,TRUE,18,FALSE,8.208077,-0.453946,W
+-2.04,16,regular,TRUE,-10,FALSE,1.122519,0.008279,W
+4.1,30,regular,TRUE,5,FALSE,-1.878166,-0.325329,W
+1.06,'not seeded',regular,FALSE,3,FALSE,4.687201,-0.05661,L
+-4.67,5,regular,FALSE,-10,FALSE,-6.121834,0.204106,L
+12.67,'not seeded',regular,TRUE,-16,FALSE,1.267625,-0.160175,W
+21.02,'not seeded',regular,TRUE,-7,FALSE,-2.157426,-0.956802,W
+-3.78,11,regular,FALSE,-13,TRUE,-0.531143,0.055937,L
+1.22,'not seeded',regular,TRUE,20,FALSE,5.295003,-0.118871,W
+-2.98,13,regular,TRUE,?,FALSE,3.627652,0.066936,L
+-1.64,14,regular,TRUE,?,FALSE,8.5859,0.049216,L
+-0.62,7,regular,TRUE,16,FALSE,0.290212,0.068769,L
+1.57,9,regular,TRUE,7,FALSE,3.531828,-0.123392,L
+7.14,15,regular,TRUE,16,FALSE,2.05065,-0.412092,W
+5.56,22,regular,TRUE,10,FALSE,-0.873374,-0.308832,W
+3.36,'not seeded',regular,FALSE,-8,FALSE,2.94319,-0.134818,L
+16.45,14,regular,TRUE,?,FALSE,-0.898015,-0.880426,W
+-2.15,12,regular,TRUE,-27,FALSE,-2.269678,0.097425,L
+6.15,'not seeded',regular,TRUE,?,FALSE,7.394935,-0.113677,W
+2.08,9,regular,TRUE,-5,FALSE,0.906229,-0.365655,W
+5.44,'not seeded',regular,FALSE,5,FALSE,-2.806297,-0.350503,W
+0.46,7,regular,TRUE,21,FALSE,-3.460643,-0.010051,L
+7.98,7,regular,TRUE,8,FALSE,1.675565,-0.829408,W
+0.77,12,regular,TRUE,?,FALSE,2.740589,-0.008218,W
+-6.53,1,regular,TRUE,?,FALSE,6.286105,0.821526,L
+-0.32,2,regular,TRUE,7,FALSE,-2.130048,0.112761,L
+-2.16,1,regular,TRUE,-2,FALSE,-0.019165,0.454618,L
+-0.21,'not seeded',regular,TRUE,?,FALSE,-0.112252,-0.029359,L
+-0.34,'not seeded',WC,FALSE,8,FALSE,3.55373,-0.033941,L
+-0.16,'not seeded',WC,FALSE,?,FALSE,-2.349076,-0.031925,L
+1.43,'not seeded',regular,TRUE,-20,FALSE,6.308008,-0.054349,W
+2.56,'not seeded',Q,TRUE,-5,FALSE,-5.782341,-0.042556,W
+-2.08,'not seeded',regular,TRUE,?,FALSE,6.962355,0.023676,L
+0.44,'not seeded',regular,TRUE,-8,FALSE,2.179329,-0.011701,L
+-1.76,'not seeded',regular,TRUE,3,FALSE,3.373032,-0.005102,W
+1.96,'not seeded',regular,TRUE,?,FALSE,-2.286105,-0.004369,W
+1.29,'not seeded',regular,TRUE,3,FALSE,-7.778234,0.002902,W
+0.04,'not seeded',WC,TRUE,10,FALSE,2.642026,-0.072984,L
+1.25,'not seeded',Q,TRUE,-3,FALSE,2.351814,-0.104818,L
+-1.24,'not seeded',Q,FALSE,?,FALSE,-10.792608,-0.043167,L
+2.38,'not seeded',regular,TRUE,?,FALSE,-7.419576,-0.062781,W
+1.24,'not seeded',regular,FALSE,-3,FALSE,-3.909651,-0.035102,W
+0.25,'not seeded',regular,TRUE,-5,FALSE,7.052704,-0.020133,L
+-0.18,'not seeded',regular,FALSE,-7,FALSE,-4.353183,-0.031131,L
+-2.23,'not seeded',regular,TRUE,0,FALSE,-2.132786,-0.006568,L
+-0.55,'not seeded',regular,TRUE,?,FALSE,4.695414,-0.050561,L
+1.15,'not seeded',Q,TRUE,?,FALSE,-8.591376,-0.038646,W
+-1.66,5,regular,FALSE,5,FALSE,0.761123,0.039624,W
+-2.55,'not seeded',regular,TRUE,?,FALSE,4.854209,0.008279,W
+-2.94,4,regular,TRUE,?,TRUE,8.106776,0.034858,W
+1.31,'not seeded',WC,FALSE,3,TRUE,3.26078,0.000153,W
+1.71,'not seeded',regular,TRUE,-12,FALSE,3.26078,-0.06443,W
+-3.75,7,regular,TRUE,-2,FALSE,8.837782,0.019399,L
+3.13,'not seeded',regular,TRUE,-18,FALSE,-0.613279,-0.052394,W
+-2.23,8,regular,TRUE,5,TRUE,-0.024641,-0.009746,L
+-1.2,2,regular,TRUE,13,FALSE,-9.837098,0.11496,W
+-2.35,1,regular,TRUE,0,FALSE,3.00616,0.094064,L
+-1.7,4,regular,TRUE,?,FALSE,5.32512,0.056854,L
+-3.75,'not seeded',WC,TRUE,15,FALSE,0.722793,-0.049033,L
+-1.6,3,regular,TRUE,18,FALSE,8.468172,0.035163,L
+-8.31,1,regular,TRUE,?,FALSE,16.221766,0.342926,L
+1.01,'not seeded',regular,FALSE,-5,FALSE,-0.071184,-0.021966,W
+-1.8,'not seeded',regular,FALSE,?,FALSE,7.619439,0.023432,L
+1.31,'not seeded',regular,TRUE,?,FALSE,5.875428,-0.174717,W
+0.56,'not seeded',Q,TRUE,10,FALSE,-3.534565,-0.025387,W
+-1.32,'not seeded',WC,TRUE,15,FALSE,-3.739904,-0.11606,L
+-1.07,7,regular,TRUE,-7,FALSE,-4.884326,0.044389,L
+-1.04,3,regular,FALSE,25,FALSE,9.333333,0.013778,L
+-4.82,1,regular,TRUE,-5,FALSE,2.157426,0.375859,L
+3.56,'not seeded',WC,TRUE,?,TRUE,-10.321697,-0.069929,W
+-0.27,1,regular,FALSE,-18,FALSE,1.100616,0.079461,W
+-0.05,8,regular,TRUE,-3,FALSE,10.748802,-0.059176,L
+-1.27,3,regular,TRUE,?,FALSE,-11.192334,0.129747,L
+-0.22,'not seeded',WC,TRUE,20,FALSE,-4.939083,-0.091315,W
+-0.38,3,regular,FALSE,15,FALSE,4.19165,0.006141,W
+-0.52,8,regular,TRUE,-8,FALSE,5.708419,-0.029237,L
+-2.19,1,regular,TRUE,?,FALSE,12.071184,0.200134,W
+-0.22,8,regular,FALSE,-3,FALSE,1.295003,-0.020071,L
+-0.75,7,regular,TRUE,?,FALSE,9.883641,-0.117893,W
+3.17,'not seeded',regular,TRUE,?,FALSE,-5.938398,-0.126753,W
+-4.64,4,regular,TRUE,-3,FALSE,3.518138,0.092903,W
+-1.95,6,regular,TRUE,-15,FALSE,1.889117,0.076712,W
+-8.09,2,regular,TRUE,?,FALSE,4.15332,0.165246,L
+-1.05,'not seeded',WC,TRUE,?,FALSE,-9.10883,-0.002291,W
+-0.31,5,regular,FALSE,10,FALSE,-7.022587,0.042801,L
+-0.38,'not seeded',Q,TRUE,10,FALSE,6.428474,-0.008524,W
+-1.41,'not seeded',regular,TRUE,23,FALSE,11.983573,0.006874,L
+0.38,7,regular,TRUE,?,FALSE,11.189596,0.009807,W
+-2.87,'not seeded',regular,FALSE,3,FALSE,3.756331,0.028198,L
+1.99,'not seeded',regular,TRUE,-13,FALSE,0.251882,-0.138362,L
+-0.6,'not seeded',regular,FALSE,?,FALSE,6.406571,0.008707,W
+-0.72,'not seeded',Q,FALSE,10,FALSE,-0.91718,-0.001925,W
+-2.67,'not seeded',WC,FALSE,8,FALSE,3.107461,-0.046833,L
+-0.6,'not seeded',PR,TRUE,-8,FALSE,-3.411362,-0.125531,W
+4.21,'not seeded',regular,TRUE,12,FALSE,-2.488706,-0.052394,W
+-10.94,1,regular,TRUE,?,FALSE,8.711841,0.354963,L
+-2.62,'not seeded',regular,TRUE,?,FALSE,4.574949,0.015245,L
+-0.95,'not seeded',regular,TRUE,-13,FALSE,-0.52293,0.005652,L
+3.03,'not seeded',WC,TRUE,?,FALSE,-10.031485,-0.088809,L
+-0.31,'not seeded',regular,TRUE,?,FALSE,-4.33128,-0.084594,W
+-1.8,'not seeded',regular,TRUE,5,FALSE,-3.436003,-0.036569,L
+1.01,'not seeded',regular,TRUE,30,FALSE,4.629706,-0.025937,W
+-11.29,1,regular,TRUE,0,FALSE,2.450376,0.347264,L
+-0.59,7,regular,FALSE,13,FALSE,-1.965777,0.047689,W
+-5.15,3,regular,FALSE,?,FALSE,2.53525,0.118077,L
+-2.07,5,regular,TRUE,10,FALSE,1.237509,0.074573,L
+-2.53,6,regular,FALSE,?,FALSE,1.273101,0.07109,L
+0.95,'not seeded',PR,TRUE,0,FALSE,0.380561,-0.06498,L
+11.69,'not seeded',WC,TRUE,?,TRUE,-7.652293,-0.520178,W
+0.06,'not seeded',regular,FALSE,0,FALSE,9.453799,-0.05221,W
+-4.28,1,regular,TRUE,22,FALSE,9.330595,0.228241,L
+-0.09,'not seeded',regular,TRUE,?,FALSE,11.841205,-0.022271,W
+2.03,6,regular,TRUE,?,FALSE,2.702259,-0.066569,W
+3.94,5,regular,TRUE,8,FALSE,-1.374401,-0.402316,W
+-3.22,1,regular,TRUE,?,FALSE,15.698836,0.326307,W
+-2.57,3,regular,TRUE,3,FALSE,1.817933,0.065102,L
+1.24,'not seeded',PR,TRUE,?,TRUE,13.54141,-0.068341,L
+-2.02,1,regular,TRUE,-6,FALSE,3.619439,0.346775,L
+1.4,'not seeded',regular,FALSE,?,FALSE,-9.330595,-0.022393,W
+3.23,'not seeded',regular,TRUE,5,FALSE,2.275154,-0.020744,L
+1.82,'not seeded',WC,FALSE,?,TRUE,-3.619439,-0.041457,W
+-0.51,'not seeded',regular,TRUE,?,FALSE,12.843258,-0.021905,L
+-0.95,'not seeded',Q,TRUE,?,FALSE,-3.882272,-0.051538,L
+-0.26,'not seeded',regular,TRUE,-5,FALSE,3.055441,0.014695,L
+-3.32,'not seeded',regular,TRUE,?,FALSE,-8.202601,-0.011029,L
+1.3,'not seeded',regular,FALSE,5,FALSE,1.456537,-0.01555,W
+-0.82,'not seeded',regular,TRUE,?,FALSE,-9.459274,-0.015672,L
+1.12,'not seeded',Q,TRUE,15,FALSE,5.744011,-0.053738,W
+1.49,'not seeded',regular,TRUE,5,TRUE,-2.910335,-0.027281,W
+2.59,'not seeded',regular,TRUE,-20,FALSE,3.624914,-0.019094,L
+1.43,'not seeded',WC,TRUE,-2,FALSE,-9.623546,-0.046895,W
+-2.52,'not seeded',regular,FALSE,?,FALSE,8.91718,-0.037913,L
+-2.11,1,regular,TRUE,20,FALSE,-1.371663,0.02942,L
+1.03,'not seeded',Q,TRUE,2,FALSE,3.247091,-0.059481,L
+0.34,4,regular,TRUE,?,FALSE,6.168378,0.0139,L
+3.7,'not seeded',Q,TRUE,?,TRUE,-8.741958,-0.078056,W
+-1.29,6,regular,TRUE,5,FALSE,-0.528405,0.006752,L
+-3.98,9,regular,TRUE,-2,FALSE,4.892539,0.009196,L
+-1.58,8,regular,TRUE,?,FALSE,10.171116,-0.00058,L
+1.65,'not seeded',regular,TRUE,-21,FALSE,-1.908282,-0.034797,W
+4.03,'not seeded',regular,FALSE,-15,FALSE,3.285421,-0.028687,W
+5.95,12,regular,FALSE,0,FALSE,6.537988,-0.013106,W
+2.41,'not seeded',regular,TRUE,-5,FALSE,0.087611,-0.019277,W
+0,'not seeded',regular,TRUE,?,FALSE,3.986311,-0.048789,L
+2.58,10,regular,TRUE,?,FALSE,-9.045859,-0.004124,W
+3.37,'not seeded',regular,TRUE,-16,FALSE,-5.700205,-0.023554,L
+-0.53,16,regular,TRUE,0,FALSE,-0.079398,-0.000764,W
+-0.58,1,regular,FALSE,15,FALSE,-2.505133,0.018666,L
+-0.82,2,regular,TRUE,5,FALSE,4.388775,0.033452,L
+2.78,'not seeded',Q,TRUE,5,FALSE,4.11499,-0.083494,W
+-0.88,6,regular,TRUE,-5,FALSE,0.495551,-0.004552,L
+-0.22,9,regular,TRUE,-15,FALSE,2.30527,-0.019827,L
+-1.29,8,regular,FALSE,10,FALSE,-0.870637,0.00168,L
+-0.38,'not seeded',regular,FALSE,-7,FALSE,-4.353183,-0.015856,W
+-0.5,'not seeded',regular,TRUE,3,FALSE,3.800137,-0.027648,W
+-2.16,9,regular,TRUE,3,FALSE,0.542094,-0.036324,W
+0.38,4,regular,FALSE,-13,FALSE,-5.500342,-0.003635,W
+2,'not seeded',regular,TRUE,-15,FALSE,-1.117043,-0.023738,W
+2.12,2,regular,FALSE,-13,FALSE,-2.65024,0.007974,L
+-1.13,1,regular,TRUE,15,FALSE,3.603012,0.003086,W
+-0.5,6,regular,TRUE,-2,FALSE,-5.839836,0.000947,L
+1.1,2,regular,TRUE,-8,FALSE,3.978097,0.001253,W
+-25.01,1,regular,TRUE,-2,FALSE,-0.279261,1,L
+-2.69,20,regular,TRUE,15,FALSE,0.306639,0.04274,W
+-4.25,'not seeded',regular,TRUE,2,FALSE,-5.883641,-0.043595,L
+-3.63,13,regular,TRUE,0,FALSE,3.00616,0.094675,L
+0.13,'not seeded',regular,TRUE,0,FALSE,-1.483915,0.000397,W
+-3.04,16,regular,TRUE,3,FALSE,-0.514716,0.082027,L
+0.95,'not seeded',regular,TRUE,5,FALSE,4.068446,-0.053677,W
+3.93,'not seeded',regular,TRUE,-3,FALSE,5.927447,-0.051049,W
+-19.57,3,regular,FALSE,?,FALSE,8.772074,0.319647,L
+1.82,'not seeded',regular,TRUE,?,TRUE,-17.711157,-0.037241,W
+-4,30,regular,TRUE,-5,FALSE,1.500342,0.014389,L
+0.79,'not seeded',regular,TRUE,-5,TRUE,-0.449008,-0.073901,L
+-2.2,'not seeded',regular,TRUE,?,FALSE,2.176591,0.020682,L
+-2.96,28,regular,TRUE,2,FALSE,-2.20397,0.003697,L
+-0.12,29,regular,TRUE,-5,FALSE,5.141684,0.016344,W
+1.97,'not seeded',regular,TRUE,-2,FALSE,0.717317,-0.022882,W
+7.69,'not seeded',regular,TRUE,-7,FALSE,-7.942505,-0.060703,W
+0.71,'not seeded',regular,FALSE,?,FALSE,-6.527036,-0.024226,W
+7.55,'not seeded',regular,TRUE,?,FALSE,2.195756,-0.240216,W
+18.37,'not seeded',regular,TRUE,?,FALSE,-0.539357,-0.15272,W
+4.42,'not seeded',regular,TRUE,?,FALSE,-7.419576,-0.072312,L
+2.49,'not seeded',regular,TRUE,-8,FALSE,0.243669,-0.023493,L
+-0.25,'not seeded',regular,TRUE,?,FALSE,-0.07666,-0.017566,L
+2.81,'not seeded',regular,FALSE,?,FALSE,-9.722108,-0.024654,W
+-3.91,'not seeded',regular,TRUE,?,FALSE,5.36345,-0.024776,L
+6.83,'not seeded',regular,TRUE,-4,FALSE,-3.08282,-0.141111,W
+8.08,'not seeded',regular,FALSE,?,FALSE,-8.70089,-0.014023,W
+8.38,'not seeded',regular,TRUE,?,FALSE,-4.621492,-0.139706,W
+-5.99,14,regular,TRUE,?,FALSE,6.015058,0.074451,L
+-4.72,'not seeded',regular,TRUE,13,FALSE,-8.353183,-0.040112,L
+-3.98,15,regular,TRUE,?,FALSE,-16.413415,0.065652,L
+25.08,'not seeded',regular,FALSE,?,TRUE,-6.642026,-0.547796,W
+-3.26,22,regular,FALSE,-5,FALSE,2.491444,0.037424,L
+-1.53,26,regular,TRUE,3,FALSE,-1.631759,0.063697,L
+-1.39,31,regular,TRUE,?,FALSE,-6.297057,0.055937,L
+-1.97,'not seeded',regular,FALSE,5,FALSE,-2.431211,-0.029603,W
+7.01,'not seeded',regular,FALSE,-5,FALSE,-4.553046,-0.055021,W
+6.4,'not seeded',regular,TRUE,?,FALSE,-12.5859,-0.276877,W
+1.45,'not seeded',regular,FALSE,7,FALSE,-1.54141,-0.012128,W
+-5.87,'not seeded',regular,TRUE,8,FALSE,-8.54757,-0.000764,L
+4.1,'not seeded',regular,TRUE,3,FALSE,-2.201232,-0.041701,W
+-5.11,'not seeded',regular,TRUE,16,FALSE,5.557837,-0.017872,L
+3.1,'not seeded',regular,TRUE,?,FALSE,-8.832307,-0.021966,W
+-22.3,1,regular,FALSE,5,FALSE,1.106092,0.965112,L
+-2.5,'not seeded',regular,TRUE,?,FALSE,1.034908,-0.023065,L
+-1.32,19,regular,FALSE,5,FALSE,-8.933607,0.035774,L
+4.23,'not seeded',regular,TRUE,?,FALSE,15.268994,-0.049766,W
+0.35,'not seeded',regular,FALSE,?,FALSE,5.894593,-0.032475,W
+1.9,'not seeded',regular,TRUE,?,FALSE,9.913758,-0.16824,W
+-6.29,10,regular,TRUE,13,FALSE,-0.706365,0.119237,L
+-5.71,11,regular,TRUE,-25,FALSE,-7.025325,0.135368,L
+1.49,'not seeded',regular,TRUE,-5,FALSE,1.045859,0.008462,W
+-3.19,23,regular,TRUE,23,FALSE,8.678987,0.030214,W
+-3.31,9,regular,TRUE,5,FALSE,-2.726899,0.109095,L
+1.62,'not seeded',regular,TRUE,-23,FALSE,-0.142368,-0.076039,W
+6.29,'not seeded',regular,TRUE,?,FALSE,2.94319,-0.09107,W
+16.72,'not seeded',regular,TRUE,-10,FALSE,3.750856,-0.518101,W
+3.35,'not seeded',regular,TRUE,5,FALSE,5.470226,-0.065652,W
+0.85,'not seeded',regular,TRUE,0,FALSE,2.863792,-0.029603,W
+-0.56,'not seeded',regular,TRUE,?,FALSE,3.353867,-0.077872,W
+1.22,'not seeded',regular,TRUE,?,FALSE,-4.605065,-0.070846,W
+1.89,'not seeded',regular,FALSE,12,FALSE,-3.367556,-0.020744,W
+2.87,'not seeded',regular,FALSE,-5,FALSE,-1.932923,-0.031436,L
+0.12,'not seeded',regular,TRUE,5,FALSE,-6.38193,-0.051599,L
+3.49,'not seeded',regular,FALSE,-10,FALSE,-0.229979,-0.034186,W
+0.71,'not seeded',regular,FALSE,-8,FALSE,-7.791923,-0.021477,L
+-0.57,13,regular,TRUE,-15,FALSE,-0.194387,0.086243,W
+-4.96,8,regular,FALSE,?,FALSE,-0.150582,0.129563,W
+0.45,'not seeded',regular,TRUE,-13,FALSE,-0.1013,-0.067241,L
+0.08,'not seeded',regular,FALSE,5,FALSE,2.190281,-0.02331,W
+-5.46,6,regular,TRUE,6,FALSE,-6.847365,0.118871,L
+-5.76,'not seeded',regular,FALSE,-5,FALSE,2.839151,-0.012678,L
+2.4,'not seeded',regular,TRUE,?,FALSE,-1.174538,-0.018666,W
+-1.75,30,regular,TRUE,5,FALSE,1.538672,0.017872,W
+4.38,'not seeded',regular,TRUE,-3,FALSE,1.051335,-0.145388,W
+1.19,'not seeded',regular,TRUE,15,FALSE,-3.49076,-0.304861,L
+6.73,'not seeded',regular,TRUE,?,FALSE,10.38193,-0.088993,W
+2.61,'not seeded',regular,FALSE,-10,FALSE,-5.672827,-0.044878,W
+13.79,'not seeded',regular,TRUE,-10,FALSE,-8.788501,-0.369749,W
+-0.38,32,regular,FALSE,?,FALSE,-4.588638,0.017078,L
+6.41,'not seeded',regular,TRUE,-18,FALSE,4.25462,-0.161763,W
+-3.87,11,regular,TRUE,-25,FALSE,-4.249144,0.120643,L
+-5.83,9,regular,TRUE,13,FALSE,-0.903491,0.117282,L
+-0.2,14,regular,TRUE,?,FALSE,4.520192,0.007057,W
+17.11,'not seeded',regular,TRUE,-7,FALSE,-2.083504,-0.514435,W
+3.07,'not seeded',regular,TRUE,?,FALSE,14.819986,-0.055388,W
+-0.46,'not seeded',regular,TRUE,0,FALSE,-1.390828,-0.031131,W
+-19.77,1,regular,TRUE,-10,FALSE,0.377823,0.953197,W
+1.95,'not seeded',regular,TRUE,?,TRUE,-9.152635,-0.030703,W
+3.46,'not seeded',regular,TRUE,7,FALSE,-1.149897,-0.20875,W
+-4.19,6,regular,TRUE,11,FALSE,1.744011,0.090765,L
+-5.2,7,regular,FALSE,-3,FALSE,1.582478,0.089543,L
+0.4,18,regular,TRUE,18,FALSE,-0.024641,-0.057709,W
+-1.88,15,regular,FALSE,?,FALSE,-13.598905,-0.003024,L
+-3.6,'not seeded',regular,TRUE,?,FALSE,5.418207,-0.077323,W
+1.44,31,regular,FALSE,?,FALSE,4.279261,0.013473,W
+-1.44,10,regular,TRUE,?,FALSE,11.589322,0.07885,L
+4.11,15,regular,TRUE,?,FALSE,-7.950719,-0.448141,W
+-4.48,3,regular,TRUE,-3,FALSE,8.377823,0.291174,L
+1.92,32,regular,TRUE,?,FALSE,-1.341547,-0.044206,L
+-0.61,'not seeded',regular,TRUE,-8,FALSE,5.708419,-0.026304,W
+3.6,11,regular,TRUE,-33,FALSE,0.054757,-0.040907,W
+-3.11,10,regular,FALSE,?,TRUE,7.811088,0.115816,L
+-5.84,2,regular,TRUE,2,FALSE,-2.075291,0.36144,L
+2.41,9,regular,TRUE,13,FALSE,-7.140315,-0.244677,W
+2.34,28,regular,TRUE,2,FALSE,3.22245,-0.145083,W
+-2.83,10,regular,TRUE,?,FALSE,8.435318,0.083372,L
+5.43,10,regular,TRUE,6,FALSE,1.6564,-0.381236,W
+-0.96,3,regular,TRUE,-11,FALSE,9.385352,0.181804,W
+2.71,2,regular,TRUE,-6,FALSE,3.619439,0.333944,L
+0.07,'not seeded',Q,TRUE,?,FALSE,-6.773443,-0.011701,L
+-2.51,5,regular,TRUE,13,FALSE,-3.56742,0.032841,W
+0.72,'not seeded',regular,TRUE,?,FALSE,3.225188,-0.00724,W
+-2.07,3,regular,TRUE,-10,FALSE,-2.2423,0.035102,L
+1.66,'not seeded',regular,FALSE,?,TRUE,-7.214237,-0.041518,W
+0.44,'not seeded',regular,TRUE,10,FALSE,-2.581793,-0.027465,W
+-0.99,'not seeded',regular,FALSE,?,FALSE,8.498289,-0.004246,L
+7.4,'not seeded',WC,TRUE,?,TRUE,-11.077344,-0.056915,W
+0.72,8,regular,TRUE,?,TRUE,6.034223,-0.010173,L
+-1.64,'not seeded',regular,FALSE,?,FALSE,-1.916496,0.002475,L
+2.12,'not seeded',regular,FALSE,?,FALSE,12.72553,-0.022149,W
+0.9,'not seeded',regular,FALSE,?,FALSE,-7.753593,-0.029542,L
+0.05,'not seeded',regular,TRUE,?,FALSE,15.370294,-0.010234,L
+-0.81,'not seeded',regular,TRUE,?,FALSE,-3.671458,-0.000336,L
+0.5,'not seeded',regular,TRUE,2,FALSE,5.404517,0.000153,L
+1.35,'not seeded',regular,TRUE,?,FALSE,-9.722108,-0.042495,L
+1.31,'not seeded',regular,TRUE,-11,FALSE,3.750856,-0.092048,L
+-1.64,'not seeded',regular,TRUE,?,FALSE,16.629706,0.001253,W
+0.68,'not seeded',regular,FALSE,?,TRUE,4.375086,-0.037607,L
+1.42,'not seeded',Q,TRUE,?,FALSE,-5.798768,-0.041823,L
+3.3,'not seeded',regular,TRUE,5,FALSE,0.698152,-0.07439,W
+1.14,'not seeded',regular,FALSE,?,FALSE,2.097194,-0.030581,L
+-0.32,'not seeded',Q,TRUE,2,FALSE,7.611225,-0.025998,L
+-2.39,7,regular,FALSE,0,FALSE,-1.897331,0.00889,L
+3.32,'not seeded',WC,FALSE,0,FALSE,-3.561944,-0.054166,W
+2.3,'not seeded',regular,FALSE,15,FALSE,-3.983573,-0.047628,W
+3.56,'not seeded',Q,FALSE,?,FALSE,-8.375086,-0.046956,W
+4.36,'not seeded',regular,TRUE,?,FALSE,7.386721,-0.062109,L
+-0.92,'not seeded',regular,TRUE,3,FALSE,-6.992471,-0.023493,W
+0.75,'not seeded',regular,FALSE,?,FALSE,8.232717,-0.010234,L
+-0.84,'not seeded',regular,TRUE,?,TRUE,8.654346,-0.014878,W
+7.71,'not seeded',regular,TRUE,?,FALSE,-8.835044,-0.090826,W
+0.74,'not seeded',regular,FALSE,?,FALSE,2.365503,-0.045184,L
+-4.94,3,regular,FALSE,?,FALSE,8.410678,0.04885,L
+-4.78,1,regular,TRUE,?,FALSE,-1.264887,0.040601,L
+2.82,'not seeded',regular,FALSE,?,TRUE,-5.180014,-0.055204,W
+2.24,'not seeded',Q,TRUE,-23,FALSE,-5.577002,-0.07384,W
+2.72,'not seeded',regular,FALSE,-13,TRUE,2.96783,-0.038035,W
+0.91,'not seeded',WC,FALSE,?,TRUE,-8.528405,-0.045795,W
+-0.09,'not seeded',regular,TRUE,18,FALSE,1.045859,-0.018483,W
+-2.16,6,regular,TRUE,-2,FALSE,-3.605749,-0.004613,W
+0.85,'not seeded',regular,TRUE,?,FALSE,13.262149,-0.000642,L
+1.32,'not seeded',regular,FALSE,?,FALSE,-3.879535,-0.038157,L
+-1.04,6,regular,TRUE,-15,FALSE,-4.607803,-0.006874,W
+3.5,'not seeded',regular,FALSE,-20,FALSE,2.765229,-0.041701,W
+-1.86,4,regular,TRUE,8,FALSE,-0.202601,-0.003086,L
+1.3,'not seeded',regular,FALSE,?,FALSE,0.695414,-0.045,W
+-4.64,8,regular,TRUE,5,FALSE,3.321013,0.012862,L
+-0.38,'not seeded',regular,TRUE,?,FALSE,-9.538672,-0.016283,W
+-0.06,'not seeded',regular,TRUE,?,FALSE,-2.176591,-0.024837,W
+3.3,'not seeded',regular,TRUE,21,FALSE,-2.685832,-0.141845,W
+-6.44,1,regular,TRUE,?,FALSE,8.413415,0.058565,W
+-4.13,3,regular,TRUE,-5,FALSE,-3.969884,0.030581,L
+5.31,'not seeded',regular,TRUE,?,FALSE,0.057495,-0.076345,W
+4.36,'not seeded',regular,TRUE,-23,FALSE,-2.532512,-0.060581,W
+0.44,6,regular,TRUE,-10,FALSE,-5.141684,-0.031742,W
+2.49,'not seeded',regular,FALSE,-5,FALSE,3.926078,-0.052149,W
+3.18,'not seeded',regular,TRUE,?,FALSE,-6.286105,-0.02887,W
+-2.85,1,regular,FALSE,5,TRUE,-0.421629,0.027709,W
+-1.16,8,regular,TRUE,3,FALSE,-3.047228,-0.006079,W
+1.03,'not seeded',regular,TRUE,?,TRUE,-1.653662,-0.059909,L
+-5.69,3,regular,TRUE,?,FALSE,6.201232,0.055815,L
+-1.36,1,regular,FALSE,-13,TRUE,5.793292,0.071213,W
+0.19,4,regular,TRUE,-25,FALSE,-6.299795,-0.024715,W
+-1.3,3,regular,TRUE,10,FALSE,6.206708,0.003574,L
+-1.27,7,regular,FALSE,5,FALSE,-9.149897,-0.000703,L
+3.41,'not seeded',regular,FALSE,-10,FALSE,-7.025325,-0.02722,W
+1.32,3,regular,TRUE,0,TRUE,-4.172485,0.007057,L
+-0.12,2,regular,FALSE,15,FALSE,4.19165,-0.016161,L
+-2.23,3,regular,FALSE,-10,FALSE,3.523614,0.020621,W
+-0.69,'not seeded',regular,TRUE,?,FALSE,-14.707734,0.004796,L
+0.18,'not seeded',Q,FALSE,13,FALSE,0.221766,-0.027342,W
+-0.7,7,regular,TRUE,?,TRUE,-4.314853,-0.000947,W
+-0.93,'not seeded',regular,TRUE,?,FALSE,-2.518823,-0.000947,W
+0.63,'not seeded',regular,TRUE,?,FALSE,8.733744,-0.012006,W
+-2.07,'not seeded',regular,FALSE,?,FALSE,11.446954,0.012067,L
+-1.58,'not seeded',regular,TRUE,?,FALSE,0.43258,0.002475,L
+6.53,'not seeded',regular,FALSE,?,FALSE,5.226557,-0.036813,L
+-1.81,'not seeded',regular,TRUE,?,FALSE,-1.760438,-0.015306,W
+0.5,'not seeded',regular,FALSE,?,FALSE,-9.626283,-0.011273,L
+-0.97,'not seeded',regular,TRUE,?,TRUE,-6.450376,0.007913,L
+-0.28,'not seeded',Q,TRUE,?,FALSE,11.219713,-0.021293,W
+0.9,'not seeded',regular,TRUE,?,FALSE,-6.584531,-0.030459,L
+-0.31,'not seeded',Q,FALSE,?,FALSE,-10.691307,-0.018177,L
+-0.56,'not seeded',Q,TRUE,-2,FALSE,-11.972621,-0.047444,L
+-0.97,'not seeded',regular,TRUE,?,FALSE,-0.596851,-0.007913,W
+0,'not seeded',Q,TRUE,8,FALSE,-4.060233,-0.030581,L
+-2.1,11,regular,TRUE,?,FALSE,5.448323,0.017627,L
+-1.14,'not seeded',regular,FALSE,?,FALSE,-11.685147,0.00944,W
+0.72,'not seeded',PR,TRUE,?,FALSE,2.469541,-0.033941,L
+-1.66,'not seeded',regular,FALSE,?,FALSE,9.560575,0.015122,L
+-0.74,6,regular,TRUE,?,FALSE,-7.386721,-0.018666,L
+1.76,'not seeded',Q,FALSE,?,TRUE,-6.948665,-0.05832,W
+3.59,'not seeded',regular,TRUE,0,FALSE,0.339494,-0.040662,W
+0.57,'not seeded',regular,TRUE,-3,FALSE,-3.175907,-0.028381,W
+-0.87,'not seeded',regular,TRUE,?,FALSE,-12.566735,-0.019094,L
+2.26,'not seeded',regular,FALSE,?,FALSE,-6.839151,-0.034919,W
+0.88,'not seeded',regular,TRUE,-10,FALSE,-7.474333,-0.027159,L
+-1.72,5,regular,TRUE,11,FALSE,6.746064,0.00333,W
+-2.27,12,regular,TRUE,13,FALSE,-0.980151,0.011029,W
+0.38,'not seeded',regular,TRUE,3,FALSE,8.933607,-0.021843,W
+-1.85,'not seeded',regular,TRUE,-2,FALSE,9.065024,-0.001802,L
+0.23,'not seeded',regular,TRUE,?,FALSE,13.713895,-0.012617,W
+0.73,'not seeded',regular,TRUE,3,TRUE,-1.456537,-0.02832,W
+1.55,'not seeded',regular,TRUE,11,FALSE,-0.695414,-0.017811,L
+4.32,'not seeded',regular,TRUE,?,FALSE,-12.596851,-0.078361,L
+-0.3,'not seeded',Q,FALSE,?,FALSE,4.930869,-0.024165,W
+-1.02,3,regular,TRUE,?,FALSE,8.490075,0.011395,W
+-0.69,'not seeded',regular,TRUE,?,FALSE,-4.517454,-0.019338,L
+1.43,'not seeded',regular,TRUE,?,FALSE,11.126626,-0.002841,W
+0.94,'not seeded',Q,TRUE,-10,FALSE,-6.236824,-0.072862,L
+1.21,'not seeded',regular,TRUE,-13,FALSE,3.049966,-0.095286,W
+0.74,'not seeded',Q,TRUE,?,FALSE,-7.422313,-0.091437,W
+-0.92,5,regular,FALSE,5,FALSE,-1.486653,0.02386,L
+1.1,'not seeded',regular,TRUE,?,FALSE,-0.52293,-0.055999,W
+2.78,'not seeded',regular,TRUE,?,TRUE,-5.782341,-0.067669,W
+-1.31,14,regular,TRUE,?,FALSE,12.386037,0.019888,L
+-2.26,4,regular,TRUE,?,FALSE,4.810404,0.021293,L
+6.91,'not seeded',WC,FALSE,?,TRUE,12.284736,-0.204778,L
+0.41,'not seeded',regular,TRUE,?,FALSE,-11.268994,-0.038035,W
+2.6,'not seeded',WC,TRUE,?,FALSE,-10.214921,-0.048728,W
+-2.31,9,regular,TRUE,18,FALSE,-2.324435,0.015183,W
+-2.11,'not seeded',regular,TRUE,?,FALSE,-2.984257,-0.007546,L
+-0.84,6,regular,FALSE,-10,FALSE,-2.855578,0.00113,L
+0.34,'not seeded',regular,TRUE,?,TRUE,-9.141684,0.012373,L
+0.5,'not seeded',regular,TRUE,?,FALSE,2.622861,-0.018605,L
+-3.33,7,regular,FALSE,10,TRUE,0.194387,0.04109,W
+4.71,'not seeded',Q,TRUE,-23,FALSE,-6.737851,-0.125959,W
+2.15,15,regular,TRUE,-23,FALSE,-0.142368,-0.075428,W
+-0.85,3,regular,FALSE,10,FALSE,-3.247091,0.043595,L
+2.53,'not seeded',Q,TRUE,-5,TRUE,-2.368241,-0.089665,W
+2.97,'not seeded',regular,TRUE,0,FALSE,4.892539,-0.071885,W
+1.95,'not seeded',regular,TRUE,-10,FALSE,2.340862,-0.065652,W
+0.55,13,regular,TRUE,15,FALSE,13.645448,-0.054349,L
+1.45,'not seeded',PR,TRUE,-18,FALSE,-6.168378,-0.08661,W
+-1.01,15,regular,TRUE,0,FALSE,3.991786,0.001864,L
+0.07,4,regular,TRUE,?,FALSE,8.358658,0.000275,L
+-2.59,16,regular,TRUE,?,FALSE,-8.156057,0.002719,L
+-1.46,6,regular,TRUE,?,FALSE,-6.135524,0.000519,L
+3.05,'not seeded',regular,TRUE,?,FALSE,-9.045859,-0.039379,W
+-3.69,1,regular,TRUE,2,FALSE,4.895277,0.046467,W
+0.25,'not seeded',regular,TRUE,?,FALSE,-5.891855,-0.022821,W
+-0.21,'not seeded',regular,FALSE,2,FALSE,-1.941136,-0.023554,L
+-1.14,4,regular,FALSE,-8,FALSE,-3.058179,0.003208,W
+2.34,'not seeded',Q,FALSE,?,FALSE,-9.423682,-0.068035,L
+1.24,'not seeded',regular,TRUE,?,FALSE,-1.650924,-0.029603,L
+1.96,'not seeded',regular,TRUE,?,FALSE,-0.476386,-0.070174,L
+1.54,16,regular,TRUE,?,FALSE,-10.20397,-0.085816,W
+-2.28,1,regular,FALSE,?,FALSE,14.554415,0.063758,L
+-1.13,14,regular,FALSE,-3,FALSE,5.998631,-0.039135,W
+-1.05,1,regular,TRUE,18,TRUE,4.66256,0.014389,W
+3.03,'not seeded',regular,TRUE,?,FALSE,13.24846,-0.054532,W
+0.78,11,regular,TRUE,-18,FALSE,-1.086927,-0.027465,W
+0.29,13,regular,TRUE,23,FALSE,13.571526,-0.032658,L
+1.15,'not seeded',regular,TRUE,-6,FALSE,-4.991102,-0.045795,W
+1,8,regular,FALSE,-3,FALSE,6.01232,-0.047689,L
+-1.77,6,regular,TRUE,?,FALSE,-0.629706,-0.007668,W
+0.55,'not seeded',regular,TRUE,-5,FALSE,4.024641,-0.050561,L
+-0.3,'not seeded',regular,FALSE,?,FALSE,7.151266,-0.012556,L
+-0.52,'not seeded',regular,TRUE,13,FALSE,-2.455852,-0.028076,L
+-1.95,'not seeded',regular,TRUE,3,FALSE,6.628337,-0.006018,W
+-1.12,2,regular,TRUE,-5,FALSE,1.097878,0.022332,L
+0.84,'not seeded',regular,FALSE,8,FALSE,-3.216975,-0.082272,W
+1.01,4,regular,TRUE,?,FALSE,7.950719,-0.006629,W
+-0.62,5,regular,TRUE,-20,FALSE,-10.819986,0.002169,W
+1.36,'not seeded',regular,TRUE,0,FALSE,-3.504449,-0.043656,W
+0.21,'not seeded',regular,TRUE,?,FALSE,-10.190281,-0.044817,W
+0.53,'not seeded',regular,TRUE,5,FALSE,-5.229295,-0.031375,L
+-1.01,2,regular,TRUE,?,FALSE,10.633812,0.019888,L
+1.14,13,regular,TRUE,15,FALSE,7.507187,-0.065347,W
+0.66,'not seeded',regular,FALSE,2,FALSE,-5.54141,-0.081539,W
+-3.15,4,regular,TRUE,-2,FALSE,2.327173,0.025326,L
+1.07,'not seeded',Q,TRUE,-2,FALSE,-1.204654,-0.055937,L
+-4.86,9,regular,TRUE,31,FALSE,-0.060233,0.06107,L
+5.88,'not seeded',Q,TRUE,?,FALSE,3.701574,-0.096386,W
+3.42,'not seeded',regular,TRUE,-5,TRUE,0.104038,-0.071457,W
+-1.08,'not seeded',regular,TRUE,10,FALSE,-0.265572,-0.012801,L
+-2.6,'not seeded',regular,FALSE,8,FALSE,-0.405202,0.052577,L
+-3.13,'not seeded',regular,TRUE,?,FALSE,-2.655715,0.017994,L
+-2.13,'not seeded',regular,TRUE,?,TRUE,-11.865845,-0.005652,L
+0.29,'not seeded',regular,TRUE,2,FALSE,2.105407,-0.014511,W
+-1.39,'not seeded',regular,TRUE,-3,FALSE,-4.451745,0.000825,W
+-0.23,14,regular,TRUE,11,FALSE,-10.444901,0.043412,W
+-0.64,'not seeded',regular,FALSE,?,FALSE,3.088296,0.020805,W
+-2.83,10,regular,TRUE,?,FALSE,2.576318,0.055937,L
+0.9,'not seeded',regular,TRUE,?,FALSE,-18.663929,-0.055693,W
+4.04,'not seeded',WC,TRUE,-13,FALSE,3.028063,-0.090276,W
+1.89,'not seeded',regular,TRUE,-10,FALSE,2.587269,-0.035408,L
+-9.14,11,regular,FALSE,?,FALSE,3.967146,0.089176,W
+-0.93,'not seeded',regular,FALSE,-3,FALSE,0.706366,0.004796,W
+2.3,'not seeded',regular,TRUE,?,FALSE,13.683778,-0.062903,L
+-3.36,5,regular,TRUE,?,FALSE,11.15948,0.141478,L
+-10.1,1,regular,FALSE,-5,FALSE,-4.035592,0.827025,L
+-1.87,13,regular,TRUE,?,FALSE,-9.93566,0.052944,W
+1.9,'not seeded',WC,TRUE,-5,FALSE,-9.549624,-0.031192,W
+-2.96,10,regular,TRUE,0,FALSE,3.80835,0.095347,L
+3.5,'not seeded',Q,TRUE,-23,TRUE,-7.030801,-0.120215,L
+1.93,'not seeded',Q,TRUE,?,FALSE,-9.379877,-0.076528,L
+-2.11,16,regular,FALSE,2,TRUE,-3.173169,0.021905,L
+-1.28,8,regular,TRUE,-10,TRUE,-9.582478,0.059603,W
+-4.06,2,regular,TRUE,0,FALSE,-2.757016,0.221703,L
+-6.72,3,regular,TRUE,?,FALSE,3.854894,0.218159,L
+7.29,'not seeded',regular,TRUE,-16,FALSE,7.370294,-0.231846,W
+0.22,7,regular,TRUE,-30,FALSE,-4.265572,0.000031,W
+0.44,'not seeded',regular,TRUE,10,FALSE,6.428474,-0.035713,L
+0.73,'not seeded',regular,TRUE,-20,FALSE,-12.210815,-0.034797,L
+-2.29,'not seeded',regular,FALSE,?,FALSE,7.915127,0.0461,L
+1.05,16,regular,TRUE,2,FALSE,-7.493498,-0.213821,W
+-6.16,3,regular,TRUE,-15,FALSE,-5.782341,0.214615,L
+11.44,'not seeded',Q,TRUE,?,FALSE,-5.785079,-0.25433,W
+-4.85,5,regular,TRUE,13,FALSE,6.63655,0.171601,L
+-10.99,1,regular,TRUE,3,FALSE,-8.481862,0.874622,L
+5.54,5,regular,TRUE,8,FALSE,1.675565,-0.722482,W
+1.56,'not seeded',regular,TRUE,20,FALSE,-1.138946,-0.223597,W
+1.89,'not seeded',regular,TRUE,10,FALSE,-1.377139,-0.208627,W
+2.96,10,regular,TRUE,-3,FALSE,4.320329,-0.129502,L
+0.63,3,regular,TRUE,-5,FALSE,-4.755647,-0.043045,L
+-5.35,1,regular,TRUE,-5,FALSE,-0.720055,0.753093,L
+-4.63,1,regular,TRUE,10,FALSE,2.606434,0.640057,L
+1.38,'not seeded',LL,FALSE,?,FALSE,-6.417522,-0.01219,W
+-0.66,'not seeded',WC,TRUE,?,FALSE,-8.974675,-0.00779,L
+2.31,'not seeded',Q,TRUE,?,TRUE,-0.898015,-0.043351,W
+-1.25,'not seeded',regular,TRUE,-7,FALSE,-0.854209,0.005102,L
+-0.66,'not seeded',regular,TRUE,?,FALSE,-5.919233,-0.018483,L
+0.99,'not seeded',LL,TRUE,-13,FALSE,-0.36961,-0.028992,L
+-0.34,'not seeded',PR,FALSE,?,FALSE,7.956194,-0.025571,L
+3.15,'not seeded',regular,FALSE,-8,FALSE,-6.622861,-0.02832,W
+-0.95,6,regular,FALSE,0,FALSE,1.897331,-0.005407,W
+-0.34,'not seeded',regular,FALSE,?,FALSE,5.347023,-0.010845,W
+1.19,'not seeded',regular,FALSE,-8,TRUE,1.563313,-0.039013,W
+-4.23,1,regular,FALSE,23,FALSE,3.175907,0.05166,L
+3.4,'not seeded',WC,TRUE,?,FALSE,-1.453799,-0.101396,W
+2.28,'not seeded',PR,FALSE,-3,FALSE,1.902806,-0.068463,W
+1.4,'not seeded',regular,TRUE,?,TRUE,4.276523,-0.034858,W
+0.11,'not seeded',LL,FALSE,-8,FALSE,-1.065024,-0.031681,W
+-1.69,4,regular,FALSE,?,FALSE,6.885695,0.018177,W
+-1.93,2,regular,FALSE,?,FALSE,-11.446954,0.039135,L
+-0.47,'not seeded',regular,TRUE,?,FALSE,-10.417522,-0.023249,L
+5.4,8,regular,TRUE,?,TRUE,-12.506502,-0.083005,W
+-6.26,2,regular,FALSE,?,FALSE,0.418891,0.060031,L
+-0.56,'not seeded',regular,TRUE,-7,FALSE,-0.854209,0.004796,W
+0.25,'not seeded',PR,TRUE,?,FALSE,14.803559,-0.039318,L
+1.58,8,regular,FALSE,2,TRUE,-2.406571,-0.017933,L
+-2.83,7,regular,TRUE,?,FALSE,10.502396,0.022882,L
+-0.96,'not seeded',regular,FALSE,?,FALSE,3.917864,-0.008829,L
+-0.88,5,regular,FALSE,-8,FALSE,-3.531828,0.010968,W
+1.95,'not seeded',regular,TRUE,-10,FALSE,-0.13963,-0.078972,L
+-2.22,1,regular,FALSE,?,FALSE,15.937029,0.088626,L
+-1.59,3,regular,FALSE,18,FALSE,8.479124,0.048483,L
+0.4,'not seeded',PR,FALSE,-3,FALSE,3.351129,-0.053555,L
+-1.36,8,regular,TRUE,10,FALSE,0.106776,0.016833,L
+0.13,7,regular,TRUE,-5,TRUE,-2.214921,-0.014817,L
+-2.03,'not seeded',WC,FALSE,?,FALSE,-1.0705,0.009012,L
+1.79,'not seeded',regular,TRUE,-13,FALSE,2.310746,-0.075551,L
+1.64,'not seeded',PR,FALSE,-3,FALSE,-0.249144,-0.121315,W
+1.09,8,regular,TRUE,-18,FALSE,-7.118412,-0.0494,W
+-0.93,'not seeded',WC,TRUE,?,FALSE,-3.622177,0.011456,L
+-0.91,7,regular,TRUE,3,FALSE,4.856947,-0.004308,W
+0.97,'not seeded',WC,FALSE,?,TRUE,-9.806982,-0.075184,W
+-0.39,3,regular,FALSE,20,FALSE,2.55989,-0.037852,L
+-0.53,'not seeded',regular,TRUE,?,FALSE,11.134839,0.012556,W
+-2.18,12,regular,TRUE,5,FALSE,-2.631075,0.064797,L
+1.27,'not seeded',regular,TRUE,-18,FALSE,1.763176,0.000031,L
+2.27,'not seeded',PR,TRUE,10,FALSE,0.281999,-0.171112,L
+-1.07,'not seeded',regular,FALSE,?,FALSE,10.540726,0.027831,W
+-1.08,'not seeded',regular,TRUE,?,FALSE,-7.520876,-0.042495,L
+3.07,'not seeded',regular,TRUE,?,FALSE,-4.859685,-0.127669,W
+5.13,'not seeded',Q,TRUE,?,FALSE,-1.212868,-0.14215,W
+-2.72,13,regular,FALSE,2,TRUE,2.031485,0.07549,L
+-2.83,14,regular,TRUE,?,FALSE,-1.1718,0.015978,L
+-1.37,16,regular,TRUE,-2,FALSE,5.919233,0.076956,L
+1.5,'not seeded',regular,TRUE,?,FALSE,3.561944,-0.040907,W
+2.44,'not seeded',regular,TRUE,-28,FALSE,-2.075291,-0.044573,W
+3.11,'not seeded',regular,FALSE,2,FALSE,-0.780287,-0.04885,W
+-2.42,'not seeded',regular,TRUE,-10,FALSE,5.015743,0.009807,L
+0.84,'not seeded',regular,TRUE,0,TRUE,-4.172485,0.004919,W
+-0.34,'not seeded',WC,TRUE,?,FALSE,-15.342916,-0.01054,W
+0.7,'not seeded',Q,TRUE,2,FALSE,5.399042,-0.006935,W
+3.58,'not seeded',WC,FALSE,?,FALSE,-12.364134,-0.180827,W
+3.47,'not seeded',Q,TRUE,?,FALSE,8.5859,-0.069135,L
+-2.08,'not seeded',regular,TRUE,23,FALSE,5.081451,0.048911,W
+2.85,'not seeded',regular,TRUE,-10,FALSE,1.207392,-0.124614,W
+-1.25,11,regular,TRUE,-30,FALSE,1.87269,0.04219,W
+1.75,'not seeded',PR,TRUE,-3,FALSE,8.010951,-0.100846,W
+-0.43,'not seeded',regular,FALSE,0,FALSE,-9.650924,-0.058931,L
+4.45,'not seeded',WC,TRUE,?,FALSE,-11.534565,-0.296184,W
+-2.54,15,regular,TRUE,?,FALSE,-6.228611,0.043534,W
+0.2,'not seeded',regular,FALSE,?,FALSE,7.244353,-0.011823,L
+3.99,'not seeded',regular,TRUE,?,FALSE,-1.552361,-0.083372,L
+1.85,'not seeded',regular,FALSE,-5,FALSE,0.418891,-0.208627,W
+0.85,'not seeded',regular,TRUE,10,FALSE,5.670089,-0.190603,W
+-3.41,5,regular,TRUE,-5,FALSE,-7.512663,0.18657,L
+1.12,'not seeded',Q,TRUE,?,FALSE,4.221766,-0.163108,W
+-0.94,'not seeded',regular,TRUE,?,FALSE,6.658453,0.010418,W
+-1.6,12,regular,FALSE,10,FALSE,-4.870637,0.082211,L
+6.96,'not seeded',PR,TRUE,-5,FALSE,3.126626,-0.535515,W
+-2.12,5,regular,TRUE,-15,FALSE,2.811773,0.131702,W
+0.77,'not seeded',regular,TRUE,0,FALSE,-4.687201,-0.09437,L
+0.64,'not seeded',regular,TRUE,18,FALSE,0.084873,-0.066569,L
+0.63,'not seeded',regular,TRUE,5,FALSE,-6.132786,-0.248037,L
+3.43,'not seeded',regular,FALSE,?,FALSE,-10.450376,-0.25598,L
+-9.36,4,regular,TRUE,?,FALSE,-2.272416,0.219809,L
+-4.22,6,regular,TRUE,6,FALSE,0.566735,0.146733,L
+-0.5,6,regular,TRUE,-2,FALSE,3.030801,0.047689,W
+3.61,'not seeded',regular,TRUE,13,FALSE,0.991102,-0.478691,W
+-0.21,'not seeded',regular,TRUE,0,FALSE,-1.390828,-0.032658,L
+-1.91,4,regular,TRUE,?,FALSE,2.685832,0.069991,L
+-4.19,1,regular,TRUE,-3,FALSE,5.437372,0.436593,L
+-0.1,'not seeded',regular,TRUE,?,FALSE,3.195072,-0.00724,W
+4.09,12,regular,TRUE,8,FALSE,-1.374401,-0.411481,L
+-1.44,12,regular,TRUE,10,FALSE,2.628337,0.06388,L
+-1.43,1,regular,TRUE,-6,FALSE,3.619439,0.264901,L
+1.2,'not seeded',regular,TRUE,3,FALSE,-0.506502,-0.014267,W
+-1.23,'not seeded',regular,TRUE,?,FALSE,6.173854,-0.017933,W
+-0.3,'not seeded',regular,TRUE,0,TRUE,-1.6564,-0.023065,W
+0.56,'not seeded',Q,TRUE,?,FALSE,-5.809719,-0.030275,W
+-0.16,'not seeded',regular,TRUE,?,TRUE,0.229979,0.00388,L
+0.29,'not seeded',regular,FALSE,?,FALSE,-1.650924,-0.024226,W
+1.37,'not seeded',Q,TRUE,0,FALSE,-9.574264,-0.048361,W
+-0.93,'not seeded',regular,TRUE,?,FALSE,4.640657,-0.015367,W
+-1.13,'not seeded',regular,TRUE,-5,FALSE,4.068446,-0.021355,L
+1.39,'not seeded',regular,TRUE,-23,FALSE,4.974675,-0.017261,W
+-0.78,'not seeded',regular,TRUE,?,FALSE,-10.809035,-0.01054,L
+-0.82,'not seeded',WC,TRUE,?,FALSE,-11.59206,-0.051905,L
+3.06,'not seeded',regular,TRUE,-10,FALSE,-3.928816,-0.103535,W
+-3.07,2,regular,TRUE,?,FALSE,1.259411,0.061742,L
+-0.9,3,regular,TRUE,-5,FALSE,-1.94935,0.039196,L
+2.29,'not seeded',regular,TRUE,-10,FALSE,4.342231,-0.047322,W
+-0.18,14,regular,FALSE,0,FALSE,4.098563,-0.004674,L
+-0.73,16,regular,TRUE,?,FALSE,-1.212868,-0.00388,L
+0.71,'not seeded',regular,TRUE,-16,FALSE,-8.960986,-0.02777,W
+2.33,'not seeded',regular,TRUE,?,FALSE,-7.635866,-0.055815,L
+-0.82,'not seeded',regular,TRUE,?,FALSE,5.626283,-0.047017,L
+-0.48,'not seeded',regular,FALSE,-5,FALSE,-1.407255,-0.055876,L
+-0.39,'not seeded',regular,FALSE,?,FALSE,6.286105,-0.016039,L
+-3.62,1,regular,TRUE,0,TRUE,-6.086242,0.065164,L
+-1.81,4,regular,TRUE,-8,FALSE,-4.418891,0.043717,L
+0.21,'not seeded',regular,TRUE,?,FALSE,-8.908966,-0.052882,W
+0.68,'not seeded',regular,FALSE,?,FALSE,-13.952088,-0.026304,W
+-1.91,5,regular,FALSE,?,FALSE,7.145791,0.018483,W
+0.82,16,regular,TRUE,?,FALSE,-5.524983,-0.068096,L
+-1.18,'not seeded',regular,TRUE,?,FALSE,9.007529,-0.018361,L
+1.11,'not seeded',WC,TRUE,?,FALSE,-4.095825,-0.026243,W
+1.08,14,regular,TRUE,?,FALSE,2.825462,-0.075734,W
+-1.71,2,regular,TRUE,?,FALSE,-4.668036,0.060214,L
+-1.11,6,regular,TRUE,5,FALSE,-1.653662,-0.008829,W
+-0.87,4,regular,FALSE,0,FALSE,-6.108145,0.025693,W
+-0.23,16,regular,TRUE,?,FALSE,-0.383299,-0.024593,L
+-3.06,1,regular,TRUE,2,FALSE,2.989733,0.074573,W
+-1.4,2,regular,TRUE,?,FALSE,-2.173854,0.026609,L
+0.28,9,regular,FALSE,5,FALSE,-2.239562,0.000642,L
+-1.75,2,regular,TRUE,?,TRUE,3.241615,0.048911,W
+-0.94,'not seeded',regular,TRUE,?,FALSE,10.102669,-0.02111,L
+10.43,'not seeded',regular,TRUE,?,FALSE,-6.299795,-0.165735,W
+-3.04,10,regular,FALSE,0,FALSE,-3.315537,0.084655,L
+0.71,'not seeded',regular,TRUE,?,FALSE,-2.368241,-0.017933,W
+0.12,'not seeded',regular,FALSE,?,FALSE,-3.570157,-0.012373,W
+-2.27,15,regular,TRUE,?,TRUE,-4.862423,0.052882,L
+-0.1,'not seeded',regular,TRUE,-7,FALSE,-4.793977,-0.047872,L
+-2.91,18,regular,TRUE,5,FALSE,-0.744695,0.047628,L
+-6.95,20,regular,TRUE,?,TRUE,12.736482,0.054166,L
+3.51,'not seeded',regular,TRUE,?,FALSE,6.162902,-0.060887,W
+2.17,'not seeded',regular,TRUE,?,TRUE,-5.092402,-0.054715,W
+0.68,'not seeded',regular,FALSE,-3,FALSE,6.075291,-0.08496,W
+1.14,'not seeded',regular,TRUE,-16,FALSE,-1.144422,-0.047261,W
+-2.02,23,regular,FALSE,?,FALSE,9.360712,0.019705,L
+0.63,'not seeded',regular,FALSE,0,FALSE,5.431896,-0.069196,W
+0.71,'not seeded',regular,FALSE,3,FALSE,3.148528,-0.030703,W
+-1,'not seeded',regular,TRUE,?,FALSE,6.466804,0.021171,L
+7.95,'not seeded',regular,FALSE,3,FALSE,-0.262834,-0.278893,W
+-0.72,'not seeded',regular,FALSE,?,FALSE,-3.173169,-0.038646,W
+-0.14,28,regular,FALSE,7,FALSE,-7.04449,0.020133,W
+3.13,'not seeded',regular,TRUE,?,FALSE,-8.558522,-0.111539,L
+1.06,'not seeded',regular,TRUE,-5,FALSE,3.764545,-0.005713,W
+0.63,'not seeded',regular,TRUE,-15,FALSE,-4.881588,-0.006079,W
+-19.29,1,regular,TRUE,-15,FALSE,3.479808,0.87676,L
+3.17,'not seeded',regular,TRUE,?,FALSE,4.221766,-0.166163,W
+4.56,'not seeded',regular,TRUE,?,FALSE,-5.839836,-0.143128,L
+-8.2,'not seeded',regular,TRUE,?,TRUE,3.895962,-0.037302,L
+8.11,'not seeded',regular,TRUE,?,FALSE,5.774127,-0.100174,W
+4.82,'not seeded',regular,TRUE,-3,FALSE,-0.372348,-0.074451,W
+-1.29,21,regular,TRUE,28,FALSE,4.457221,0.035163,L
+9.04,'not seeded',regular,TRUE,?,FALSE,1.456537,-0.068219,W
+0.94,'not seeded',regular,FALSE,3,FALSE,2.217659,-0.031864,L
+-2.93,29,regular,TRUE,18,FALSE,-3.290897,0.05606,W
+4.01,'not seeded',regular,TRUE,?,TRUE,9.760438,-0.080622,W
+2.17,'not seeded',regular,FALSE,5,FALSE,1.366188,-0.259341,W
+-0.39,30,regular,TRUE,-2,FALSE,-6.083504,0.034797,L
+3.03,'not seeded',regular,TRUE,?,FALSE,-3.750856,-0.061498,W
+1.76,'not seeded',regular,TRUE,?,FALSE,8.657084,-0.049339,W
+-1.98,'not seeded',regular,TRUE,-10,FALSE,-2.001369,0.018911,L
+-3.48,'not seeded',regular,TRUE,?,FALSE,2.622861,0.03223,L
+1,'not seeded',regular,TRUE,0,FALSE,-1.136208,-0.041701,W
+-0.54,'not seeded',regular,TRUE,5,FALSE,-2.036961,0.007118,L
+-6.41,'not seeded',regular,TRUE,?,FALSE,10.910335,0.026426,L
+1.67,'not seeded',regular,FALSE,?,FALSE,-0.755647,-0.024287,W
+11.3,'not seeded',regular,TRUE,0,FALSE,6.05065,-0.268933,W
+-1.01,'not seeded',regular,TRUE,-18,FALSE,-6.179329,-0.004674,L
+15.28,'not seeded',regular,TRUE,0,FALSE,8.536619,-0.233984,W
+-1.95,'not seeded',regular,FALSE,2,FALSE,1.560575,-0.012067,W
+6.26,'not seeded',regular,TRUE,-21,FALSE,0.421629,-0.081539,L
+1.54,'not seeded',regular,TRUE,-10,FALSE,-6.417522,-0.021905,L
+1.57,'not seeded',regular,TRUE,?,FALSE,6.986995,-0.021293,W
+8.5,'not seeded',regular,TRUE,-5,FALSE,-6.762491,-0.174778,W
+7.54,'not seeded',regular,TRUE,-13,FALSE,-1.360712,-0.279259,L
+-4.43,15,regular,FALSE,?,FALSE,2.475017,0.045856,L
+-18.21,2,regular,TRUE,-6,FALSE,-1.806982,0.509608,L
+5.24,'not seeded',regular,TRUE,-28,FALSE,1.119781,-0.082944,W
+3.47,'not seeded',regular,TRUE,?,FALSE,12.454483,-0.082333,W
+-2.47,26,regular,FALSE,-5,FALSE,-5.092402,0.043229,L
+-2.7,23,regular,TRUE,10,FALSE,4.098563,0.030886,L
+-0.78,'not seeded',regular,TRUE,-13,FALSE,3.890486,-0.034491,L
+-0.6,'not seeded',regular,FALSE,-3,FALSE,-3.099247,-0.037668,L
+0.62,'not seeded',regular,TRUE,3,FALSE,0.364134,-0.063086,L
+1,'not seeded',regular,FALSE,?,FALSE,-7.893224,-0.010845,W
+-2.79,'not seeded',regular,TRUE,?,FALSE,1.486653,0.00779,L
+-10.21,7,regular,TRUE,5,FALSE,-2.726899,0.159442,L
+6.45,'not seeded',regular,TRUE,?,FALSE,3.203285,-0.171967,W
+0.16,'not seeded',regular,TRUE,?,FALSE,-10.661191,-0.06828,L
+17.28,'not seeded',regular,TRUE,0,FALSE,1.089665,-0.523539,W
+-3.79,16,regular,FALSE,?,FALSE,7.523614,0.021416,W
+-1.47,'not seeded',regular,TRUE,?,FALSE,-7.052704,0.038341,L
+3.3,'not seeded',regular,TRUE,0,FALSE,3.033539,-0.033575,L
+-0.96,'not seeded',regular,TRUE,5,TRUE,-0.024641,0.001375,L
+-8.35,4,regular,FALSE,-5,FALSE,-2.28063,0.238322,L
+11.32,'not seeded',regular,TRUE,?,FALSE,-6.392882,-0.233434,W
+2.4,23,regular,TRUE,15,FALSE,-1.084189,-0.114533,W
+4.84,'not seeded',regular,TRUE,-10,FALSE,1.029432,-0.129686,W
+-1.45,11,regular,TRUE,-3,FALSE,5.141684,0.075184,L
+-2.1,'not seeded',regular,TRUE,10,FALSE,1.251198,-0.09162,L
+-5.69,14,regular,FALSE,?,FALSE,-9.998631,0.064125,L
+-1.1,21,regular,FALSE,25,FALSE,10.398357,0.029237,L
+2.28,'not seeded',regular,TRUE,0,FALSE,4.25462,-0.061375,W
+-2.66,15,regular,TRUE,?,FALSE,5.861739,0.017383,W
+-2.26,7,regular,TRUE,13,FALSE,3.989049,0.1094,W
+13.88,'not seeded',regular,FALSE,0,FALSE,-5.1718,-0.307793,W
+-0.36,'not seeded',regular,TRUE,0,FALSE,6.888433,0.014145,L
+-0.24,'not seeded',regular,TRUE,-13,FALSE,-4.698152,-0.021355,W
+1.92,'not seeded',regular,TRUE,?,FALSE,6.910335,-0.055876,L
+1.98,'not seeded',regular,TRUE,?,FALSE,-9.702943,-0.075795,L
+2.51,'not seeded',regular,TRUE,?,FALSE,2.146475,-0.144777,W
+-2.75,'not seeded',regular,TRUE,23,FALSE,-6.477755,-0.154248,L
+20.13,'not seeded',regular,TRUE,-7,FALSE,5.412731,-0.51749,W
+-2.35,22,regular,TRUE,?,FALSE,-2.12731,0.004002,L
+5.41,'not seeded',regular,TRUE,-8,FALSE,-5.152635,-0.273699,W
+6.94,'not seeded',regular,FALSE,0,FALSE,-4.722793,-0.252742,W
+5.54,'not seeded',regular,TRUE,12,FALSE,7.937029,-0.207833,W
+0.6,26,regular,TRUE,-3,FALSE,-7.438741,-0.10384,W
+4.17,'not seeded',regular,TRUE,-10,FALSE,1.207392,-0.127975,W
+0.99,'not seeded',regular,TRUE,?,FALSE,-17.612594,-0.082333,W
+-7.68,4,regular,FALSE,?,FALSE,7.726215,0.189075,W
+-8.5,1,regular,TRUE,?,FALSE,7.633128,0.848471,L
+6.23,'not seeded',regular,TRUE,2,FALSE,-2.447639,-0.272477,W
+2.68,21,regular,TRUE,30,FALSE,10.833676,-0.175328,W
+-3.34,10,regular,TRUE,?,TRUE,7.479808,0.065958,L
+4.67,22,regular,TRUE,-2,FALSE,-4.002738,-0.4903,W
+-4.3,2,regular,TRUE,12,FALSE,2.625599,0.297284,W
+-0.74,'not seeded',regular,TRUE,15,FALSE,-3.49076,-0.296001,W
+-4.42,1,regular,TRUE,-5,FALSE,-0.720055,0.716738,L
+-0.4,6,regular,TRUE,-5,FALSE,-4.755647,-0.066569,W
+-1.93,1,regular,TRUE,5,FALSE,-2.149213,0.585678,W
+-0.41,'not seeded',WC,FALSE,-5,FALSE,7.556468,-0.085877,L
+0.86,'not seeded',WC,TRUE,?,FALSE,0.914442,-0.067241,W
+-3.4,6,regular,TRUE,5,FALSE,1.968515,0.00834,L
+0.6,'not seeded',regular,FALSE,-8,FALSE,-1.976728,-0.024471,L
+-1.11,'not seeded',regular,TRUE,?,FALSE,7.063655,-0.024471,L
+0.86,'not seeded',Q,TRUE,?,FALSE,-1.982204,-0.033941,W
+3.16,'not seeded',WC,TRUE,?,TRUE,-1.347023,-0.032964,W
+1.14,'not seeded',Q,FALSE,-23,TRUE,3.268994,-0.066569,L
+-0.92,'not seeded',regular,TRUE,-2,FALSE,3.8987,0.026793,W
+1.15,'not seeded',regular,FALSE,-7,FALSE,5.683778,0.023554,L
+0.87,'not seeded',regular,TRUE,-16,FALSE,-8.960986,-0.02386,W
+0.39,'not seeded',regular,TRUE,11,FALSE,-2.90486,-0.01665,L
+1.48,'not seeded',regular,FALSE,-8,FALSE,-6.622861,-0.032597,L
+2.74,'not seeded',Q,TRUE,?,FALSE,4.136893,-0.202151,W
+3.06,'not seeded',regular,TRUE,?,FALSE,1.295003,-0.008524,W
+-3.55,4,regular,TRUE,?,FALSE,2.184805,0.061742,L
+-0.47,'not seeded',WC,TRUE,-11,FALSE,2.96783,-0.049094,L
+2.62,'not seeded',regular,TRUE,13,FALSE,-0.323066,-0.35924,W
+2.69,'not seeded',regular,TRUE,-15,FALSE,-4.785763,-0.046956,W
+1.11,'not seeded',Q,TRUE,?,FALSE,-0.618754,-0.05887,W
+2.47,'not seeded',Q,FALSE,?,FALSE,-8.793977,-0.054471,W
+3.17,'not seeded',WC,TRUE,?,TRUE,-14.762491,-0.060276,W
+1.4,'not seeded',regular,TRUE,0,TRUE,0.791239,-0.037791,W
+0.44,'not seeded',regular,TRUE,-5,FALSE,-3.545517,0.000031,L
+0.07,'not seeded',PR,TRUE,-3,FALSE,-1.993155,-0.053616,W
+-0.22,'not seeded',regular,TRUE,-2,FALSE,-0.952772,-0.02832,W
+0.66,'not seeded',WC,TRUE,?,FALSE,7.983573,-0.043595,W
+-3.15,2,regular,TRUE,?,FALSE,-0.618754,0.086854,L
+1.24,'not seeded',regular,TRUE,?,TRUE,2.937714,-0.095042,W
+2,'not seeded',Q,TRUE,?,FALSE,1.188227,-0.078606,W
+1.62,'not seeded',regular,TRUE,5,FALSE,1.566051,-0.053432,W
+1.67,'not seeded',regular,TRUE,-13,TRUE,-4.383299,-0.052149,W
+1.16,'not seeded',WC,TRUE,?,FALSE,-8.558522,-0.078545,W
+-1.21,8,regular,TRUE,5,FALSE,5.629021,-0.005896,L
+-4.08,2,regular,TRUE,13,FALSE,-8.506502,0.222375,W
+-0.29,'not seeded',regular,FALSE,12,FALSE,2.028747,0.012312,L
+-1.6,3,regular,TRUE,11,FALSE,5.431896,0.130785,L
+0.67,6,regular,FALSE,?,FALSE,10.321697,-0.146305,W
+-1.21,2,regular,TRUE,-27,FALSE,-8.876112,0.060337,L
+-1.75,4,regular,TRUE,?,FALSE,0.958248,0.023249,L
+0.85,'not seeded',WC,TRUE,?,TRUE,12.17796,-0.11496,W
+0.7,'not seeded',regular,TRUE,?,FALSE,14.819986,-0.052149,W
+2.07,'not seeded',regular,TRUE,2,FALSE,0.936345,-0.05276,W
+3.13,7,regular,TRUE,10,FALSE,-0.873374,-0.320136,W
+-3.86,3,regular,TRUE,13,FALSE,-3.756331,0.117649,L
+1,4,regular,TRUE,?,FALSE,8.684463,-0.131335,W
+-1.21,2,regular,TRUE,?,FALSE,3.214237,0.014634,W
+-1.22,3,regular,TRUE,?,FALSE,11.589322,0.10329,W
+2.09,4,regular,TRUE,?,FALSE,-3.047228,-0.280115,W
+0.83,3,regular,TRUE,?,FALSE,-0.473648,-0.106223,L
+-2.05,1,regular,TRUE,?,FALSE,12.062971,0.278648,W
+-0.95,7,regular,TRUE,3,FALSE,-2.135524,-0.000031,L
+0.44,'not seeded',regular,TRUE,?,FALSE,8.413415,-0.029848,W
+-1.59,'not seeded',PR,TRUE,?,FALSE,6.548939,0.001802,L
+0.47,'not seeded',regular,TRUE,?,FALSE,-7.143053,-0.052882,L
+0.45,'not seeded',regular,TRUE,5,FALSE,8.925394,0.001069,W
+-1.63,'not seeded',PR,TRUE,?,FALSE,6.031485,-0.021782,L
+0.69,8,regular,TRUE,0,FALSE,7.496235,0.009501,L
+0.68,'not seeded',regular,TRUE,?,FALSE,-2.795346,-0.05221,W
+-2.52,'not seeded',regular,TRUE,?,FALSE,7.92334,0.007179,L
+2.37,'not seeded',PR,FALSE,?,FALSE,7.460643,-0.063758,W
+-0.46,'not seeded',regular,TRUE,0,FALSE,-3.676934,-0.017139,L
+1.12,'not seeded',Q,FALSE,-3,FALSE,-4.134155,-0.036752,W
+0,'not seeded',regular,TRUE,-5,FALSE,-4.711841,-0.004124,L
+-0.37,'not seeded',regular,FALSE,10,FALSE,-0.265572,0.003452,W
+0.75,'not seeded',regular,TRUE,-13,FALSE,-2.422998,-0.015306,L
+-1.02,'not seeded',regular,FALSE,10,FALSE,2.902122,-0.024471,L
+-0.25,'not seeded',regular,FALSE,?,FALSE,-7.893224,-0.028503,L
+-0.61,7,regular,FALSE,-12,FALSE,0.246407,0.014389,W
+-1.86,'not seeded',regular,TRUE,?,FALSE,6.554415,0.003513,W
+-3.64,3,regular,TRUE,8,FALSE,-0.876112,0.042556,L
+-0.73,4,regular,FALSE,3,FALSE,2.521561,0.037913,L
+1.7,'not seeded',Q,TRUE,5,FALSE,7.545517,-0.075306,W
+3.77,'not seeded',WC,TRUE,?,FALSE,-12.862423,-0.083983,W
+0.11,'not seeded',regular,TRUE,?,FALSE,6.067077,-0.014328,L
+-3.18,2,regular,TRUE,-22,FALSE,-6.880219,0.07775,W
+-0.6,8,regular,TRUE,?,FALSE,10.669405,0.010357,W
+-6.38,1,regular,TRUE,?,FALSE,-1.971253,0.166835,L
+0.6,'not seeded',Q,TRUE,-10,FALSE,0.457221,-0.08716,W
+-0.93,'not seeded',regular,FALSE,-8,FALSE,4.427105,-0.051416,W
+-0.49,'not seeded',regular,TRUE,-10,FALSE,0.651608,-0.023493,W
+1,'not seeded',regular,TRUE,?,FALSE,8.941821,-0.086121,L
+2.19,'not seeded',regular,FALSE,?,FALSE,3.608487,-0.027648,W
+-1.6,'not seeded',regular,FALSE,?,FALSE,1.404517,-0.007913,L
+-4.57,1,regular,TRUE,13,FALSE,2.272416,0.153759,L
+0.89,'not seeded',regular,FALSE,?,FALSE,-14.666667,-0.073351,L
+-2.7,3,regular,FALSE,-5,FALSE,1.177276,0.066936,L
+-3.1,3,regular,TRUE,?,FALSE,1.253936,0.040907,L
+-0.01,'not seeded',regular,TRUE,5,FALSE,0.421629,0.019888,W
+3.1,5,regular,FALSE,?,FALSE,5.629021,-0.136223,L
+-0.92,'not seeded',regular,TRUE,10,FALSE,-0.265572,-0.034491,W
+1.83,'not seeded',regular,FALSE,-5,FALSE,4.810404,-0.078178,L
+-2.33,1,regular,FALSE,?,TRUE,7.811088,0.142517,L
+0.89,'not seeded',regular,TRUE,?,FALSE,-10.275154,-0.059298,L
+-2.09,3,regular,FALSE,0,FALSE,-3.326489,0.004613,W
+2.84,'not seeded',regular,FALSE,-8,FALSE,-2.283368,-0.187548,W
+-0.12,'not seeded',regular,FALSE,?,FALSE,-8.342231,-0.062047,L
+-0.61,1,regular,TRUE,11,FALSE,0.750171,0.080378,L
+-3.18,4,regular,TRUE,2,FALSE,0.607803,0.088015,L
+1.34,'not seeded',regular,TRUE,5,FALSE,-3.750856,-0.060153,W
+0.97,'not seeded',WC,TRUE,?,FALSE,10.529774,-0.09272,W
+-1.94,7,regular,TRUE,?,FALSE,1.166324,0.055937,L
+0.92,'not seeded',regular,FALSE,?,FALSE,-0.281999,-0.01219,W
+1.89,'not seeded',Q,FALSE,-10,FALSE,-0.807666,-0.048239,W
+-7.68,1,regular,FALSE,-5,FALSE,-0.435318,0.239422,L
+-0.7,'not seeded',Q,TRUE,?,FALSE,-11.597536,-0.008951,L
+1.33,'not seeded',regular,TRUE,0,FALSE,-1.470226,0.001008,W
+-3.28,5,regular,FALSE,?,FALSE,4.804928,0.091498,L
+1.85,'not seeded',Q,TRUE,?,FALSE,2.970568,-0.1083,W
+0.09,'not seeded',WC,TRUE,?,FALSE,-8.599589,0.002413,W
+-8.19,1,regular,TRUE,0,FALSE,-3.227926,0.515718,L
+2.06,'not seeded',regular,FALSE,-18,FALSE,-11.600274,-0.061375,W
+-5.07,'not seeded',regular,TRUE,?,FALSE,-2.225873,0.060214,L
+1.16,'not seeded',regular,TRUE,-5,FALSE,1.199179,-0.017383,W
+-1.28,'not seeded',regular,TRUE,-7,FALSE,0.818617,-0.006018,L
+7.81,'not seeded',regular,FALSE,-2,FALSE,4.465435,-0.248648,W
+0.59,'not seeded',regular,TRUE,-15,FALSE,-1.281314,-0.036324,L
+2.21,'not seeded',Q,TRUE,5,TRUE,5.995893,-0.040479,W
+-0.82,'not seeded',regular,FALSE,?,FALSE,7.145791,-0.006568,W
+3.27,'not seeded',PR,TRUE,-6,FALSE,7.227926,-0.24266,W
+-6.08,2,regular,TRUE,?,FALSE,2.047912,0.160602,L
+-0.18,'not seeded',regular,TRUE,?,FALSE,-13.582478,-0.006446,W
+-2.8,4,regular,FALSE,10,FALSE,-4.870637,0.09993,L
+-1.57,5,regular,TRUE,-3,FALSE,5.141684,0.070907,L
+-1.61,5,regular,FALSE,?,FALSE,2.590007,0.076528,L
+-1.54,8,regular,TRUE,-13,FALSE,1.303217,0.021721,L
+7.17,'not seeded',regular,TRUE,-5,FALSE,-3.775496,-0.527572,W
+-0.96,'not seeded',regular,TRUE,0,FALSE,-1.390828,-0.012801,L
+0.55,'not seeded',regular,TRUE,?,FALSE,4.569473,-0.021049,W
+-1.86,3,regular,FALSE,3,FALSE,-2.360027,0.123453,W
+0.19,'not seeded',regular,TRUE,?,FALSE,1.278576,-0.049461,L
+-0.5,'not seeded',regular,FALSE,?,FALSE,6.321697,-0.013289,L
+-1.25,7,regular,TRUE,?,FALSE,6.735113,0.050866,W
+-0.22,'not seeded',Q,TRUE,-5,FALSE,-0.449008,-0.058259,L
+0.7,'not seeded',Q,TRUE,-2,FALSE,-7.813826,-0.036324,W
+0.21,'not seeded',regular,TRUE,?,FALSE,2.776181,-0.035163,L
+-0.69,7,regular,TRUE,28,FALSE,5.314168,0.067058,L
+0.06,'not seeded',regular,FALSE,-10,FALSE,-2.108145,-0.016161,W
+7.72,'not seeded',Q,TRUE,-2,FALSE,-2.072553,-0.270278,W
+-1.91,2,regular,TRUE,10,TRUE,-1.678303,0.116732,L
+-3.4,4,regular,TRUE,13,FALSE,-4.501027,0.119787,L
+0.42,5,regular,TRUE,?,FALSE,15.049966,0.032108,L
+-2.81,5,regular,TRUE,?,FALSE,-1.689254,0.056548,L
+-1.07,6,regular,FALSE,?,FALSE,-11.967146,0.036691,L
+8.7,'not seeded',Q,TRUE,?,TRUE,-7.652293,-0.536248,W
+2.16,'not seeded',regular,FALSE,3,FALSE,-4.950034,-0.212599,L
+0.89,'not seeded',regular,TRUE,?,FALSE,-5.065024,-0.070846,L
+2.89,'not seeded',regular,TRUE,?,FALSE,-0.539357,-0.222375,W
+5.1,'not seeded',regular,TRUE,-11,FALSE,6.934976,-0.238689,W
+1.99,7,regular,TRUE,15,FALSE,7.507187,-0.129197,W
+-1.04,4,regular,TRUE,35,FALSE,2.190281,0.013473,W
+0.6,6,regular,TRUE,?,FALSE,-8.651608,-0.108117,L
+5.31,5,regular,TRUE,-15,FALSE,5.117043,-0.437754,W
+1.25,5,regular,TRUE,?,FALSE,4.386037,0.004002,W
+0.32,'not seeded',regular,TRUE,-2,FALSE,0.684463,0.042618,W
+-3.98,16,regular,TRUE,?,FALSE,5.700205,0.068158,W
+3.26,'not seeded',regular,TRUE,-2,FALSE,-4.002738,-0.481746,W
+-0.54,'not seeded',regular,FALSE,-10,FALSE,0.651608,-0.052516,L
+2.39,'not seeded',WC,FALSE,?,FALSE,-2.86653,-0.032475,W
+2.73,'not seeded',PR,TRUE,2,FALSE,1.533196,-0.127486,W
+-1.52,'not seeded',regular,TRUE,15,FALSE,11.315537,0.062292,W
+0.47,'not seeded',regular,TRUE,?,FALSE,11.983573,-0.028381,W
+-2.28,'not seeded',regular,FALSE,-2,FALSE,-0.454483,0.006446,L
+1.33,'not seeded',Q,TRUE,3,FALSE,0.550308,-0.060153,W
+1.19,'not seeded',regular,TRUE,0,FALSE,-3.156742,-0.010479,L
+0.28,'not seeded',regular,TRUE,?,FALSE,-0.106776,-0.033575,L
+1.53,'not seeded',regular,FALSE,?,FALSE,4.260096,-0.015122,W
+-2.37,'not seeded',Q,TRUE,?,FALSE,-17.448323,-0.023493,L
+-10.14,1,regular,TRUE,10,FALSE,0.005476,0.756454,L
+-1.64,'not seeded',WC,TRUE,35,FALSE,2.20397,-0.131335,W
+2.05,'not seeded',PR,TRUE,-8,FALSE,0.818617,-0.154065,W
+-2.41,12,regular,TRUE,?,FALSE,-7.55373,0.049522,L
+-0.95,13,regular,FALSE,?,FALSE,-10.275154,0.048055,L
+-0.53,8,regular,TRUE,?,FALSE,8.558522,0.061131,W
+2.87,'not seeded',regular,FALSE,?,FALSE,2.35729,-0.060703,W
+-1.66,10,regular,FALSE,-13,TRUE,-0.531143,0.046467,W
+-0.11,'not seeded',regular,TRUE,?,FALSE,-6.537988,-0.02441,W
+-0.25,'not seeded',regular,TRUE,5,FALSE,-1.467488,-0.03999,W
+-0.55,'not seeded',regular,TRUE,?,FALSE,2.436687,0.005652,L
+2.45,'not seeded',regular,TRUE,10,FALSE,0.290212,-0.181438,W
+-4.09,12,regular,FALSE,?,FALSE,-7.679671,0.100724,W
+-2.52,11,regular,TRUE,-33,FALSE,-1.582478,0.086182,L
+-4.04,'not seeded',regular,TRUE,-5,FALSE,-0.895277,0.076956,W
+2.68,'not seeded',regular,TRUE,?,FALSE,8.50924,-0.083188,W
+-2.04,15,regular,TRUE,?,FALSE,9.538672,0.057221,L
+6.36,'not seeded',regular,TRUE,-2,FALSE,-2.61191,-0.517795,W
+0.33,'not seeded',regular,FALSE,3,FALSE,11.011636,-0.024104,W
+3.08,'not seeded',Q,TRUE,?,FALSE,-9.782341,-0.320258,W
+-3.44,4,regular,FALSE,-8,FALSE,-0.309377,0.190358,W
+-5.64,'not seeded',regular,TRUE,?,FALSE,6.71321,0.044634,L
+-4.21,7,regular,TRUE,6,FALSE,0.566735,0.133596,W
+4.16,'not seeded',regular,TRUE,-13,FALSE,9.03217,-0.236428,W
+-11.83,1,regular,TRUE,-5,FALSE,3.088296,0.782666,L
+-0.45,'not seeded',regular,FALSE,0,FALSE,1.360712,0.012067,W
+0.88,11,regular,TRUE,-30,FALSE,-4.265572,-0.082761,L
+-0.8,15,regular,TRUE,?,FALSE,-2.173854,0.020499,L
+-5.52,2,regular,TRUE,?,FALSE,6.778919,0.458834,L
+-1.86,5,regular,TRUE,11,FALSE,1.744011,0.175694,W
+2.47,'not seeded',regular,TRUE,0,FALSE,0.249144,-0.297528,L
+-12.8,1,regular,FALSE,-2,FALSE,0.251882,0.777717,L
+0.58,15,regular,TRUE,?,FALSE,-2.992471,-0.058015,L
+5.29,11,regular,TRUE,-27,FALSE,-3.564682,-0.456695,W
+-0.23,'not seeded',regular,TRUE,-2,FALSE,7.742642,-0.03052,L
+4.04,15,regular,TRUE,?,FALSE,-0.898015,-0.724926,L
+-7.82,2,regular,TRUE,7,FALSE,-2.379192,0.504415,L
+5.1,15,regular,TRUE,?,FALSE,-0.91718,-0.49916,W
+1.19,8,regular,FALSE,0,FALSE,-6.620123,0.004613,W
+3.34,'not seeded',regular,TRUE,?,FALSE,0.117728,-0.080866,L
+-1.63,'not seeded',Q,TRUE,?,FALSE,2.42026,-0.021293,L
+-0.52,'not seeded',regular,TRUE,20,FALSE,-0.91718,-0.034491,L
+-0.39,'not seeded',regular,TRUE,0,FALSE,1.065024,-0.006385,L
+-0.46,'not seeded',regular,TRUE,5,FALSE,-5.229295,-0.013473,L
+-5.9,'not seeded',regular,FALSE,?,FALSE,7.641342,0.021477,L
+-0.92,'not seeded',Q,FALSE,?,FALSE,9.415469,-0.035163,W
+1.7,'not seeded',regular,FALSE,?,FALSE,-4.969199,-0.011701,W
+-1.19,'not seeded',regular,TRUE,?,FALSE,9.420945,-0.002108,W
+-1.08,'not seeded',Q,TRUE,?,FALSE,9.889117,-0.012006,L
+1.14,'not seeded',Q,TRUE,?,FALSE,-1.549624,-0.075428,L
+-1.43,6,regular,FALSE,?,FALSE,-10.138261,0.048544,L
+2.81,'not seeded',LL,TRUE,?,TRUE,-10.220397,-0.064797,W
+-0.85,'not seeded',regular,TRUE,?,FALSE,3.077344,0.004491,L
+-1.29,'not seeded',regular,TRUE,?,FALSE,-7.334702,-0.001375,L
+0.92,'not seeded',regular,TRUE,-3,FALSE,-3.077344,-0.029603,W
+0.02,'not seeded',regular,TRUE,10,FALSE,-1.429158,0.028931,L
+-1.73,'not seeded',regular,TRUE,5,FALSE,5.891855,-0.027098,W
+1.41,'not seeded',regular,FALSE,3,FALSE,-1.585216,-0.04109,L
+-2.82,7,regular,TRUE,?,FALSE,10.568104,0.004308,W
+1.49,'not seeded',regular,TRUE,0,TRUE,-6.020534,0.00058,L
+-0.08,'not seeded',regular,TRUE,?,FALSE,-7.832991,-0.033025,L
+-0.07,'not seeded',regular,TRUE,0,FALSE,-3.12115,-0.005468,W
+0.16,'not seeded',WC,TRUE,-18,FALSE,5.152635,-0.046528,L
+5.64,'not seeded',regular,TRUE,?,FALSE,-3.45243,-0.094064,W
+2.27,'not seeded',regular,FALSE,?,FALSE,8.807666,-0.071701,W
+-1.07,4,regular,TRUE,?,FALSE,6.841889,0.058076,L
+1.97,'not seeded',regular,TRUE,0,FALSE,8.678987,-0.069441,W
+-1.04,'not seeded',regular,TRUE,-12,FALSE,6.784394,0.001558,W
+7.87,'not seeded',Q,FALSE,?,FALSE,-4.835044,-0.103229,W
+1.69,'not seeded',Q,TRUE,?,TRUE,-12.312115,-0.048117,L
+-0.1,'not seeded',regular,FALSE,-3,FALSE,-2.308008,-0.063025,W
+-2.89,8,regular,FALSE,?,FALSE,-0.769336,-0.005835,L
+-1.3,'not seeded',regular,TRUE,-5,TRUE,-5.437372,-0.029909,L
+0.85,'not seeded',regular,TRUE,-11,FALSE,5.185489,-0.004185,L
+-1.98,'not seeded',WC,TRUE,-8,FALSE,-3.411362,-0.057098,L
+2.08,'not seeded',regular,TRUE,?,FALSE,4.002738,-0.027098,L
+-4.26,1,regular,TRUE,-27,FALSE,-7.173169,0.102801,L
+0.68,'not seeded',Q,TRUE,?,FALSE,-10.001369,-0.07109,L
+0.62,'not seeded',regular,TRUE,?,FALSE,-3.47707,-0.007851,W
+-6.01,2,regular,TRUE,-2,FALSE,-3.129363,0.09382,L
+0.7,'not seeded',Q,TRUE,15,FALSE,-6.595483,-0.031619,L
+1.41,'not seeded',regular,TRUE,11,FALSE,7.794661,-0.075001,W
+-8.14,1,regular,TRUE,?,FALSE,9.174538,0.124431,W
+-0.25,3,regular,TRUE,-2,FALSE,6.704997,0.020377,L
+1.16,'not seeded',regular,TRUE,?,FALSE,-12.769336,-0.105612,L
+-0.52,'not seeded',regular,TRUE,20,FALSE,5.971253,0.001986,L
+6.68,'not seeded',regular,TRUE,-15,FALSE,-4.229979,-0.200929,L
+1.62,'not seeded',regular,FALSE,3,FALSE,3.148528,-0.030459,L
+5.01,'not seeded',regular,TRUE,-15,FALSE,3.091034,-0.001558,W
+-0.88,'not seeded',regular,TRUE,?,FALSE,-5.199179,-0.015733,W
+-2.13,5,regular,TRUE,?,FALSE,5.32512,0.041945,W
+4.98,'not seeded',Q,TRUE,30,FALSE,0.13963,-0.169829,W
+1.42,'not seeded',regular,TRUE,15,FALSE,4.99384,-0.086427,W
+-2.08,3,regular,TRUE,?,FALSE,3.852156,0.064247,L
+4.05,'not seeded',Q,TRUE,?,TRUE,10.915811,-0.095897,W
+2.73,'not seeded',regular,TRUE,-7,FALSE,1.83436,-0.070174,W
+0.55,'not seeded',regular,FALSE,10,FALSE,-4.205339,-0.050011,W
+3.19,'not seeded',Q,TRUE,?,FALSE,-5.932923,-0.07549,W
+-0.92,'not seeded',regular,TRUE,?,FALSE,-10.880219,0.006507,L
+-1.11,'not seeded',regular,FALSE,-10,FALSE,0.651608,-0.0461,L
+-1.77,'not seeded',Q,TRUE,?,FALSE,-15.737166,-0.038463,W
+-2.49,'not seeded',WC,TRUE,-10,FALSE,-9.568789,-0.074512,L
+-0.55,4,regular,TRUE,?,FALSE,6.622861,0.043595,W
+1.1,'not seeded',regular,TRUE,?,FALSE,-8.558522,-0.074756,W
+0.98,6,regular,TRUE,?,FALSE,4.569473,-0.021049,L
+-1.98,6,regular,TRUE,?,FALSE,-11.151266,0.001802,L
+-1.41,'not seeded',WC,TRUE,10,FALSE,2.642026,-0.094064,L
+-4.62,1,regular,TRUE,?,FALSE,1.691992,0.109584,W
+-2.46,3,regular,TRUE,?,FALSE,6.162902,0.05887,L
+0.46,6,regular,TRUE,?,FALSE,-4.134155,-0.000275,L
+-2.62,'not seeded',WC,TRUE,13,FALSE,4.002738,-0.072068,L
+4.16,'not seeded',Q,TRUE,?,FALSE,-6.433949,-0.17044,L
+-3.78,4,regular,TRUE,15,FALSE,-6.261465,0.093209,L
+0.17,'not seeded',regular,TRUE,-20,FALSE,-10.819986,-0.035408,W
+-1.21,'not seeded',regular,TRUE,?,FALSE,4.996578,0.028198,L
+1.56,'not seeded',regular,FALSE,5,FALSE,0.383299,-0.017383,L
+6.14,'not seeded',regular,TRUE,2,FALSE,-0.501027,-0.257447,W
+-0.39,'not seeded',WC,TRUE,?,FALSE,-12.246407,-0.009073,L
+0.36,'not seeded',regular,FALSE,2,FALSE,1.87269,-0.012312,W
+-0.35,'not seeded',regular,TRUE,11,FALSE,6.746064,0.005468,W
+0.98,'not seeded',regular,TRUE,20,FALSE,5.472964,-0.119421,W
+5.39,'not seeded',Q,TRUE,-10,FALSE,3.835729,-0.116671,W
+3.05,'not seeded',regular,TRUE,5,FALSE,1.566051,-0.068402,W
+-0.3,'not seeded',regular,TRUE,10,FALSE,-0.265572,-0.049461,W
+7.78,'not seeded',WC,TRUE,2,TRUE,3.545517,-0.341276,W
+0.92,'not seeded',regular,FALSE,?,FALSE,12.427105,-0.061436,L
+-1.28,6,regular,FALSE,-5,FALSE,-8.019165,0.040662,W
+1.43,'not seeded',regular,TRUE,-7,FALSE,0.1013,-0.01445,L
+-0.86,'not seeded',regular,TRUE,?,FALSE,5.968515,0.022027,L
+-2.56,4,regular,FALSE,?,FALSE,-6.896646,0.126631,W
+-0.23,'not seeded',regular,TRUE,-6,FALSE,5.590691,-0.02667,L
+5.6,'not seeded',WC,FALSE,?,TRUE,3.143053,-0.170867,W
+7.07,'not seeded',Q,TRUE,-21,FALSE,0.517454,-0.263312,L
+13.35,'not seeded',regular,FALSE,0,FALSE,-2.157426,-0.582256,W
+0.96,'not seeded',regular,FALSE,-2,FALSE,4.238193,-0.067424,W
+2.06,'not seeded',Q,TRUE,-36,FALSE,-13.223819,-0.079156,W
+-1.46,'not seeded',regular,FALSE,-10,FALSE,0.651608,-0.043962,W
+-0.33,'not seeded',regular,FALSE,18,FALSE,-3.597536,-0.016161,L
+-0.47,'not seeded',regular,FALSE,?,TRUE,-7.655031,0.005224,L
+-2.3,'not seeded',regular,TRUE,-7,FALSE,-3.4141,0.006996,L
+-5.77,'not seeded',WC,TRUE,8,FALSE,-1.467488,-0.002108,L
+-0.53,'not seeded',Q,FALSE,-15,FALSE,0.290212,-0.035408,W
+6.88,'not seeded',regular,TRUE,5,FALSE,8.03833,-0.233984,W
+0.72,'not seeded',Q,TRUE,?,TRUE,4.240931,-0.031803,W
+0.66,'not seeded',regular,FALSE,?,FALSE,-10.184805,-0.016833,W
+2.44,'not seeded',regular,TRUE,?,FALSE,-2.784394,-0.098036,W
+2.61,'not seeded',regular,TRUE,-10,FALSE,1.50308,-0.068402,W
+-1.78,5,regular,TRUE,?,FALSE,6.992471,0.02997,L
+-6.49,1,regular,TRUE,7,FALSE,-2.379192,0.528549,L
+-0.35,'not seeded',WC,TRUE,-5,FALSE,6.655715,-0.095714,W
+-1.72,3,regular,TRUE,?,FALSE,-7.561944,0.09718,W
+-3.52,1,regular,FALSE,0,FALSE,4.320329,0.297528,L
+1.11,'not seeded',regular,FALSE,-3,FALSE,-0.40794,-0.032169,W
+1.73,'not seeded',regular,TRUE,5,FALSE,6.453114,-0.053066,L
+-1.29,'not seeded',WC,TRUE,35,FALSE,2.20397,-0.125225,L
+1.61,'not seeded',regular,TRUE,?,FALSE,-2.735113,-0.011517,W
+-3.68,4,regular,TRUE,8,FALSE,-2.464066,0.081539,L
+3.24,'not seeded',regular,FALSE,0,FALSE,-2.75154,-0.063819,W
+-0.25,5,regular,TRUE,-18,FALSE,3.86037,0.020805,L
+5.09,'not seeded',regular,TRUE,16,FALSE,2.05065,-0.572786,W
+-0.55,8,regular,TRUE,?,FALSE,17.226557,0.036935,L
+2.23,'not seeded',regular,TRUE,-3,FALSE,-7.408624,-0.025021,W
+-0.42,'not seeded',WC,TRUE,20,FALSE,1.264887,-0.238567,W
+-2.01,1,regular,FALSE,-7,FALSE,2.401095,0.294229,W
+-1.8,4,regular,FALSE,8,FALSE,-1.103354,0.102985,L
+1.51,8,regular,TRUE,20,FALSE,6.132786,-0.046711,W
+3.41,'not seeded',regular,FALSE,15,FALSE,6.642026,-0.233984,W
+0.63,4,regular,TRUE,20,FALSE,1.251198,-0.136529,L
+-4.36,1,regular,TRUE,2,FALSE,-2.075291,0.491889,L
+1.57,'not seeded',Q,TRUE,2,TRUE,3.019849,-0.094431,W
+-0.52,'not seeded',regular,FALSE,3,FALSE,-7.66872,0.014328,L
+-0.55,'not seeded',regular,TRUE,?,FALSE,-4.134155,0.008585,L
+-1.98,'not seeded',regular,FALSE,?,FALSE,0.394251,0.011762,L
+-1.64,'not seeded',regular,TRUE,-2,FALSE,-3.427789,0.005468,L
+0.26,'not seeded',regular,TRUE,-13,FALSE,7.394935,-0.010968,L
+-0.55,'not seeded',Q,TRUE,?,FALSE,5.103354,-0.039074,W
+1.33,'not seeded',regular,TRUE,?,FALSE,2.628337,-0.011273,W
+-2.35,7,regular,TRUE,?,FALSE,3.531828,0.107262,L
+-1.38,12,regular,TRUE,-3,FALSE,3.518138,0.024776,L
+-1.57,'not seeded',regular,TRUE,28,FALSE,11.334702,0.050316,L
+0.64,'not seeded',regular,TRUE,-7,FALSE,8.941821,-0.03052,W
+-0.3,'not seeded',regular,FALSE,16,FALSE,2.321697,0.017261,L
+1.08,'not seeded',WC,FALSE,-10,FALSE,-2.38193,-0.054288,W
+0.63,'not seeded',Q,FALSE,?,FALSE,-9.489391,-0.060276,W
+1.93,'not seeded',regular,FALSE,-10,FALSE,-2.286105,-0.031558,W
+0.43,'not seeded',regular,FALSE,0,FALSE,-7.468857,-0.006202,W
+1.67,'not seeded',regular,TRUE,?,FALSE,-0.539357,-0.220236,W
+-6.18,1,regular,FALSE,-5,FALSE,-4.035592,0.694742,L
+-1.85,9,regular,TRUE,-10,TRUE,-9.582478,0.065102,L
+-2.11,8,regular,TRUE,-27,FALSE,-8.876112,0.088504,L
+4.14,'not seeded',regular,FALSE,0,FALSE,-2.75154,-0.0794,W
+0.75,'not seeded',regular,FALSE,?,FALSE,12.427105,-0.061436,W
+-8.01,2,regular,FALSE,2,FALSE,-3.496235,0.593316,L
+0.45,16,regular,TRUE,-3,FALSE,-4.046543,0.019888,L
+0.18,10,regular,TRUE,?,FALSE,-3.296372,0.032108,W
+0.5,'not seeded',regular,TRUE,?,FALSE,0.941821,-0.121254,L
+-3.21,5,regular,TRUE,-15,FALSE,-3.882272,0.195552,L
+2.35,'not seeded',Q,TRUE,?,FALSE,-5.075975,-0.334861,L
+5.3,14,regular,TRUE,0,FALSE,-3.983573,-0.680628,W
+-0.81,9,regular,TRUE,35,FALSE,2.190281,0.00278,L
+-0.77,5,regular,TRUE,-10,FALSE,-4.70089,0.132618,W
+-6.19,2,regular,TRUE,?,FALSE,6.778919,0.525739,L
+-0.1,12,regular,TRUE,0,FALSE,6.269678,0.009807,W
+-1.28,'not seeded',regular,TRUE,?,FALSE,4.996578,0.030336,L
+4.93,16,regular,TRUE,-16,FALSE,4.985626,-0.199462,W
+3.31,9,regular,TRUE,10,FALSE,-1.355236,-0.615556,L
+5.6,7,regular,TRUE,6,FALSE,1.6564,-0.500993,W
+0.6,'not seeded',regular,TRUE,21,TRUE,7.4141,-0.023493,L
+-0.45,4,regular,TRUE,8,FALSE,-5.69473,0.119482,L
+-1.83,9,regular,TRUE,-8,FALSE,-3.425051,0.085266,W
+4.29,'not seeded',regular,TRUE,16,FALSE,2.05065,-0.600587,W
+-5.25,2,regular,TRUE,?,FALSE,6.286105,0.445453,L
+0.21,8,regular,TRUE,?,FALSE,-2.685832,-0.128891,W
+2.8,7,regular,TRUE,8,FALSE,-1.374401,-0.489384,W
+-0.28,5,regular,TRUE,-5,FALSE,-4.755647,-0.041823,L
+-2.76,2,regular,TRUE,-8,FALSE,3.600274,0.333333,L
+-0.45,6,regular,TRUE,?,FALSE,7.00616,0.008279,W
+-2.38,1,regular,TRUE,12,FALSE,2.625599,0.379159,L
+-0.52,7,regular,TRUE,15,FALSE,-3.504449,-0.118504,W
+-5.21,2,regular,TRUE,25,FALSE,3.545517,0.472031,L
+-1.79,4,regular,TRUE,?,FALSE,2.685832,0.095347,L
+-2.4,1,regular,TRUE,7,FALSE,-2.130048,0.354107,L
+0.85,7,regular,TRUE,20,FALSE,1.251198,-0.093453,L
+-3.06,1,regular,TRUE,-6,FALSE,3.619439,0.358079,L
+-2.97,2,regular,TRUE,10,FALSE,2.606434,0.354413,L
+-1.1,2,regular,TRUE,-2,FALSE,-0.019165,-0.041518,W
