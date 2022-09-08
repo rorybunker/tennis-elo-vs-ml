@@ -9,6 +9,8 @@ Data_Clean.csv is just the atp_2005_2020.RData dataset passed through the clean(
 # Usage
 To run the script, simply set the train_start_date, train_end_date, and test_end_date dates (test_start_date is set to be one day after train_end_date).
 
+The dataset atp_2005_2020.RData must be in the same directory as the R script.
+
 For example, to calculate the accuracy of Elo and WElo for training set 2007 to 2019 and test set 2020:
 ```
 train_start_date <- "2007-01-01"
