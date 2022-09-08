@@ -7,7 +7,7 @@ This study (Bunker et al., 2022) considers only ATP (men's).
 Data_Clean.csv is just the atp_2005_2020.RData dataset passed through the clean() function in Angelini et al.'s welo R package (https://cran.r-project.org/web/packages/welo/index.html).
 
 # Usage
-To run the script, simply set the train_start_date, train_end_date, and test_end_date dates (test_start_date is set to be one day after train_end_date).
+To run the training_test_splits_elo_welo.R script, simply set the train_start_date, train_end_date, and test_end_date dates (test_start_date is set to be one day after train_end_date).
 
 The dataset atp_2005_2020.RData must be in the same directory as the R script.
 
