@@ -1,16 +1,23 @@
-library(welo)
+# install welo package if not already installed
+list.of.packages <- c("welo")
+new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
+if(length(new.packages)) install.packages(new.packages)
 
 #load data
 load("atp_2005_2020.RData") 
+
 #clean data
 Data_Clean <- clean(data.frame(db))
+
 #convert date column string to date
 Data_Clean$Date <- as.Date(Data_Clean$Date, "%d/%m/%Y")
 
+# ---------- SET DATES ---------- 
 train_start_date <- "2006-01-01" #min(Data_Clean$Date)
 train_end_date <- "2019-12-31"
 test_start_date <- as.Date(train_end_date) + 1
 test_end_date <- "2020-12-31" #max(Data_Clean$Date) # max(Data_Clean$Date)
+# -------------------------------
 
 #create training and test sets
 train <- Data_Clean[Data_Clean$Date >= train_start_date &
@@ -32,7 +39,7 @@ results_final <- res_ld[["dataset"]]
 results_final_test <- results_final[results_final$Date >= test_start_date & 
                                       results_final$Date < test_end_date,]
 
-#determine whether prediction was correct or incorrect, and calculate accuracies of Elo and WElo
+# determine whether prediction was correct or incorrect, and calculate accuracies of Elo and WElo
 results_final_test$predictedWinnerElo <-
   ifelse((results_final_test$Elo_pi_hat > (1-results_final_test$Elo_pi_hat)),
          results_final_test$P_i,
@@ -65,6 +72,7 @@ incorrectPredictionsElo <- length(results_final_test$correctPredictionElo)-sum(r
 correctPredictionsWElo <- sum(results_final_test$correctPredictionWElo)
 incorrectPredictionsWElo <- length(results_final_test$correctPredictionWElo)-sum(results_final_test$correctPredictionWElo)
 
+# print results
 print(train_perc)
 EloAccuracy <- sum(correctPredictionsElo)/(sum(incorrectPredictionsElo)+sum(correctPredictionsElo))
 EloAccuracy*100
